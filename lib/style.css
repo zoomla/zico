@@ -42,7 +42,7 @@
 .m_header .search_form button i { font-size: 1.4rem; }
 .m_header .to_download { margin-top: 12rem; }
 
-.bottom_mask { overflow: hidden; position: absolute; left: 0; bottom: 0; width: 100%; height: 140px; margin: auto; }
+.bottom_mask { overflow: hidden; position: absolute; left: 0; bottom: 0; width: 100%; height: 140px; margin: auto; pointer-events: none; }
 .bottom_mask .bottom_mask_t .mask_t_i { position: absolute; left: 0; width: 200%; height: 100%; background-repeat: repeat-x; background-position: 0 bottom; -webkit-transform-origin: center bottom; transform-origin: center bottom; background-size: 50% 140px; }
 .bottom_mask .bottom_mask_t { z-index: 5; opacity: 1; }
 .bottom_mask .bottom_mask_middle { z-index: 4; opacity: .3; }
