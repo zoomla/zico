@@ -1,0 +1,24 @@
+{
+  "name": "zico",
+  "version": "0.0.1",
+  "description": "a web ico framework by Zoomla!CMS team",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webfont",
+    "网站图标",
+    "web图标",
+    "svg图标",
+    "逐浪图标",
+    "手机图标",
+    "字体图标",
+    "矢量图标",
+    "保真图标",
+    "免费图标",
+    "CMS"
+  ],
+  "author": "web@z01.com",
+  "license": "ISC"
+}

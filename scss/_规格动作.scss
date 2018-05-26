@@ -1,0 +1,170 @@
+//CSS预编译文件基于Sass语法
+//这是Zoomla!逐浪CMS团队优化的Sass模板，我们为你预置了逐浪字库官方团队的高品质webFont之CDN库，你可完全采用中文定义写作，如下面写法都是合格
+//$中国变量之一:12px;
+//$中国人民中华人民共和国变量之二:#ff0;
+//.a1{width:$中国变量之一 ;}
+//.a2{background: $中国人民中华人民共和国变量之二;}
+//建议CSS注释写在代码段的起始处以使阅读更加流畅
+
+//大小定义
+.zi_lg { font-size: 1.8rem; line-height: 0.8rem;vertical-align: -.08rem; }
+.zi_sm { font-size: .8rem; }
+.zi_1x { font-size: 1rem; }
+.zi_2x { font-size: 2rem; }
+.zi_3x { font-size: 3rem; }
+.zi_4x { font-size: 4rem; }
+.zi_5x { font-size: 5rem; }
+.zi_6x { font-size: 6rem; }
+.zi_7x { font-size: 7rem; }
+.zi_8x { font-size: 8rem; }
+.zi_9x { font-size: 9rem; }
+.zi_10x{ font-size: 10rem;}
+.zi_11x{ font-size: 11rem;}
+.zi_12x{ font-size: 12rem;}
+
+//宽度定义
+.zi_w1 {width: 1rem; }
+.zi_w2 {width: 2rem; }
+.zi_w3 {width: 3rem; }
+.zi_w4 {width: 4rem; }
+.zi_w5 {width: 5rem; }
+.zi_w6 {width: 6rem; }
+.zi_w7 {width: 7rem; }
+.zi_w8 {width: 8rem; }
+
+//边框定义
+.zi_border {  border: solid 0.05rem #666; border-radius: .1rem; padding: .2rem .25rem .15rem; }
+
+//无缝循环旋转
+.zi_spin { -webkit-animation: zi_rotate 2s infinite linear; animation: zi_rotate 2s infinite linear; }
+
+//卡壳式8步旋转
+.zi_pulse { -webkit-animation: zi_rotate 1s infinite steps(8); animation: zi_rotate 1s infinite steps(8); }
+
+@-webkit-keyframes zi_rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes zi_rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+
+//分步加载效果
+.zi_load{animation: zi_load 1400ms steps(1, end) infinite 0s; -webkit-animation: zi_load 1400ms steps(1, end) infinite 0s;}
+@keyframes zi_load {
+ 0% {
+ opacity: 0.1;
+}
+ 20% {
+  opacity: 0.2;
+}
+ 30% {
+  opacity: 0.3;
+}
+ 40% {
+  opacity: 0.4;
+}
+ 50% {
+  opacity: 0.5;
+}
+ 60% {
+ opacity: 0.6;
+}
+ 70% {
+ opacity: 0.7;
+}
+ 80% {
+ opacity: 0.8;
+}
+ 90% {
+ opacity: 0.9;
+}
+ 100% {
+  opacity: 1;
+}
+}
+@-webkit-keyframes zi_load {
+ 0% {
+ opacity: 0.1;
+}
+ 20% {
+  opacity: 0.2;
+}
+ 30% {
+  opacity: 0.3;
+}
+ 40% {
+  opacity: 0.4;
+}
+ 50% {
+  opacity: 0.5;
+}
+ 60% {
+ opacity: 0.6;
+}
+ 70% {
+ opacity: 0.7;
+}
+ 80% {
+ opacity: 0.8;
+}
+ 90% {
+ opacity: 0.9;
+}
+ 100% {
+  opacity: 1;
+}
+}
+
+//旋转镜像
+.zi_rotate90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+
+.zi_rotate180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);transform: rotate(180deg); }
+
+.zi_rotate270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg); transform: rotate(270deg); }
+
+//水平投影
+.zi_flipLevel {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+//垂直投影
+.zi_flipVertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.zi_flipLevel.zi_flipVertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .zi_rotate90,:root .zi_rotate180,:root .zi_rotate270,:root .zi_flipLevell,:root .zi_flipVertical {  -webkit-filter: none; filter: none; }
+
+
+//组合类
+.zi_group { display: inline-block; position: relative;width: 2rem;height: 2rem;line-height: 2rem;vertical-align: middle; }
+
+.zi_group1x,.zi_group2x { left: 0; position: absolute; text-align: center; width: 100%; }
+
+.zi_group1x { line-height: inherit;  font-size: 1rem;}
+
+.zi_group2x { font-size: 2rem; }
+
+//颜色反转为白
+.zi_inverse {color: #fff; }

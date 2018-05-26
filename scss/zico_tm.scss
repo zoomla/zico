@@ -1,0 +1,437 @@
+//CSS预编译文件基于Sass语法
+//这是Zoomla!逐浪CMS团队优化的Sass模板，我们为你预置了逐浪字库官方团队的高品质webFont之CDN库，你可完全采用中文定义写作，如下面写法都是合格
+//$中国变量之一:12px;
+//$中国人民中华人民共和国变量之二:#ff0;
+//.a1{width:$中国变量之一 ;}
+//.a2{background: $中国人民中华人民共和国变量之二;}
+//建议CSS注释写在代码段的起始处以使阅读更加流畅
+
+
+//去上73ic
+.zi_tm73ic
+{
+&:before { content: "\e870"; }
+}
+
+//字体ziti163
+.zi_tmZiti163
+{
+&:before { content: "\e871"; }
+}
+
+//逐浪
+.zi_tmZoomla,.zi_tmZl
+{
+&:before { content: "\e872"; }
+}
+
+//逐浪软件
+.zi_tmZoomlacms,.zi_tmZlrj
+{
+&:before { content: "\e873"; }
+}
+
+//逐浪软件公司 
+.zi_tmZoomlasoft,.zi_tmZlrjgs
+{
+&:before { content: "\e874"; }
+}
+
+//百事
+.zi_tmPepsi,.zi_tmBs
+{
+&:before { content: "\e875"; }
+}
+
+//雷克萨斯
+.zi_tmLexus,.zi_tmLkss
+{
+&:before { content: "\e876"; }
+}
+
+//麦当劳
+.zi_tmMcdonalds,.zi_tmMdl
+{
+&:before { content: "\e877"; }
+}
+
+//奥迪
+.zi_tmAudi,.zi_tmAd
+{
+&:before { content: "\e878"; }
+}
+
+//IBM
+.zi_tmIbm
+{
+&:before { content: "\e879"; }
+}
+
+//中国电建
+.zi_tmPowerchina,.zi_tmZgdj
+{
+&:before { content: "\e87a"; }
+}
+
+//远东宏信
+.zi_tmFehorizon,.zi_tmYdhx
+{
+&:before { content: "\e87b"; }
+}
+
+//可品可乐
+.zi_tmCocacola,.zi_tmKkkl
+{
+&:before { content: "\e87c"; }
+}
+
+//肯德基
+.zi_tmKfc,.zi_tmKdj
+{
+&:before { content: "\e87d"; }
+}
+
+//宜家
+.zi_tmIkea,.zi_tmYj
+{
+&:before { content: "\e87e"; }
+}
+
+//Z
+.zi_tmZ
+{
+&:before { content: "\e87f"; }
+}
+
+//苹果公司 
+.zi_tmApple,.zi_tmPggs
+{
+&:before { content: "\e880"; }
+}
+
+//微博
+.zi_tmWeibo,.zi_tmWb
+{
+&:before { content: "\e881"; }
+}
+
+//微信
+.zi_tmWeixin,.zi_tmWx
+{
+&:before { content: "\e882"; }
+}
+
+//qq
+.zi_tmQq
+{
+&:before { content: "\e883"; }
+}
+
+//windows
+.zi_tmWindows
+{
+&:before { content: "\e884"; }
+}
+
+//苹果支付
+.zi_tmApplepay,.zi_tmPgzf
+{
+&:before { content: "\e885"; }
+}
+
+//苹果市场
+.zi_tmAppstore,.zi_tmPgsc
+{
+&:before { content: "\e886"; }
+}
+
+//苹果市场黑影
+.zi_tmAppstoreios,.zi_tmPgsch
+{
+&:before { content: "\e887"; }
+}
+
+//蓝牙
+.zi_tmBluetoothb,.zi_tmLy
+{
+&:before { content: "\e888"; }
+}
+
+//蓝牙黑
+.zi_tmBluetooth,.zi_tmLyh
+{
+&:before { content: "\e889"; }
+}
+
+//btc
+.zi_tmBtc
+{
+&:before { content: "\e88a"; }
+}
+
+//css3标准
+.zi_tmCss3Alt
+{
+&:before { content: "\e88b"; }
+}
+
+//edge
+.zi_tmEdge
+{
+&:before { content: "\e88c"; }
+}
+
+//html5
+.zi_tmHtml5
+{
+&:before { content: "\e88d"; }
+}
+
+//google
+.zi_tmGoogle
+{
+&:before { content: "\e88e"; }
+}
+
+//腾讯微博
+.zi_tmTencentweibo,.zi_tmTxwb
+{
+&:before { content: "\e88f"; }
+}
+
+//css3
+.zi_tmCss3
+{
+&:before { content: "\e890"; }
+}
+
+//奥森替代
+.zi_tmFortawesomealt,.zi_tmAstd
+{
+&:before { content: "\e891"; }
+}
+
+//奥森城堡
+.zi_tmFortawesome,.zi_tmAdcb
+{
+&:before { content: "\e892"; }
+}
+
+//forumbee
+.zi_tmForumbee
+{
+&:before { content: "\e893"; }
+}
+
+//foursquare
+.zi_tmFoursquare
+{
+&:before { content: "\e894"; }
+}
+
+//freecamp
+.zi_tmFreecamp
+{
+&:before { content: "\e895"; }
+}
+
+//安卓
+.zi_tmAndroid,.zi_tmAz
+{
+&:before { content: "\e896"; }
+}
+
+//cvcsby
+.zi_tmCvcsby
+{
+&:before { content: "\e897"; }
+}
+
+//cvcceu
+.zi_tmCvcceu
+{
+&:before { content: "\e898"; }
+}
+
+//cvcjp
+.zi_tmCvcjp
+{
+&:before { content: "\e899"; }
+}
+
+//cvcosnc
+.zi_tmCvcosnc
+{
+&:before { content: "\e89a"; }
+}
+
+//cvcsnd
+.zi_tmCvcsnd
+{
+&:before { content: "\e89b"; }
+}
+
+//cvcdalt
+.zi_tmCvcdalt
+{
+&:before { content: "\e89c"; }
+}
+
+//cvspd
+.zi_tmCvspd
+{
+&:before { content: "\e89d"; }
+}
+
+//cvmix
+.zi_tmCvmix
+{
+&:before { content: "\e89e"; }
+}
+
+//cvcsa
+.zi_tmCvcsa
+{
+&:before { content: "\e89f"; }
+}
+
+//cvgplus
+.zi_tmCvgplus
+{
+&:before { content: "\e8a0"; }
+}
+
+//cvmpling
+.zi_tmCvmpling
+{
+&:before { content: "\e8a1"; }
+}
+
+//cvnsshare
+.zi_tmCvnsshare
+{
+&:before { content: "\e8a2"; }
+}
+
+//容器
+.zi_tmDocker,.zi_tmRq
+{
+&:before { content: "\e8a3"; }
+}
+
+//dropbox
+.zi_tmDropbox
+{
+&:before { content: "\e8a4"; }
+}
+
+//envira
+.zi_tmEnvira
+{
+&:before { content: "\e8a5"; }
+}
+
+//ethereum
+.zi_tmEthereum
+{
+&:before { content: "\e8a6"; }
+}
+
+//expeditedssl
+.zi_tmExpeditedssl
+{
+&:before { content: "\e8a7"; }
+}
+
+//谷歌浏览器
+.zi_tmChrome
+{
+&:before { content: "\e8a8"; }
+}
+
+//less
+.zi_tmLess
+{
+&:before { content: "\e8a9"; }
+}
+
+//微软
+.zi_tmMicrosoft,.zi_tmWr
+{
+&:before { content: "\e8aa"; }
+}
+
+//mixcloud
+.zi_tmMixcloud
+{
+&:before { content: "\e8ab"; }
+}
+
+//sass
+.zi_tmSass
+{
+&:before { content: "\e8ac"; }
+}
+
+//skype
+.zi_tmSkype
+{
+&:before { content: "\e8ad"; }
+}
+
+//java
+.zi_tmJava
+{
+&:before { content: "\e8ae"; }
+}
+
+//蓝霉
+.zi_tmBlackberry,.zi_tmLm
+{
+&:before { content: "\e8af"; }
+}
+
+
+
+//github
+.zi_tmGithub
+{
+&:before { content: "\e998"; }
+}
+
+
+
+
+
+
+
+
+
+
+//npm
+.zi_tmNpm
+{
+&:before { content: "\e9c4"; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

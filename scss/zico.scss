@@ -1,0 +1,4577 @@
+//CSS预编译文件基于Sass语法
+//这是Zoomla!逐浪CMS团队优化的Sass模板，我们为你预置了逐浪字库官方团队的高品质webFont之CDN库，你可完全采用中文定义写作，如下面写法都是合格
+//$中国变量之一:12px;
+//$中国人民中华人民共和国变量之二:#ff0;
+//.a1{width:$中国变量之一 ;}
+//.a2{background: $中国人民中华人民共和国变量之二;}
+//建议CSS注释写在代码段的起始处以使阅读更加流畅
+
+/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com*/
+
+@charset "utf-8";
+@import "global";
+@import "规格动作";
+@import "zico_tm.css";
+@import "zico_gov.css";
+
+
+@font-face {
+    font-family: "zico";
+    src: url("../fonts/zi-regular.eot"); /* IE9 */
+    src: url("../fonts/zi-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/zi-regular.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/zi-regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/zi-regular.svg#zi-regular") format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;
+}
+
+@font-face {
+    font-family: "zicoTm";
+    src: url("../fonts/zi-tm.eot"); /* IE9 */
+    src: url("../fonts/zi-tm.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/zi-tm.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/zi-tm.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/zi-tm.svg#zi-tm") format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;
+}
+
+@font-face {
+    font-family: "zicoGov";
+    src: url("../fonts/zi-gov.eot"); /* IE9 */
+    src: url("../fonts/zi-gov.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/zi-gov.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/zi-gov.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/zi-gov.svg#zi-gov") format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;
+}
+
+.zi { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto;
+line-height:inherit; }
+
+.zi{font-family:"zico","zicoTm","zicoGov";}
+
+
+//酒杯
+.zi_glass,.zi_jiubi,.zi_jb
+{
+&:before { content: "\e330"; }
+}
+
+//音乐
+.zi_music,.zi_yinyue,.zi_yy{
+&:before { content: "\e331"; }
+}
+
+//搜索
+.zi_search,.zi_sousuo,.zi_ss
+{
+&:before { content: "\e332"; }
+}
+
+//简明菜单
+.zi_menu,.zi_caidan,.zi_jmcd
+{
+&:before { content: "\e333"; }
+}
+
+//客服
+.zi_service,.zi_kefu,.zi_kf
+{
+&:before { content: "\e334"; }
+}
+
+//课本
+.zi_textbook,.zi_keben,.zi_kb
+{
+&:before { content: "\e335"; }
+}
+
+//证卡
+.zi_IDcard,.zi_zhengka,.zi_zk
+{
+&:before { content: "\e336"; }
+}
+
+//身份证
+.zi_Idcards,.zi_shenfenzheng,.zi_sfz
+{
+&:before { content: "\e337"; }
+}
+
+//指下空心圆
+.zi_circleDonw,.zi_zhixiakongxinyuan,.zi_zxkxy
+{
+&:before { content: "\e338"; }
+}
+
+//指左空心圆
+.zi_circleLeft,.zi_zhizuokongxinyuan,.zi_zzkxy
+{
+&:before { content: "\e339"; }
+}
+
+//指右空心圆
+.zi_circleRight,.zi_zhiyoukongxinyuan,.zi_zykxy
+{
+&:before { content: "\e33a"; }
+}
+
+//指上空心圆
+.zi_circleUp,.zi_zhishangkongxinyuan,.zi_zskxy
+{
+&:before { content: "\e33b"; }
+}
+
+//静音
+.zi_quiet,.zi_jingyin,.zi_jy
+{
+&:before { content: "\e33c"; }
+}
+
+//铃铛
+.zi_bell,.zi_lingdang,.zi_ld
+{
+&:before { content: "\e33d"; }
+}
+
+//竖旗帜
+.zi_verFlag,.zi_shuqizhi,.zi_sqz
+{
+&:before { content: "\e33e"; }
+}
+
+//房子
+.zi_house,.zi_fangzi,.zi_fz
+{
+&:before { content: "\e33f"; }
+}
+
+//方形本子
+.zi_squareBook,.zi_benzi,.zi_fxbz
+{
+&:before { content: "\e340"; }
+}
+
+//方形打勾
+.zi_squareHandCorrect,.zi_fangxingdagou,.zi_fxdg
+{
+&:before { content: "\e341"; }
+}
+
+//方形减号
+.zi_squareLess,.zi_fangxingjianhao,.zi_fxjh
+{
+&:before { content: "\e342"; }
+}
+
+//方形加号
+.zi_squarePlus,.zi_fangxingjiahao,.zi_fxjia
+{
+&:before { content: "\e343"; }
+}
+
+//方形乘号
+.zi_squareMultiply,.zi_fangxingchenghao,.zi_fxch
+{
+&:before { content: "\e344"; }
+}
+
+//方形空心
+.zi_squareHandle,.zi_fangxingkongxin,.zi_fxkx
+{
+&:before { content: "\e345"; }
+}
+
+//指下方形
+.zi_squareDown,.zi_zhixiafangxing,.zi_zxfx
+{
+&:before { content: "\e346"; }
+}
+
+//指左方形
+.zi_squareLeft,.zi_zhizuofangxing,.zi_zzfx
+{
+&:before { content: "\e347"; }
+}
+
+//指右方形
+.zi_squareRight,.zi_zhiyoufangxing,.zi_zyfx
+{
+&:before { content: "\e348"; }
+}
+
+//指上方形
+.zi_squareUp,.zi_zhishangfangxing,.zi_zsfx
+{
+&:before { content: "\e349"; }
+}
+
+//成长曲线
+.zi_curve,.zi_chengchangquxian,.zi_czqx
+{
+&:before { content: "\e34a"; }
+}
+
+//打勾空心圆
+.zi_circleCorrect,.zi_dagoukongxinyuan,.zi_dgkxy
+{
+&:before { content: "\e34b"; }
+}
+
+//打勾正方形
+.zi_squareCorrect,.zi_dagouzhengfangxing,.zi_dgzfx
+{
+&:before { content: "\e34c"; }
+}
+
+//空心圆
+.zi_circleLine,.zi_kongxinyuan,.zi_kxy
+{
+&:before { content: "\e34d"; }
+}
+
+//时钟
+.zi_clock,.zi_shizhong,.zi_sz
+{
+&:before { content: "\e34e"; }
+}
+
+//版权
+.zi_copyright,.zi_banquan,.zi_bq
+{
+&:before { content: "\e34f"; }
+}
+
+//同心圆
+.zi_circlesNesting,.zi_tongxinyuan,.zi_txy
+{
+&:before { content: "\e350"; }
+}
+
+//指南针
+.zi_compass,.zi_zhinanzhen,.zi_znz
+{
+&:before { content: "\e351"; }
+}
+
+//哭脸
+.zi_Cryingface,.zi_kulian,.zi_kl
+{
+&:before { content: "\e352"; }
+}
+
+//微笑
+.zi_smile,.zi_weixiao,.zi_wx
+{
+&:before { content: "\e353"; }
+}
+
+//方向盘
+.zi_steeringWheel,.zi_fangxiangpan,.zi_fxp
+{
+&:before { content: "\e354"; }
+}
+
+//船舵
+.zi_Rudder,.zi_chuanduo,.zi_cd
+{
+&:before { content: "\e355"; }
+}
+
+//圆停止
+.zi_circleStop,.zi_yuantingzhi,.zi_ytz
+{
+&:before { content: "\e356"; }
+}
+
+//笑脸
+.zi_smileyFace,.zi_xiaolian,.zi_xl
+{
+&:before { content: "\e357"; }
+}
+
+//圆暂停
+.zi_circlePause,.zi_yuanzanting,.zi_yzt
+{
+&:before { content: "\e358"; }
+}
+
+//圆播放
+.zi_circlePlay,.zi_yuanbofang,.zi_ybf
+{
+&:before { content: "\e359"; }
+}
+
+//圆问号
+.zi_circleQuestion,.zi_yuanwenhao,.zi_ywh
+{
+&:before { content: "\e35a"; }
+}
+
+//圆头像
+.zi_circleVatar,.zi_yuantouxiang,.zi_ytx
+{
+&:before { content: "\e35b"; }
+}
+
+//注册商标
+.zi_reg,.zi_zhuceshangbiao,.zi_zcsb
+{
+&:before { content: "\e35c"; }
+}
+
+//圆中止
+.zi_circleCancel,.zi_yuanzhongzhi,.zi_yzz
+{
+&:before { content: "\e35d"; }
+}
+
+//足球
+.zi_footballLine,.zi_zuqiu,.zi_zq
+{
+&:before { content: "\e35e"; }
+}
+
+//半月
+.zi_halfMonth,.zi_banyue,.zi_by
+{
+&:before { content: "\e35f"; }
+}
+
+//雪花
+.zi_snowflake,.zi_xuehua,.zi_xh
+{
+&:before { content: "\e360"; }
+}
+
+//圆零件
+.zi_circleComponents,.zi_yuanlingjian,.zi_ylj
+{
+&:before { content: "\e361"; }
+}
+
+//五角星细线
+.zi_starLine,.zi_wujiaoxingxixian,.zi_wjxxx
+{
+&:before { content: "\e362"; }
+}
+
+//半五角星线
+.zi_starHalf,.zi_banwujiaoxingxian,.zi_bwjxx
+{
+&:before { content: "\e363"; }
+}
+
+//半黑五角星
+.zi_starHalfBlack,.zi_banheiwujiaoxing,.zi_bhwjx
+{
+&:before { content: "\e364"; }
+}
+
+//空心方
+.zi_squareLine,.zi_kongxinfang,.zi_kxf
+{
+&:before { content: "\e365"; }
+}
+
+//新文件方
+.zi_fileLine,.zi_xinwenjianfang,.zi_xwjf
+{
+&:before { content: "\e366"; }
+}
+
+//加号方形
+.zi_plusSquare,.zi_jiahaofangxing,.zi_jhfx
+{
+&:before { content: "\e367"; }
+}
+
+//方形气泡
+.zi_bubbleSquare,.zi_fangxingqipao,.zi_fxqp
+{
+&:before { content: "\e368"; }
+}
+
+//方形重叠
+.zi_doubleSquare,.zi_fangxingzhongdie,.zi_fxcd
+{
+&:before { content: "\e369"; }
+}
+
+//减号方形
+.zi_lessSquare,.zi_jianhaofangxing,.zi_jhfxi
+{
+&:before { content: "\e36a"; }
+}
+
+//列表方形
+.zi_listSquare,.zi_liebiaofangxing,.zi_lbfx
+{
+&:before { content: "\e36b"; }
+}
+
+//跳转方框
+.zi_jumpSquare,.zi_tiaozhuanfangkuang,.zi_tzfk
+{
+&:before { content: "\e36c"; }
+}
+
+//软盘
+.zi_floppyDisk,.zi_ruanpan,.zi_rp
+{
+&:before { content: "\e36d"; }
+}
+
+//选中文件
+.zi_selectFile,.zi_xuanzhongwenjian,.zi_xzwj
+{
+&:before { content: "\e36e"; }
+}
+
+//切割
+.zi_cut,.zi_qiege,.zi_qg{
+&:before { content: "\e36f"; }
+}
+
+//文件夹细线
+.zi_floderLine,.zi_wenjianjiaxixian,.zi_wjjxx
+{
+&:before { content: "\e370"; }
+}
+
+//文件夹打开
+.zi_floderOpen,.zi_wenjianjiadakai,.zi_wjjdk
+{
+&:before { content: "\e371"; }
+}
+
+//旗子
+.zi_flag,.zi_qi.zi,.zi_qz
+{
+&:before { content: "\e372"; }
+}
+
+//新文件
+.zi_fileNew,.zi_xinwenjian,.zi_xwj
+{
+&:before { content: "\e373"; }
+}
+
+//word文件
+.zi_word,.zi_wordwenjian,.zi_wordwj{
+&:before { content: "\e374"; }
+}
+
+//编辑文件
+.zi_fileEdit,.zi_bianjiwenjian,.zi_bjwj
+{
+&:before { content: "\e375"; }
+}
+
+//压缩文件
+.zi_fileZip,.zi_yasuowenjian,.zi_yswj
+{
+&:before { content: "\e376"; }
+}
+
+//音频文件
+.zi_fileAudio,.zi_yinpinwenjian,.zi_ypwj
+{
+&:before { content: "\e377"; }
+}
+
+//代码文件
+.zi_fileCode,.zi_daimawenjian,.zi_dmwj
+{
+&:before { content: "\e378"; }
+}
+
+//静音文件
+.zi_fileSilent,.zi_jingyinwenjian,.zi_jywj
+{
+&:before { content: "\e379"; }
+}
+
+//图形文件
+.zi_filePic,.zi_tuxingwenjian,.zi_txwj
+{
+&:before { content: "\e37a"; }
+}
+
+//pdf文件
+.zi_pdf,.zi_pdfwenjian,.zi_pdfwj
+{
+&:before { content: "\e37b"; }
+}
+
+//打印文件
+.zi_filePrt,.zi_dayinwenjian,.zi_dywj
+{
+&:before { content: "\e37c"; }
+}
+
+//视频文件
+.zi_fileVideo,.zi_shipinwenjian,.zi_spwj
+{
+&:before { content: "\e37d"; }
+}
+
+//反对手形
+.zi_oppose,.zi_fanduishouxing,.zi_fdsx
+{
+&:before { content: "\e37e"; }
+}
+
+//点赞
+.zi_digg,.zi_dianzan,.zi_dz
+{
+&:before { content: "\e37f"; }
+}
+
+//记事夹
+.zi_fileBook,.zi_jishijia,.zi_jsj
+{
+&:before { content: "\e380"; }
+}
+
+//cc图标
+.zi_cc,.zi_cctubiao,.zi_cctb
+{
+&:before { content: "\e381"; }
+}
+
+//信用卡
+.zi_creditCard,.zi_xinyongka,.zi_xyk
+{
+&:before { content: "\e382"; }
+}
+
+//信封
+.zi_envelope,.zi_xinfeng,.zi_xf
+{
+&:before { content: "\e383"; }
+}
+
+//一元钱
+.zi_oneDollar,.zi_yiyuanqian,.zi_yyq
+{
+&:before { content: "\e384"; }
+}
+
+//图片文件
+.zi_fileGraph,.zi_tupianwenjian,.zi_tpwj
+{
+&:before { content: "\e385"; }
+}
+
+//身份卡片
+.zi_idCheck,.zi_shenfenkapian,.zi_sfkp
+{
+&:before { content: "\e386"; }
+}
+
+//地图
+.zi_maps,.zi_ditu,.zi_dt
+{
+&:before { content: "\e387"; }
+}
+
+//键盘 
+.zi_keyboard,.zi_jianpan ,.zi_jp 
+{
+&:before { content: "\e388"; }
+}
+
+//聊天
+.zi_chat,.zi_liaotian,.zi_lt
+{
+&:before { content: "\e389"; }
+}
+
+//复制文件
+.zi_copyfile,.zi_fuzhiwenjian,.zi_fzwj
+{
+&:before { content: "\e38a"; }
+}
+
+//不可见
+.zi_noSee,.zi_bukejian,.zi_bkj
+{
+&:before { content: "\e38b"; }
+}
+
+//新聊天
+.zi_newMsg,.zi_xinliaotian,.zi_xlt
+{
+&:before { content: "\e38c"; }
+}
+
+//聊天气泡
+.zi_msgchat,.zi_liaotianqipao,.zi_ltqp
+{
+&:before { content: "\e38d"; }
+}
+
+//打开消息
+.zi_openMsg,.zi_dakaixiaoxi,.zi_dkxx
+{
+&:before { content: "\e38e"; }
+}
+
+//写作
+.zi_write,.zi_xiezuo,.zi_xz
+{
+&:before { content: "\e38f"; }
+}
+
+//纸飞机
+.zi_fly,.zi_zhifeiji,.zi_zfj
+{
+&:before { content: "\e390"; }
+}
+
+//报纸
+.zi_paper,.zi_baozhi,.zi_bz
+{
+&:before { content: "\e391"; }
+}
+
+//钻石
+.zi_diamond,.zi_zuanshi,.zi_zs
+{
+&:before { content: "\e392"; }
+}
+
+//灯泡
+.zi_bulb,.zi_dengpao,.zi_dp
+{
+&:before { content: "\e393"; }
+}
+
+//身份验证
+.zi_idRec,.zi_shenfenyanzheng,.zi_sfyz
+{
+&:before { content: "\e394"; }
+}
+
+//沙漏
+.zi_hourglass,.zi_shalou,.zi_sl
+{
+&:before { content: "\e395"; }
+}
+
+//医院
+.zi_hospital,.zi_yiyuan,.zi_yiy
+{
+&:before { content: "\e396"; }
+}
+
+//爱心
+.zi_love,.zi_aixin,.zi_ax
+{
+&:before { content: "\e397"; }
+}
+
+//硬盘
+.zi_disk,.zi_yingpan,.zi_yp
+{
+&:before { content: "\e398"; }
+}
+
+//握手
+.zi_shakeHands,.zi_woshou,.zi_ws
+{
+&:before { content: "\e399"; }
+}
+
+//捏手
+.zi_hand,.zi_nieshou,.zi_ns
+{
+&:before { content: "\e39a"; }
+}
+
+//哑语
+.zi_dumb,.zi_yayu,.zi_yay
+{
+&:before { content: "\e39b"; }
+}
+
+//剪刀手
+.zi_scissors,.zi_jiandaoshou,.zi_jds
+{
+&:before { content: "\e39c"; }
+}
+
+//拳头虚线
+.zi_fistLine,.zi_quantouxuxian,.zi_qtxx
+{
+&:before { content: "\e39d"; }
+}
+
+//点击
+.zi_click,.zi_dianji,.zi_dj
+{
+&:before { content: "\e39e"; }
+}
+
+//手指上细线
+.zi_handup,.zi_shouzhishangxixian,.zi_szsxx
+{
+&:before { content: "\e39f"; }
+}
+
+//手指下细线
+.zi_handdown,.zi_shouzhixiaxixian,.zi_szxxx
+{
+&:before { content: "\e3a0"; }
+}
+
+//手伸二指
+.zi_handTwo,.zi_shoushenerzhi,.zi_ssez
+{
+&:before { content: "\e3a1"; }
+}
+
+//手形虚形
+.zi_handLine,.zi_shouxingxuxing,.zi_sxxx
+{
+&:before { content: "\e3a2"; }
+}
+
+//手指左细线
+.zi_handLeft,.zi_shouzhizuoxixian,.zi_szzxx
+{
+&:before { content: "\e3a3"; }
+}
+
+//手指右细线
+.zi_handRight,.zi_shouzhiyouxixian,.zi_szyxx
+{
+&:before { content: "\e3a4"; }
+}
+
+//火炬灯
+.zi_bulbTorch,.huojudeng,.zi_hjd
+{
+&:before { content: "\e3a5"; }
+}
+
+//发光灯泡
+.zi_bulbGlow,.zi_faguangdengpao,.zi_fgdp
+{
+&:before { content: "\e3a6"; }
+}
+
+//灯泡虚线
+.zi_bulbLine,.zi_dengpaoxuxian,.zi_dpxx
+{
+&:before { content: "\e3a7"; }
+}
+
+//火炬
+.zi_torch,.zi_huoju,.zi_hj
+{
+&:before { content: "\e3a8"; }
+}
+
+//课桌
+.zi_schoolDesk,.zi_kezhuo,.zi_kz
+{
+&:before { content: "\e3a9"; }
+}
+
+
+//长城
+.zi_greatWall,.zi_changcheng,.zi_chc
+.zi_greatWall,.zi_changcheng,.zi_chc{
+&:before { content: "\e3aa"; }
+}
+
+//空电池
+.zi_batteryEmpty,.zi_kongdianchi,.zi_kdc
+{
+&:before { content: "\e3ab"; }
+}
+
+//电池
+.zi_battery,.zi_dianchi,.zi_dc
+{
+&:before { content: "\e3ac"; }
+}
+
+//电池一半
+.zi_batteryHalf,.zi_dianchiyiban,.zi_dcyb
+{
+&:before { content: "\e3ad"; }
+}
+
+//电池少量
+.zi_batteryquarter,.zi_dianchishaoliang,.zi_dcsl
+{
+&:before { content: "\e3ae"; }
+}
+
+//地址薄
+.zi_addressBook,.zi_dizhibao,.zi_dzb
+{
+&:before { content: "\e3af"; }
+}
+
+//地址卡片
+.zi_addressCard,.zi_dizhikapian,.zi_dzkp
+{
+&:before { content: "\e3b0"; }
+}
+
+//调整
+.zi_adjust,.zi_tiaozheng,.zi_tz
+{
+&:before { content: "\e3b1"; }
+}
+
+//文本对齐
+.zi_aligncenter,.zi_wenbenduiqi,.zi_wbdq
+{
+&:before { content: "\e3b2"; }
+}
+
+//左右对齐
+.zi_alignjustify,.zi_zuoyouduiqi,.zi_zydq
+{
+&:before { content: "\e3b3"; }
+}
+
+//左对齐
+.zi_alignleft,.zi_zuoduiqi,.zi_zdq
+{
+&:before { content: "\e3b4"; }
+}
+
+//右对齐
+.zi_alignright,.zi_youduiqi,.zi_ydq
+{
+&:before { content: "\e3b5"; }
+}
+
+//手过敏
+.zi_allergies,.zi_shouguomin,.zi_sgm
+{
+&:before { content: "\e3b6"; }
+}
+
+//救护车
+.zi_ambulance,.zi_jiuhuche,.zi_jhc
+{
+&:before { content: "\e3b7"; }
+}
+
+//美式手语
+.zi_SignLanguageUSA,.zi_meishishouyu,.zi_mssy
+{
+&:before { content: "\e3b8"; }
+}
+
+//船锚
+.zi_anchor,.zi_chuanmao,.zi_cm
+{
+&:before { content: "\e3b9"; }
+}
+
+//双向下箭头
+.zi_doubleDown,.zi_shuangxiangxiajiantou,.zi_sxxjt
+{
+&:before { content: "\e3ba"; }
+}
+
+//双向左箭头
+.zi_doubleLeft,.zi_shuangxiangzuojiantou,.zi_sxzjt
+{
+&:before { content: "\e3bb"; }
+}
+
+//双向右箭头
+.zi_doubleRight,.zi_shuangxiangyoujiantou,.zi_sxyjt
+{
+&:before { content: "\e3bc"; }
+}
+
+//双向上箭头
+.zi_doubleUp,.zi_shuangxiangshangjiantou,.zi_sxsjt
+{
+&:before { content: "\e3bd"; }
+}
+
+//向下指
+.zi_pathDown,.zi_xiangxiazhi,.zi_xxz
+{
+&:before { content: "\e3be"; }
+}
+
+//向左指
+.zi_pathLeft,.zi_xiangzuozhi,.zi_xzz
+{
+&:before { content: "\e3bf"; }
+}
+
+//向右指
+.zi_pathRight,.zi_xiangyouzhi,.zi_xyz
+{
+&:before { content: "\e3c0"; }
+}
+
+//向上指
+.zi_pathUp,.zi_xiangshangzhi,.zi_xsz
+{
+&:before { content: "\e3c1"; }
+}
+
+//档案
+.zi_archive,.zi_dangan,.zi_da
+{
+&:before { content: "\e3c2"; }
+}
+
+//指下圆箭头
+.zi_circleDownBold,.zi_zhixiayuanjiantou,.zi_zxyjt
+{
+&:before { content: "\e3c3"; }
+}
+
+//指左圆箭头
+.zi_circleLeftBold,.zi_zhizuoyuanjiantou,.zi_zzyjt
+{
+&:before { content: "\e3c4"; }
+}
+
+//指右圆箭头
+.zi_circleRightBold,.zi_zhiyouyuanjiantou,.zi_zyyjt
+{
+&:before { content: "\e3c5"; }
+}
+
+//指上圆箭头
+.zi_circleUpBold,.zi_zhishangyuanjiantou,.zi_zsyjt
+{
+&:before { content: "\e3c6"; }
+}
+
+//指下圆箭头长
+.zi_circleDownLong,.zi_zhixiayuanjiantouchang,.zi_zxyjtc
+{
+&:before { content: "\e3c7"; }
+}
+
+//指左圆箭头长
+.zi_circleLeftLong,.zi_zhizuoyuanjiantouchang,.zi_zzyjtc
+{
+&:before { content: "\e3c8"; }
+}
+
+//指右圆箭头长
+.zi_circleRightLong,.zi_zhiyouyuanjiantouchang,.zi_zyyjtc
+{
+&:before { content: "\e3c9"; }
+}
+
+//指上圆箭头长
+.zi_circleUpLong,.zi_zhishangyuanjiantouchang,.zi_zsyjtc
+{
+&:before { content: "\e3ca"; }
+}
+
+//指下长箭头
+.zi_arrowDown,.zi_zhixiachangjiantou,.zi_zxcjt
+{
+&:before { content: "\e3cb"; }
+}
+
+//指左长箭头
+.zi_arrowLeft,.zi_zhizuochangjiantou,.zi_zzcjt
+{
+&:before { content: "\e3cc"; }
+}
+
+//指右长箭头
+.zi_arrowRight,.zi_zhiyouchangjiantou,.zi_zycjt
+{
+&:before { content: "\e3cd"; }
+}
+
+//指上长箭头
+.zi_arrowUp,.zi_zhishangchangjiantou,.zi_zscjt
+{
+&:before { content: "\e3ce"; }
+}
+
+//横双箭头
+.zi_doubleArrowLandscape,.zi_hengshuangjiantou,.zi_hsjt
+{
+&:before { content: "\e3cf"; }
+}
+
+//竖双箭头
+.zi_doubleArrowVertical,.zi_shushuangjiantou,.zi_ssjt
+{
+&:before { content: "\e3d0"; }
+}
+
+//四向箭头
+.zi_arrowsalt,.zi_sixiangjiantou,.zi_sxjt
+{
+&:before { content: "\e3d1"; }
+}
+
+//辅助听力
+.zi_assistivelisteningsystems,.zi_fuzhutingli,.zi_fztl
+{
+&:before { content: "\e3d2"; }
+}
+
+//星号
+.zi_asterisk,.zi_xinghao,.zi_xhao
+{
+&:before { content: "\e3d3"; }
+}
+
+//邮件标记
+.zi_at,.zi_youjianbiaoji,.zi_yjbj
+{
+&:before { content: "\e3d4"; }
+}
+
+//音频描述
+.zi_audiodescription,.zi_yinpinmiaoshu,.zi_ypms
+{
+&:before { content: "\e3d5"; }
+}
+
+//快退
+.zi_backward,.zi_kuaitui,.zi_kt
+{
+&:before { content: "\e3d6"; }
+}
+
+//平衡秤
+.zi_balancescale,.zi_pinghengcheng,.zi_phc
+{
+&:before { content: "\e3d7"; }
+}
+
+//禁止
+.zi_ban,.zi_jinzhi,.zi_jz
+{
+&:before { content: "\e3d8"; }
+}
+
+//创可贴
+.zi_bandaid,.zi_chuangketie,.zi_ckt
+{
+&:before { content: "\e3d9"; }
+}
+
+//条码
+.zi_barcode,.zi_tiaoma,.zi_tm
+{
+&:before { content: "\e3da"; }
+}
+
+//栅栏
+.zi_bars,.zi_zhalan,.zi_zl
+{
+&:before { content: "\e3db"; }
+}
+
+//棒球
+.zi_baseballball,.zi_bangqiu,.zi_bqiu
+{
+&:before { content: "\e3dc"; }
+}
+
+//篮球
+.zi_basketballball,.zi_lanqiu,.zi_lq
+{
+&:before { content: "\e3dd"; }
+}
+
+//浴缸
+.zi_bath,.zi_yugang,.zi_yg
+{
+&:before { content: "\e3de"; }
+}
+
+//电池一大半
+.zi_batterythreequarters,.zi_dianchiyidaban,.zi_dcydb
+{
+&:before { content: "\e3df"; }
+}
+
+//床
+.zi_bed,.zi_chuang
+{
+&:before { content: "\e3e0"; }
+}
+
+//啤酒
+.zi_beer,.zi_pijiu,.zi_pj
+{
+&:before { content: "\e3e1"; }
+}
+
+//禁止鸣钟
+.zi_bellslash,.zi_jinzhimingzhong,.zi_jzmz
+{
+&:before { content: "\e3e2"; }
+}
+
+//钟
+.zi_bells,.zi_zhong,.zi_z
+{
+&:before { content: "\e3e3"; }
+}
+
+//自行车
+.zi_bicycle,.zi_zixingche,.zi_zxc
+{
+&:before { content: "\e3e4"; }
+}
+
+//望远镜
+.zi_binoculars,.zi_wangyuanjing,.zi_wyj
+{
+&:before { content: "\e3e5"; }
+}
+
+//生日蛋糕
+.zi_birthdaycake,.zi_shengridangao,.zi_srdg
+{
+&:before { content: "\e3e6"; }
+}
+
+//搅拌机
+.zi_blender,.zi_jiaobanji,.zi_jbj
+{
+&:before { content: "\e3e7"; }
+}
+
+//盲人
+.zi_blind,.zi_mangren,.zi_mr
+{
+&:before { content: "\e3e8"; }
+}
+
+//粗
+.zi_bold,.zi_cu
+{
+&:before { content: "\e3e9"; }
+}
+
+//闪电
+.zi_lightning,.zi_shandian,.zi_sd
+{
+&:before { content: "\e3ea"; }
+}
+
+//炸弹
+.zi_bomb,.zi_zhadan,.zi_zd
+{
+&:before { content: "\e3eb"; }
+}
+
+//看书
+.zi_bookopen,.zi_kanshu,.zi_ks
+{
+&:before { content: "\e3ec"; }
+}
+
+//书籍
+.zi_book,.zi_shuji,.zi_sj
+{
+&:before { content: "\e3ed"; }
+}
+
+//书签
+.zi_bookmark,.zi_shuqian,.zi_sq
+{
+&:before { content: "\e3ee"; }
+}
+
+//保龄球
+.zi_bowlingball,.zi_baolingqiu,.zi_blq
+{
+&:before { content: "\e3ef"; }
+}
+
+//开箱
+.zi_boxopen,.zi_kaixiang,.zi_kx
+{
+&:before { content: "\e3f0"; }
+}
+
+//箱子
+.zi_box,.zi_xiangzi,.zi_xzi
+{
+&:before { content: "\e3f1"; }
+}
+
+//多个箱子
+.zi_boxes,.zi_duogexiangzi,.zi_dgxz
+{
+&:before { content: "\e3f2"; }
+}
+
+//点形字
+.zi_braille,.zi_dianxingzi,.zi_dxz
+{
+&:before { content: "\e3f3"; }
+}
+
+//医疗
+.zi_medical,.zi_yiliao,.zi_yl
+{
+&:before { content: "\e3f4"; }
+}
+
+//公文包
+.zi_briefcase,.zi_gongwenbao,.zi_gwb
+{
+&:before { content: "\e3f5"; }
+}
+
+//电视塔
+.zi_broadcasttower,.zi_dianshita,.zi_dst
+{
+&:before { content: "\e3f6"; }
+}
+
+//扫帚
+.zi_broom,.zi_saozhou,.zi_szou
+{
+&:before { content: "\e3f7"; }
+}
+
+//臭虫
+.zi_bug,.zi_chouchong,.zi_chou
+{
+&:before { content: "\e3f8"; }
+}
+
+//大厦
+.zi_building,.zi_dasha,.zi_ds
+{
+&:before { content: "\e3f9"; }
+}
+
+//喇叭
+.zi_speaker,.zi_laba,.zi_lb
+{
+&:before { content: "\e3fa"; }
+}
+
+//靶心
+.zi_bullseye,.zi_baxin,.zi_bx
+{
+&:before { content: "\e3fb"; }
+}
+
+//烧伤
+.zi_burn,.zi_shaoshang,.zi_saos
+{
+&:before { content: "\e3fc"; }
+}
+
+//公交车
+.zi_bus,.zi_gongjiaoche,.zi_gjc
+{
+&:before { content: "\e3fd"; }
+}
+
+//计算器
+.zi_calculator,.zi_jisuanqi,.zi_jsq
+{
+&:before { content: "\e3fe"; }
+}
+
+//日历
+.zi_calendar,.zi_rili,.zi_rl
+{
+&:before { content: "\e3ff"; }
+}
+
+//方形打勾粗
+.zi_squareHandCorrectB,.zi_fangxingdagoucu,.zi_fxdgc
+{
+&:before { content: "\e400"; }
+}
+
+//方形减号粗
+.zi_squareLessB,.zi_fangxingjianhaocu,.zi_fxjhao
+{
+&:before { content: "\e401"; }
+}
+
+//方形加号粗
+.zi_squarePlusB,.zi_fangxingjiahaocu,.zi_fxjhc
+{
+&:before { content: "\e402"; }
+}
+
+//方形乘号粗
+.zi_squareMultiplyB,.zi_fangxingchenghaocu,.zi_fxchc
+{
+&:before { content: "\e403"; }
+}
+
+//方形实心
+.zi_squareBlod,.zi_fangxingshixin,.zi_fxsx
+{
+&:before { content: "\e404"; }
+}
+
+//复古相机
+.zi_cameraretro,.zi_fuguxiangji,.zi_fgxj
+{
+&:before { content: "\e405"; }
+}
+
+//相机
+.zi_camera,.zi_xiangji,.zi_xj
+{
+&:before { content: "\e406"; }
+}
+
+//胶囊
+.zi_capsules,.zi_jiaonang,.zi_jn
+{
+&:before { content: "\e407"; }
+}
+
+//汽车
+.zi_car,.zi_qiche,.zi_qc
+{
+&:before { content: "\e408"; }
+}
+
+//向下小箭头
+.zi_caretdown,.zi_xiangxiaxiaojiantou,.zi_xxxjt
+{
+&:before { content: "\e409"; }
+}
+
+//向左小箭头
+.zi_caretleft,.zi_xiangzuoxiaojiantou,.zi_xzxjt
+{
+&:before { content: "\e40a"; }
+}
+
+//向右小箭头
+.zi_caretRight,.zi_xiangyouxiaojiantou,.zi_xyxjt
+{
+&:before { content: "\e40b"; }
+}
+
+//向下黑小箭头
+.zi_caretsquaredown,.zi_xiangxiaheixiaojiantou,.zi_xxhxjt
+{
+&:before { content: "\e40c"; }
+}
+
+//向左黑小箭头
+.zi_caretsquareLeft,.zi_xiangzuoheixiaojiantou,.zi_xzhxjt
+{
+&:before { content: "\e40d"; }
+}
+
+//向右黑小箭头
+.zi_caretsquareRight,.zi_xiangyouheixiaojiantou,.zi_xyhxjt
+{
+&:before { content: "\e40e"; }
+}
+
+//向上黑小箭头
+.zi_caretsquareUp,.zi_xiangshangheixiaojiantou,.zi_xshxjt
+{
+&:before { content: "\e40f"; }
+}
+
+//向上小箭头
+.zi_caretUp,.zi_xiangshangxiaojiantou,.zi_xsxjt
+{
+&:before { content: "\e410"; }
+}
+
+//购物车指下
+.zi_cartarrowdown,.zi_gouwuchezhixia,.zi_gwczx
+{
+&:before { content: "\e411"; }
+}
+
+//购物车加号
+.zi_cartarrowPlus,.zi_gouwuchejiahao,.zi_gwcjh
+{
+&:before { content: "\e412"; }
+}
+
+//勋章
+.zi_certificate,.zi_xunzhang,.zi_xzan
+{
+&:before { content: "\e413"; }
+}
+
+//老师黑板
+.zi_chalkboardteacher,.zi_laoshiheiban,.zi_lshb
+{
+&:before { content: "\e414"; }
+}
+
+//黑板
+.zi_chalkboard,.zi_heiban,.zi_hb
+{
+&:before { content: "\e415"; }
+}
+
+//图表
+.zi_chartarea,.zi_tubiao,.zi_tb
+{
+&:before { content: "\e416"; }
+}
+
+//图形栏
+.zi_chartbar,.zi_tuxinglan,.zi_txl
+{
+&:before { content: "\e417"; }
+}
+
+//图表曲线
+.zi_chartline,.zi_tubiaoquxian,.zi_tbqx
+{
+&:before { content: "\e418"; }
+}
+
+//圆饼图
+.zi_chartpie,.zi_yuanbingtu,.zi_ybt
+{
+&:before { content: "\e419"; }
+}
+
+//圆打勾
+.zi_checkcircle,.zi_yuandagou,.zi_ydg
+{
+&:before { content: "\e41a"; }
+}
+
+//方打勾
+.zi_checksquare,.zi_fangdagou,.zi_fdg
+{
+&:before { content: "\e41b"; }
+}
+
+//勾
+.zi_check,.zi_gou,.zi_g
+{
+&:before { content: "\e41c"; }
+}
+
+//象棋主教
+.zi_chessbishop,.zi_xiangqizhujiao,.zi_xqzj
+{
+&:before { content: "\e41d"; }
+}
+
+//国际象棋盘
+.zi_chessboard,.zi_guojixiangqipan,.zi_gjxqp
+{
+&:before { content: "\e41e"; }
+}
+
+//棋王
+.zi_chessking,.zi_qiwang,.zi_qw
+{
+&:before { content: "\e41f"; }
+}
+
+//象棋骑士
+.zi_chessknight,.zi_xiangqiqishi,.zi_xqqs
+{
+&:before { content: "\e420"; }
+}
+
+//国际象棋子
+.zi_chesspawn,.zi_guojixiangqizi,.zi_gjxqz
+{
+&:before { content: "\e421"; }
+}
+
+//国际象女王
+.zi_chessqueen,.zi_guojixiangnüwang,.zi_gjxnw
+{
+&:before { content: "\e422"; }
+}
+
+//国际象棋
+.zi_chessrook,.zi_guojixiangqi,.zi_gjxq
+{
+&:before { content: "\e423"; }
+}
+
+//国际象棋三子
+.zi_chess,.zi_guojixiangqisanzi,.zi_gjxqsz
+{
+&:before { content: "\e424"; }
+}
+
+//圆下箭头
+.zi_circleDowns,.zi_yuanxiajiantou,.zi_yxjt
+{
+&:before { content: "\e425"; }
+}
+
+//圆左箭头
+.zi_circlelefts,.zi_yuanzuojiantou,.zi_yzjt
+{
+&:before { content: "\e426"; }
+}
+
+//圆右箭头
+.zi_circleRights,.zi_yuanyoujiantou,.zi_yyjt
+{
+&:before { content: "\e427"; }
+}
+
+//圆上箭头
+.zi_circleUps,.zi_yuanshangjiantou,.zi_ysjt
+{
+&:before { content: "\e428"; }
+}
+
+//下指
+.zi_forDown,.zi_xiazhi,.zi_xiaz
+{
+&:before { content: "\e429"; }
+}
+
+//左指
+.zi_forLeft,.zi_zuozhi,.zi_zz
+{
+&:before { content: "\e42a"; }
+}
+
+//右指
+.zi_forRight,.zi_youzhi,.zi_yz
+{
+&:before { content: "\e42b"; }
+}
+
+//上指
+.zi_forUp,.zi_shangzhi,.zi_szi
+{
+&:before { content: "\e42c"; }
+}
+
+//小孩
+.zi_child,.zi_xiaohai,.zi_xhai
+{
+&:before { content: "\e42d"; }
+}
+
+//教堂
+.zi_church,.zi_jiaotang,.zi_jt
+{
+&:before { content: "\e42e"; }
+}
+
+//圈圈
+.zi_circlenotch,.zi_quanquan,.zi_qq
+{
+&:before { content: "\e42f"; }
+}
+
+//黑圈
+.zi_circle,.zi_heiquan,.zi_hq
+{
+&:before { content: "\e430"; }
+}
+
+//检查画板
+.zi_clipboardcheck,.zi_jianchahuaban,.zi_jchb
+{
+&:before { content: "\e431"; }
+}
+
+//画板清单
+.zi_clipboardlist,.zi_huabanqingdan,.zi_hbqd
+{
+&:before { content: "\e432"; }
+}
+
+//画板空白
+.zi_clipboard,.zi_huabankongbai,.zi_hbkb
+{
+&:before { content: "\e433"; }
+}
+
+//挂钟
+.zi_clockCir,.zi_guazhong,.zi_gz
+{
+&:before { content: "\e434"; }
+}
+
+//克隆
+.zi_clone,.zi_kelong,.zi_kel
+{
+&:before { content: "\e435"; }
+}
+
+//cc图标黑
+.zi_closedcaptioning,.zi_cctubiaohei,.zi_cctbh
+{
+&:before { content: "\e436"; }
+}
+
+//从云下载
+.zi_clouddownloadalt,.zi_congyunxiazai,.zi_cyxz
+{
+&:before { content: "\e437"; }
+}
+
+//向云上传
+.zi_clouduploadalt,.zi_xiangyunshangchuan,.zi_xysc
+{
+&:before { content: "\e438"; }
+}
+
+//云
+.zi_cloud,.zi_yun,.zi_y
+{
+&:before { content: "\e439"; }
+}
+
+//代码分支
+.zi_codebranch,.zi_daimafenzhi,.zi_dmfz
+{
+&:before { content: "\e43a"; }
+}
+
+//代码
+.zi_code,.zi_daima,.zi_dm
+{
+&:before { content: "\e43b"; }
+}
+
+//咖啡
+.zi_coffee,.zi_kafei,.zi_kfei
+{
+&:before { content: "\e43c"; }
+}
+
+//齿轮
+.zi_cog,.zi_chilun,.zi_cl
+{
+&:before { content: "\e43d"; }
+}
+
+//一组齿轮
+.zi_cogs,.zi_yizuchilun,.zi_yzcl
+{
+&:before { content: "\e43e"; }
+}
+
+//硬币
+.zi_coins,.zi_yingbi,.zi_yb
+{
+&:before { content: "\e43f"; }
+}
+
+//列表数据
+.zi_columns,.zi_liebiaoshuju,.zi_lbsj
+{
+&:before { content: "\e440"; }
+}
+
+//评论列表
+.zi_commentalt,.zi_pinglunliebiao,.zi_pllb
+{
+&:before { content: "\e441"; }
+}
+
+//消息黑
+.zi_commentdots,.zi_xiaoxihei,.zi_xxh
+{
+&:before { content: "\e442"; }
+}
+
+//评论
+.zi_comment,.zi_pinglun,.zi_pl
+{
+&:before { content: "\e443"; }
+}
+
+//禁止评论
+.zi_commentslash,.zi_jinzhipinglun,.zi_jzpl
+{
+&:before { content: "\e444"; }
+}
+
+//评论回复
+.zi_comments,.zi_pinglunhuifu,.zi_plhf
+{
+&:before { content: "\e445"; }
+}
+
+//光盘
+.zi_compactdisc,.zi_guangpan,.zi_gp
+{
+&:before { content: "\e446"; }
+}
+
+//指南针实心
+.zi_compassBold,.zi_zhinanzhenshixin,.zi_znzsx
+{
+&:before { content: "\e447"; }
+}
+
+//压缩
+.zi_compress,.zi_yasuo,.zi_ys
+{
+&:before { content: "\e448"; }
+}
+
+//拷贝
+.zi_copy,.zi_kaobei,.zi_kbei
+{
+&:before { content: "\e449"; }
+}
+
+//版权实心
+.zi_copyrightBold,.zi_banquanshixin,.zi_bqsx
+{
+&:before { content: "\e44a"; }
+}
+
+//沙发
+.zi_couch,.zi_shafa,.zi_sf
+{
+&:before { content: "\e44b"; }
+}
+
+//信用卡背景
+.zi_creditcards,.zi_xinyongkabeijing,.zi_xykbj
+{
+&:before { content: "\e44c"; }
+}
+
+//剪切
+.zi_crop,.zi_jianqie,.zi_jq
+{
+&:before { content: "\e44d"; }
+}
+
+//瞄准
+.zi_crosshairs,.zi_miaozhun,.zi_mz
+{
+&:before { content: "\e44e"; }
+}
+
+//乌鸦
+.zi_crow,.zi_wuya,.zi_wy
+{
+&:before { content: "\e44f"; }
+}
+
+//皇冠
+.zi_crown,.zi_huangguan,.zi_hg
+{
+&:before { content: "\e450"; }
+}
+
+//立方体
+.zi_cube,.zi_lifangti,.zi_lft
+{
+&:before { content: "\e451"; }
+}
+
+//高铁
+.zi_crh,.zi_gaotie,.zi_gt
+{
+&:before { content: "\e452"; }
+}
+
+//电动车
+.zi_motoCycle,.zi_diandongche,.zi_ddc
+{
+&:before { content: "\e453"; }
+}
+
+//简明爱心
+.zi_SmilLove,.zi_jianmingaixin,.zi_jmax
+{
+&:before { content: "\e454"; }
+}
+
+//方桌
+.zi_SquareTable,.zi_fangzhuo,.zi_fzuo
+{
+&:before { content: "\e455"; }
+}
+
+
+//立方组合
+.zi_cubes,.zi_lifangzuhe,.zi_lfzh
+{
+&:before { content: "\e456"; }
+}
+
+//剪刀
+.zi_cuts,.zi_jiandao,.zi_jd
+{
+&:before { content: "\e457"; }
+}
+
+//数据库
+.zi_database,.zi_shujuku,.zi_sjk
+{
+&:before { content: "\e458"; }
+}
+
+//聋子
+.zi_deaf,.zi_longzi,.zi_lz
+{
+&:before { content: "\e459"; }
+}
+
+//桌面
+.zi_desktop,.zi_zhuomian,.zi_zm
+{
+&:before { content: "\e45a"; }
+}
+
+//诊断
+.zi_diagnoses,.zi_zhenduan,.zi_zdu
+{
+&:before { content: "\e45b"; }
+}
+
+//五点骰子
+.zi_diceFive,.zi_wudiantouzi,.zi_wdtz
+{
+&:before { content: "\e45c"; }
+}
+
+//四点骰子
+.zi_diceFour,.zi_sidiantouzi,.zi_sdsz
+{
+&:before { content: "\e45d"; }
+}
+
+//一点骰子
+.zi_diceOne,.zi_yidiantouzi,.zi_ydtz
+{
+&:before { content: "\e45e"; }
+}
+
+//六点骰子
+.zi_diceSix,.zi_liudiantouzi,.zi_ldtz
+{
+&:before { content: "\e45f"; }
+}
+
+//三点骰子
+.zi_diceThree,.zi_sandiantouzi,.zi_sdtz
+{
+&:before { content: "\e460"; }
+}
+
+//二点骰子
+.zi_diceTwo,.zi_erdiantouzi,.zi_edtz
+{
+&:before { content: "\e461"; }
+}
+
+//骰子
+.zi_dice,.zi_shaizi,.zi_shzi
+{
+&:before { content: "\e462"; }
+}
+
+//分割符
+.zi_divide,.zi_fengefu,.zi_fgf
+{
+&:before { content: "\e463"; }
+}
+
+//基因
+.zi_dna,.zi_jiyin,.zi_jyi
+{
+&:before { content: "\e464"; }
+}
+
+//美元符号
+.zi_dollarSign,.zi_meiyuanfuhao,.zi_myfh
+{
+&:before { content: "\e465"; }
+}
+
+//平板车
+.zi_dollyFlatbed,.zi_pingbanche,.zi_pbc
+{
+&:before { content: "\e466"; }
+}
+
+//搬运
+.zi_dolly,.zi_banyun,.zi_byu
+{
+&:before { content: "\e467"; }
+}
+
+//捐款
+.zi_donate,.zi_juankuan,.zi_jk
+{
+&:before { content: "\e468"; }
+}
+
+//关门
+.zi_doorClosed,.zi_guanmen,.zi_gm
+{
+&:before { content: "\e469"; }
+}
+
+//开门
+.zi_openClosed,.zi_kaimen,.zi_km
+{
+&:before { content: "\e46a"; }
+}
+
+//圆圈
+.zi_dotcircle,.zi_yuanquan,.zi_yq
+{
+&:before { content: "\e46b"; }
+}
+
+//和平鸽
+.zi_dove,.zi_hepingge,.zi_hpg
+{
+&:before { content: "\e46c"; }
+}
+
+//下载
+.zi_download,.zi_xiazai,.zi_xza
+{
+&:before { content: "\e46d"; }
+}
+
+//哑铃
+.zi_dumbbell,.zi_yaling,.zi_yal
+{
+&:before { content: "\e46e"; }
+}
+
+//编辑
+.zi_edit,.zi_bianji,.zi_bj
+{
+&:before { content: "\e46f"; }
+}
+
+//喷射
+.zi_eject,.zi_penshe,.zi_ps
+{
+&:before { content: "\e470"; }
+}
+
+//删节号
+.zi_ellipsish,.zi_shanjiehao,.zi_sjh
+{
+&:before { content: "\e471"; }
+}
+
+//竖删节
+.zi_ellipsisv,.zi_shushanjie,.zi_ssj
+{
+&:before { content: "\e472"; }
+}
+
+//展开信封
+.zi_envelopeOpen,.zi_zhankaixinfeng,.zi_zkxf
+{
+&:before { content: "\e473"; }
+}
+
+//方形信封
+.zi_envelopeSquare,.zi_fangxingxinfeng,.zi_fxxf
+{
+&:before { content: "\e474"; }
+}
+
+//黑信封
+.zi_envelopeBold,.zi_heixinfeng,.zi_hxf
+{
+&:before { content: "\e475"; }
+}
+
+//等于号
+.zi_equals,.zi_dengyuhao,.zi_dyha
+{
+&:before { content: "\e476"; }
+}
+
+//橡皮擦
+.zi_eraser,.zi_xiangpica,.zi_xpc
+{
+&:before { content: "\e477"; }
+}
+
+//欧元符
+.zi_euroSign,.zi_ouyuanfu,.zi_oyf
+{
+&:before { content: "\e478"; }
+}
+
+//交换符
+.zi_exchangealt,.zi_jiaohuanfu,.zi_jhf
+{
+&:before { content: "\e479"; }
+}
+
+//圈叹号
+.zi_exclamationCircle,.zi_quantanhao,.zi_qth
+{
+&:before { content: "\e47a"; }
+}
+
+//三角叹号
+.zi_exclamationTriangle,.zi_sanjiaotanhao,.zi_sjth
+{
+&:before { content: "\e47b"; }
+}
+
+//叹号
+.zi_exclamation,.zi_tanhao,.zi_th
+{
+&:before { content: "\e47c"; }
+}
+
+//移动箭头
+.zi_expandarrowsalt,.zi_yidongjiantou,.zi_ydjt
+{
+&:before { content: "\e47d"; }
+}
+
+//放大箭头
+.zi_expand,.zi_fangdajiantou,.zi_fdjt
+{
+&:before { content: "\e47e"; }
+}
+
+//外部链接
+.zi_externalLinkalt,.zi_waibulianjie,.zi_wblj
+{
+&:before { content: "\e47f"; }
+}
+
+//外链方块
+.zi_externalLinksquarealt,.zi_wailianfangkuai,.zi_wlfk
+{
+&:before { content: "\e480"; }
+}
+
+//眼药水
+.zi_eyeDropper,.zi_yanyaoshui,.zi_yys
+{
+&:before { content: "\e481"; }
+}
+
+//睫毛
+.zi_eyeslash,.zi_jiemao,.zi_jm
+{
+&:before { content: "\e482"; }
+}
+
+//眼睛
+.zi_eye,.zi_yanjing,.zi_yj
+{
+&:before { content: "\e483"; }
+}
+
+//快退键
+.zi_fastBackward,.zi_kuaituijian,.zi_ktj
+{
+&:before { content: "\e484"; }
+}
+
+//快进
+.zi_fastForward,.zi_kuaijin,.zi_kj
+{
+&:before { content: "\e485"; }
+}
+
+//传真
+.zi_fax,.zi_chuanzhen,.zi_cz
+{
+&:before { content: "\e486"; }
+}
+
+//羽毛
+.zi_feather,.zi_yumao,.zi_ym
+{
+&:before { content: "\e487"; }
+}
+
+//女性
+.zi_female,.zi_nvxing,.zi_nvx
+{
+&:before { content: "\e488"; }
+}
+
+//战斗机
+.zi_fighterjet,.zi_zhandouji,.zi_zdj
+{
+&:before { content: "\e489"; }
+}
+
+//普通文件
+.zi_filealt,.zi_putongwenjian,.zi_ptwj
+{
+&:before { content: "\e48a"; }
+}
+
+//压缩文件黑
+.zi_fileArchiveb,.zi_yasuowenjianhei,.zi_yswjh
+{
+&:before { content: "\e48b"; }
+}
+
+//音频文件黑
+.zi_fileAudioB,.zi_yinpinwenjianhei,.zi_ypwjh
+{
+&:before { content: "\e48c"; }
+}
+
+//源码文件
+.zi_fileCodeB,.zi_yuanmawenjian,.zi_ymwj
+{
+&:before { content: "\e48d"; }
+}
+
+//表格文件
+.zi_fileExcel,.zi_biaogewenjian,.zi_bgwj
+{
+&:before { content: "\e48e"; }
+}
+
+//图片文件黑
+.zi_fileImage,.zi_tupianwenjianhei,.zi_tpwjh
+{
+&:before { content: "\e48f"; }
+}
+
+//医用文件
+.zi_fileMedicalalt,.zi_yiyongwenjian,.zi_yywj
+{
+&:before { content: "\e490"; }
+}
+
+//药品文件
+.zi_fileMedical,.zi_yaopinwenjian,.zi_ypinwj
+{
+&:before { content: "\e491"; }
+}
+
+//PDF文件黑
+.zi_filePDF,.zi_PDFwenjianhei,.zi_PDFwjh
+{
+&:before { content: "\e492"; }
+}
+
+//幻灯片文件
+.zi_filePowerpoint,.zi_huandengpianwenjian,.zi_hdpwj
+{
+&:before { content: "\e493"; }
+}
+
+//视频文件黑
+.zi_fileVideohei,.zi_shipinwenjianhei,.zi_spwjh
+{
+&:before { content: "\e494"; }
+}
+
+//word文件黑
+.zi_fileWord,.zi_wordwenjianhei,.zi_wordwjh
+{
+&:before { content: "\e495"; }
+}
+
+//文件
+.zi_file,.zi_wenjian,.zi_wj
+{
+&:before { content: "\e496"; }
+}
+
+//电影
+.zi_film,.zi_dianying,.zi_dy
+{
+&:before { content: "\e497"; }
+}
+
+//漏斗
+.zi_filter,.zi_loudou,.zi_ldh
+{
+&:before { content: "\e498"; }
+}
+
+//灭火器
+.zi_fireextinguisher,.zi_miehuoqi,.zi_mhq
+{
+&:before { content: "\e499"; }
+}
+
+//火苗
+.zi_fire,.zi_huomiao,.zi_hm
+{
+&:before { content: "\e49a"; }
+}
+
+//救生包
+.zi_firstaid,.zi_jiushengbao,.zi_jsb
+{
+&:before { content: "\e49b"; }
+}
+
+//格子旗
+.zi_flagcheckered,.zi_geziqi,.zi_gzq
+{
+&:before { content: "\e49c"; }
+}
+
+//旗子黑
+.zi_flagBold,.zi_qizihei,.zi_qzh
+{
+&:before { content: "\e49d"; }
+}
+
+//烧杯
+.zi_flask,.zi_shaobei,.zi_sb
+{
+&:before { content: "\e49e"; }
+}
+
+//打开文件夹
+.zi_folderOpen,.zi_dakaiwenjianjia,.zi_dkwjj
+{
+&:before { content: "\e49f"; }
+}
+
+//文件夹
+.zi_folders,.zi_wenjianjia,.zi_wjj
+{
+&:before { content: "\e4a0"; }
+}
+
+//字体
+.zi_fonts,.zi_ziti,.zi_zt
+{
+&:before { content: "\e4a1"; }
+}
+
+//足球黑
+.zi_footballBold,.zi_zuqiuqiuhei,.zi_zqh
+{
+&:before { content: "\e4a2"; }
+}
+
+//前进
+.zi_forward,.zi_qianjin,.zi_qj
+{
+&:before { content: "\e4a3"; }
+}
+
+//青蛙
+.zi_frog,.zi_qingwa,.zi_qwa
+{
+&:before { content: "\e4a4"; }
+}
+
+//沮丧脸
+.zi_frown,.zi_jusang,.zi_jsl
+{
+&:before { content: "\e4a5"; }
+}
+
+//足球白
+.zi_futbol,.zi_zuqiuqiuying,.zi_zqqy
+{
+&:before { content: "\e4a6"; }
+}
+
+//游戏手柄
+.zi_gamepad,.zi_youxishoubing,.zi_yxsb
+{
+&:before { content: "\e4a7"; }
+}
+
+//加油站
+.zi_gaspump,.zi_jiayouzhan,.zi_jyz
+{
+&:before { content: "\e4a8"; }
+}
+
+//木槌
+.zi_gavel,.zi_muchui,.zi_mc
+{
+&:before { content: "\e4a9"; }
+}
+
+//宝石
+.zi_gem,.zi_baoshi,.zi_bao
+{
+&:before { content: "\e4aa"; }
+}
+
+//无性
+.zi_genderless,.zi_wuxing,.zi_wxi
+{
+&:before { content: "\e4ab"; }
+}
+
+//礼物
+.zi_gift,.zi_liwu,.zi_lw
+{
+&:before { content: "\e4ac"; }
+}
+
+//高脚杯
+.zi_glassmartini,.zi_gaojiaobei,.zi_gjb
+{
+&:before { content: "\e4ad"; }
+}
+
+//太阳镜
+.zi_glasses,.zi_taiyangjing,.zi_tyj
+{
+&:before { content: "\e4ae"; }
+}
+
+//全球
+.zi_globe,.zi_quanqiu,.zi_qqiu
+{
+&:before { content: "\e4af"; }
+}
+
+//高尔夫
+.zi_golfball,.zi_gaoerfu,.zi_gef
+{
+&:before { content: "\e4b0"; }
+}
+
+//学士帽
+.zi_graduationcap,.zi_xueshimao,.zi_xsm
+{
+&:before { content: "\e4b1"; }
+}
+
+//大于等于
+.zi_greaterthanequal,.zi_dayudengyu,.zi_dydy
+{
+&:before { content: "\e4b2"; }
+}
+
+//大于号
+.zi_greaterthan,.zi_dayuhao,.zi_dyh
+{
+&:before { content: "\e4b3"; }
+}
+
+//H方标
+.zi_hsquare,.zi_Hfangbiao,.zi_Hfb
+{
+&:before { content: "\e4b4"; }
+}
+
+//掌中心
+.zi_handholdingheart,.zi_zhangzhongxin,.zi_zzx
+{
+&:before { content: "\e4b5"; }
+}
+
+//利用
+.zi_handholdingusd,.zi_liyong,.zi_ly
+{
+&:before { content: "\e4b6"; }
+}
+
+//上托
+.zi_handholding,.zi_shangtuo,.zi_st
+{
+&:before { content: "\e4b7"; }
+}
+
+//手势语
+.zi_handlizard,.zi_shoushiyu,.zi_ssy
+{
+&:before { content: "\e4b8"; }
+}
+
+//击掌
+.zi_handpaper,.zi_jizhang,.zi_jza
+{
+&:before { content: "\e4b9"; }
+}
+
+//胜利手势
+.zi_handpeace,.zi_shenglishoushi,.zi_slss
+{
+&:before { content: "\e4ba"; }
+}
+
+//手势向下
+.zi_handpointdown,.zi_shoushixiangxia,.zi_ssxx
+{
+&:before { content: "\e4bb"; }
+}
+
+//手势向左
+.zi_handpointleft,.zi_shoushixiangzuo,.zi_ssxz
+{
+&:before { content: "\e4bc"; }
+}
+
+//手势向右
+.zi_handpointright,.zi_shoushixiangyou,.zi_ssxy
+{
+&:before { content: "\e4bd"; }
+}
+
+//手势向上
+.zi_handpointup,.zi_shoushixiangshang,.zi_ssxs
+{
+&:before { content: "\e4be"; }
+}
+
+//点击黑
+.zi_handpointer,.zi_dianjihei,.zi_djh
+{
+&:before { content: "\e4bf"; }
+}
+
+//手势石头
+.zi_handrock,.zi_shoushishitou,.zi_ssst
+{
+&:before { content: "\e4c0"; }
+}
+
+//手势剪刀
+.zi_handscissors,.zi_shoushijiandao,.zi_ssjd
+{
+&:before { content: "\e4c1"; }
+}
+
+//手势布
+.zi_handspock,.zi_shoushibu,.zi_ssb
+{
+&:before { content: "\e4c2"; }
+}
+
+//手势帮助
+.zi_handshelping,.zi_shoushibangzhu,.zi_ssbz
+{
+&:before { content: "\e4c3"; }
+}
+
+//手势开花
+.zi_hands,.zi_shoushikaihua,.zi_sskh
+{
+&:before { content: "\e4c4"; }
+}
+
+//握手黑
+.zi_handshake,.zi_woshouhei,.zi_wsh
+{
+&:before { content: "\e4c5"; }
+}
+
+//井号
+.zi_hashtag,.zi_jinghao,.zi_jh
+{
+&:before { content: "\e4c6"; }
+}
+
+//硬盘黑
+.zi_hdd,.zi_yingpanhei,.zi_yph
+{
+&:before { content: "\e4c7"; }
+}
+
+//头部标识
+.zi_heading,.zi_toububiaozhi,.zi_tbbz
+{
+&:before { content: "\e4c8"; }
+}
+
+//耳机
+.zi_headphones,.zi_erji,.zi_ej
+{
+&:before { content: "\e4c9"; }
+}
+
+//心镂空
+.zi_heart,.zi_xinloukong,.zi_xlk
+{
+&:before { content: "\e4ca"; }
+}
+
+//心跳
+.zi_heartbeat,.zi_xintiao,.zi_xti
+{
+&:before { content: "\e4cb"; }
+}
+
+//直升机
+.zi_helicopter,.zi_zhishengji,.zi_zsj
+{
+&:before { content: "\e4cc"; }
+}
+
+//历史纪录
+.zi_history,.zi_lishijilu,.zi_lsjl
+{
+&:before { content: "\e4cd"; }
+}
+
+//冰球
+.zi_hockeypuck,.zi_bingqiu,.zi_bqi
+{
+&:before { content: "\e4ce"; }
+}
+
+//家
+.zi_home,.zi_jia,.zi_j
+{
+&:before { content: "\e4cf"; }
+}
+
+//医院矮
+.zi_hospitalalt,.zi_yiyuanai,.zi_yya
+{
+&:before { content: "\e4d0"; }
+}
+
+//医院标识
+.zi_hospitalsymbol,.zi_yiyuanbiaozhi,.zi_yybz
+{
+&:before { content: "\e4d1"; }
+}
+
+//医院黑
+.zi_hospitalBold,.zi_yiyuangao,.zi_yyg
+{
+&:before { content: "\e4d2"; }
+}
+
+//沙漏终
+.zi_hourglassend,.zi_shalouzhong,.zi_slz
+{
+&:before { content: "\e4d3"; }
+}
+
+//沙漏半
+.zi_hourglasshalf,.zi_shalouban,.zi_slb
+{
+&:before { content: "\e4d4"; }
+}
+
+//沙漏始
+.zi_hourglassstart,.zi_shaloushi,.zi_sls
+{
+&:before { content: "\e4d5"; }
+}
+
+//沙漏黑
+.zi_hourglassb,.zi_shalouhei,.zi_slh
+{
+&:before { content: "\e4d6"; }
+}
+
+//I标识
+.zi_icursor,.zi_Ibiaozhi,.zi_Ibz
+{
+&:before { content: "\e4d7"; }
+}
+
+//身份勋章
+.zi_idbadge,.zi_shenfenxunzhang,.zi_sfxz
+{
+&:before { content: "\e4d8"; }
+}
+
+//身份认证
+.zi_idcardalt,.zi_shenfenrenzheng,.zi_sfrz
+{
+&:before { content: "\e4d89; }
+}
+
+//证卡黑
+.zi_idcardBold,.zi_shenfenzhenghei,.zi_sfza
+{
+&:before { content: "\e4da; }
+}
+
+//图像
+.zi_image,.zi_tuxiang,.zi_tx
+{
+&:before { content: "\e4db"; }
+}
+
+//图库
+.zi_images,.zi_tuku,.zi_tk
+{
+&:before { content: "\e4dc"; }
+}
+
+//收纳盒
+.zi_inbox,.zi_shounahe,.zi_snh
+{
+&:before { content: "\e4dd"; }
+}
+
+//缩进
+.zi_indent,.zi_suojin,.zi_sji
+{
+&:before { content: "\e4de"; }
+}
+
+//销毁
+.zi_industry,.zi_xiaohui,.zi_xhi
+{
+&:before { content: "\e4df"; }
+}
+
+//无穷
+.zi_infinity,.zi_wuqiong,.zi_wq
+{
+&:before { content: "\e4d0"; }
+}
+
+//信息圆标
+.zi_infocircle,.zi_xinxiyuanbiao,.zi_xxyb
+{
+&:before { content: "\e4e1"; }
+}
+
+//信息表示
+.zi_info,.zi_xinxibiaoshi,.zi_xxbs
+{
+&:before { content: "\e4e2"; }
+}
+
+//斜体
+.zi_italic,.zi_xieti,.zi_xt
+{
+&:before { content: "\e4e3"; }
+}
+
+//钥匙
+.zi_key,.zi_yaoshi,.zi_ysi
+{
+&:before { content: "\e4e4"; }
+}
+
+//键盘
+.zi_keyboards,.zi_jianpan,.zi_jp
+{
+&:before { content: "\e4e5"; }
+}
+
+//奇异鸟
+.zi_kiwibird,.zi_qiyiniao,.zi_qyn
+{
+&:before { content: "\e4e6"; }
+}
+
+//语言
+.zi_language,.zi_yuyan,.zi_yuy
+{
+&:before { content: "\e4e7"; }
+}
+
+//笔电
+.zi_laptop,.zi_bidian,.zi_bd
+{
+&:before { content: "\e4e8"; }
+}
+
+//叶子
+.zi_leaf,.zi_yezi,.zi_yez
+{
+&:before { content: "\e4e9"; }
+}
+
+//柠檬
+.zi_lemon,.zi_ningmeng,.zi_nm
+{
+&:before { content: "\e4ea"; }
+}
+
+//小于等于
+.zi_lessthanequal,.zi_xiaoyudengyu,.zi_xydy
+{
+&:before { content: "\e4eb"; }
+}
+
+//小于号
+.zi_lessthan,.zi_xiaoyuhao,.zi_xyh
+{
+&:before { content: "\e4ec"; }
+}
+
+//下一级
+.zi_leveldownalt,.zi_xiayiji,.zi_xyj
+{
+&:before { content: "\e4ed"; }
+}
+
+//上一级
+.zi_levelupalt,.zi_shangyiji,.zi_syj
+{
+&:before { content: "\e4ee"; }
+}
+
+//救生圈
+.zi_lifering,.zi_jiushengquan,.zi_jsqu
+{
+&:before { content: "\e4ef"; }
+}
+
+//灯泡黑
+.zi_lightbulb,.zi_dengpaohei,.zi_dph
+{
+&:before { content: "\e4f0"; }
+}
+
+//链接标识
+.zi_link,.zi_lianjiebiaozhi,.zi_ljbz
+{
+&:before { content: "\e4f1"; }
+}
+
+//里拉符号
+.zi_lirasign,.zi_lilafuhao,.zi_llfh
+{
+&:before { content: "\e4f2"; }
+}
+
+//列表标志
+.zi_listalt,.zi_liebiaobiaozhi,.zi_lbbz
+{
+&:before { content: "\e4f3"; }
+}
+
+//有序列表
+.zi_listol,.zi_youxuliebiao,.zi_yxlb
+{
+&:before { content: "\e4f4"; }
+}
+
+//无序列表
+.zi_listul,.zi_wuxuliebiao,.zi_wxlb
+{
+&:before { content: "\e4f5"; }
+}
+
+//列表
+.zi_list,.zi_liebiao,.zi_lbh
+{
+&:before { content: "\e4f6"; }
+}
+
+//方向标黑
+.zi_locationarrow,.zi_fangxiangbiaohei,.zi_fxba
+{
+&:before { content: "\e4f7"; }
+}
+
+//解锁
+.zi_lockopen,.zi_jiesuo,.zi_js
+{
+&:before { content: "\e4f8"; }
+}
+
+//锁定
+.zi_lock,.zi_suoding,.zi_sdh
+{
+&:before { content: "\e4f9"; }
+}
+
+//箭头指示向下
+.zi_longarrowaltdown,.zi_jiantouzhishixiangxia,.zi_jtzsxx
+{
+&:before { content: "\e4fa"; }
+}
+
+//箭头指示向左
+.zi_longarrowaltleft,.zi_jiantouzhishixiangzuo,.zi_jtzsxz
+{
+&:before { content: "\e4fb"; }
+}
+
+//箭头指示向右
+.zi_longarrowaltright,.zi_jiantouzhishixiangyou,.zi_jtzsxy
+{
+&:before { content: "\e4fc"; }
+}
+
+//箭头指示向上
+.zi_longarrowaltup,.zi_jiantouzhishixiangshang,.zi_jtzsxs
+{
+&:before { content: "\e4fd"; }
+}
+
+//不可视
+.zi_lowvision,.zi_bukajian,.zi_bkji
+{
+&:before { content: "\e4fe"; }
+}
+
+//魔术棒
+.zi_magic,.zi_mobanggongju,.zi_msb
+{
+&:before { content: "\e4ff"; }
+}
+
+//磁铁
+.zi_magnet,.zi_citie,.zi_ct
+{
+&:before { content: "\e500"; }
+}
+
+//男性
+.zi_male,.zi_nanxing,.zi_nx
+{
+&:before { content: "\e501"; }
+}
+
+//地图所在标记
+.zi_mapmarkeralt,.zi_ditusuozaibiaoji,.zi_dtszbj
+{
+&:before { content: "\e502"; }
+}
+
+//地图标记
+.zi_mapmarker,.zi_ditubiaoji,.zi_dtbj
+{
+&:before { content: "\e503"; }
+}
+
+//地图竖标
+.zi_mappin,.zi_ditushubiao,.zi_dtsb
+{
+&:before { content: "\e504"; }
+}
+
+//方向标
+.zi_mapsigns,.zi_fangxiangbiao,.zi_fxb
+{
+&:before { content: "\e505"; }
+}
+
+//地图标
+.zi_map,.zi_ditubaio,.zi_dtb
+{
+&:before { content: "\e506"; }
+}
+
+//两性
+.zi_marsdouble,.zi_liangxing,.zi_lx
+{
+&:before { content: "\e507"; }
+}
+
+//横向性别
+.zi_marsstrokeh,.zi_hengxiangxingbie,.zi_hxxb
+{
+&:before { content: "\e508"; }
+}
+
+//竖向性别
+.zi_marsstrokev,.zi_shuxiangxingbie,.zi_sxxb
+{
+&:before { content: "\e509"; }
+}
+
+//斜向性别
+.zi_marsstroke,.zi_xiexiangxingbie,.zi_xxxb
+{
+&:before { content: "\e50a"; }
+}
+
+//性别
+.zi_mars,.zi_xingbie,.zi_xb
+{
+&:before { content: "\e50b"; }
+}
+
+//医药包
+.zi_medkit,.zi_yiyaobao,.zi_yyb
+{
+&:before { content: "\e50c"; }
+}
+
+//一般
+.zi_meh,.zi_yiban,.zi_ybb
+{
+&:before { content: "\e50d"; }
+}
+
+//记忆
+.zi_memory,.zi_jiyi
+{
+&:before { content: "\e50e"; }
+}
+
+//水银
+.zi_mercury,.zi_shuiyin,.zi_sy
+{
+&:before { content: "\e50f"; }
+}
+
+//微芯片
+.zi_microchip,.zi_weixinpian,.zi_wxp
+{
+&:before { content: "\e510"; }
+}
+
+//禁用麦克风
+.zi_microphonealtslash,.zi_jinyongmaikefeng,.zi_jymkf
+{
+&:before { content: "\e511"; }
+}
+
+//麦克风
+.zi_microphonealt,.zi_maikefeng,.zi_mkf
+{
+&:before { content: "\e512"; }
+}
+
+//禁用语音
+.zi_microphoneslash,.zi_jinyongyuyin,.zi_jyyy
+{
+&:before { content: "\e513"; }
+}
+
+//语音
+.zi_microphone,.zi_yuyin,.zi_yyi
+{
+&:before { content: "\e514"; }
+}
+
+//负号圆标
+.zi_minuscircle,.zi_fuhaoyuanbiao,.zi_fhyb
+{
+&:before { content: "\e515"; }
+}
+
+//负号方标
+.zi_minussquare,.zi_fuhaofangbiao,.zi_fhfb
+{
+&:before { content: "\e516"; }
+}
+
+//负号
+.zi_minus,.zi_fuhao,.zi_fh
+{
+&:before { content: "\e517"; }
+}
+
+//手机亮屏
+.zi_mobilealt,.zi_shoujiliangping,.zi_sjlp
+{
+&:before { content: "\e518"; }
+}
+
+//手机黑屏
+.zi_mobile,.zi_shoujiheiping,.zi_sjhp
+{
+&:before { content: "\e519"; }
+}
+
+//一块钱
+.zi_moneybillalt,.zi_yikuaiqian,.zi_ykq
+{
+&:before { content: "\e51a"; }
+}
+
+//钞票飘标识
+.zi_moneybillwavealt,.zi_chaopiaopiaobiaozhi,.zi_cppbz
+{
+&:before { content: "\e51b"; }
+}
+
+//钞票飘
+.zi_moneybillwave,.zi_chaopiaopiao,.zi_cpp
+{
+&:before { content: "\e51c"; }
+}
+
+//钞票
+.zi_moneybill,.zi_chaopiao,.zi_cp
+{
+&:before { content: "\e51d"; }
+}
+
+//账单
+.zi_moneycheckalt,.zi_zhangdan,.zi_zda
+{
+&:before { content: "\e51e"; }
+}
+
+//账单标识
+.zi_moneycheck,.zi_zhangdanbiaozhi,.zi_zdbz
+{
+&:before { content: "\e51f"; }
+}
+
+//月亮
+.zi_moon,.zi_yueliang,.zi_yli
+{
+&:before { content: "\e520"; }
+}
+
+//摩托车
+.zi_motorcycle,.zi_motuoche,.zi_mtc
+{
+&:before { content: "\e521"; }
+}
+
+//鼠标标识
+.zi_mousepointer,.zi_shubiaobiaozhi,.zi_sbbz
+{
+&:before { content: "\e522"; }
+}
+
+//音乐黑
+.zi_musicBold,.zi_yinyuehei,.zi_yyh
+{
+&:before { content: "\e523"; }
+}
+
+//中性
+.zi_neuter,.zi_zhongxing,.zi_zx
+{
+&:before { content: "\e524"; }
+}
+
+//报纸黑
+.zi_newspaper,.zi_baozhihei,.zi_bzh
+{
+&:before { content: "\e525"; }
+}
+
+//不等于
+.zi_notequal,.zi_budengyu,.zi_bdy
+{
+&:before { content: "\e526"; }
+}
+
+//病例
+.zi_notesmedical,.zi_bingli,.zi_bl
+{
+&:before { content: "\e527"; }
+}
+
+//对象组
+.zi_objectgroup,.zi_duixiangzu,.zi_dxzu
+{
+&:before { content: "\e528"; }
+}
+
+//取消对象组
+.zi_objectungroup,.zi_quxiaoduixiangzu,.zi_qxdxz
+{
+&:before { content: "\e529"; }
+}
+
+//减少缩进
+.zi_outdent,.zi_jianshaosuojin,.zi_jssj
+{
+&:before { content: "\e52a"; }
+}
+
+//笔刷
+.zi_paintbrush,.zi_bishua,.zi_bs
+{
+&:before { content: "\e52b"; }
+}
+
+//颜料板
+.zi_palette,.zi_yanliaoban,.zi_ylb
+{
+&:before { content: "\e52c"; }
+}
+
+//托盘
+.zi_pallet,.zi_tuopan,.zi_tp
+{
+&:before { content: "\e52d"; }
+}
+
+//纸飞机黑
+.zi_paperplane,.zi_zhifeijihei,.zi_zfjh
+{
+&:before { content: "\e52e"; }
+}
+
+//回形针
+.zi_paperclip,.zi_huixingzhen,.zi_hxz
+{
+&:before { content: "\e52f"; }
+}
+
+//降落伞箱
+.zi_parachutebox,.zi_jiangluosanxiang,.zi_jlsx
+{
+&:before { content: "\e530"; }
+}
+
+//段落
+.zi_paragraph,.zi_duanluo,.zi_dl
+{
+&:before { content: "\e531"; }
+}
+
+//停车场
+.zi_parking,.zi_tingchechang,.zi_tcc
+{
+&:before { content: "\e532"; }
+}
+
+//复制
+.zi_paste,.zi_fuzhi,.zi_fzi
+{
+&:before { content: "\e533"; }
+}
+
+//暂停黑圆标
+.zi_pausecircle,.zi_zantingheiyuanbiao,.zi_zthyb
+{
+&:before { content: "\e534"; }
+}
+
+//暂停黑
+.zi_pause,.zi_zantinghei,.zi_zth
+{
+&:before { content: "\e535"; }
+}
+
+//宠物黑
+.zi_paw,.zi_chongwuhei,.zi_cwh
+{
+&:before { content: "\e536"; }
+}
+
+//笔方标
+.zi_pensquare,.zi_bifangbiao,.zi_bfb
+{
+&:before { content: "\e537"; }
+}
+
+//笔黑
+.zi_pencilalt,.zi_bihei,.zi_bh
+{
+&:before { content: "\e538"; }
+}
+
+//人力搬运
+.zi_peoplecarry,.zi_renlibanyun,.zi_rlby
+{
+&:before { content: "\e539"; }
+}
+
+//百分符
+.zi_percent,.zi_baifenfu,.zi_bff
+{
+&:before { content: "\e53a"; }
+}
+
+//百分实心
+.zi_percentage,.zi_baifenshixin,.zi_bfsx
+{
+&:before { content: "\e53b"; }
+}
+
+//禁止通话
+.zi_phoneslash,.zi_jinzhitonghua,.zi_jzth
+{
+&:before { content: "\e53c"; }
+}
+
+//话筒方标
+.zi_phonesquare,.zi_huatongfangbiao,.zi_htfb
+{
+&:before { content: "\e53d"; }
+}
+
+//通话中黑
+.zi_phonevolume,.zi_tonghuazhonghei,.zi_thzh
+{
+&:before { content: "\e53e"; }
+}
+
+//话筒黑
+.zi_phone,.zi_huatonghei,.zi_hth
+{
+&:before { content: "\e53f"; }
+}
+
+//小猪存钱罐
+.zi_piggybank,.zi_xiaozhucunqianguan,.zi_xzcqg
+{
+&:before { content: "\e540"; }
+}
+
+//药片黑
+.zi_pills,.zi_yaopianhei,.zi_yphei
+{
+&:before { content: "\e541"; }
+}
+
+//飞机黑
+.zi_plane,.zi_feijihei,.zi_fjh
+{
+&:before { content: "\e542"; }
+}
+
+//播放圆标
+.zi_playcircle,.zi_bofangyuanbiao,.zi_bfyb
+{
+&:before { content: "\e543"; }
+}
+
+//播放黑
+.zi_play,.zi_bofanghei,.zi_bfh
+{
+&:before { content: "\e544"; }
+}
+
+//插头黑
+.zi_plug,.zi_chatouhei,.zi_cth
+{
+&:before { content: "\e545"; }
+}
+
+//加号圆标
+.zi_pluscircle,.zi_jiahaoyuanbiao,.zi_jhyb
+{
+&:before { content: "\e546"; }
+}
+
+//加号方标
+.zi_plusSquareblack,.zi_jiahaofangbiao,.zi_jhfb
+{
+&:before { content: "\e547"; }
+}
+
+//加号黑
+.zi_plus,.zi_jiahaohei,.zi_jhh
+{
+&:before { content: "\e548"; }
+}
+
+//播客
+.zi_podcast,.zi_boke,.zi_bk
+{
+&:before { content: "\e549"; }
+}
+
+//便便
+.zi_poo,.zi_pianpian,.zi_pp
+{
+&:before { content: "\e54a"; }
+}
+
+//肖像
+.zi_portrait,.zi_xiaoxiang,.zi_xx
+{
+&:before { content: "\e54b"; }
+}
+
+//英镑符
+.zi_poundsign,.zi_yingbangfu,.zi_ybfh
+{
+&:before { content: "\e54c"; }
+}
+
+//关机符号
+.zi_poweroff,.zi_guanjifuhao,.zi_gjfh
+{
+&:before { content: "\e54d"; }
+}
+
+//处方瓶正
+.zi_prescriptionbottlealt,.zi_chufangpingzheng,.zi_cfpz
+{
+&:before { content: "\e54e"; }
+}
+
+//处方瓶侧
+.zi_prescriptionbottle,.zi_chufangpingce,.zi_cfpc
+{
+&:before { content: "\e54f"; }
+}
+
+//打印机
+.zi_print,.zi_dayinji,.zi_dyj
+{
+&:before { content: "\e550"; }
+}
+
+//步骤
+.zi_procedures,.zi_buzhou,.zi_bzhou
+{
+&:before { content: "\e551"; }
+}
+
+//项目图
+.zi_projectdiagram,.zi_xiangmutu,.zi_xmt
+{
+&:before { content: "\e552"; }
+}
+
+//拼图
+.zi_puzzlepiece,.zi_pintu,.zi_pt
+{
+&:before { content: "\e553"; }
+}
+
+//二维码
+.zi_qrcode,.zi_erweima,.zi_ewm
+{
+&:before { content: "\e554"; }
+}
+
+//问题圆标
+.zi_questioncircle,.zi_wentiyuanbiao,.zi_wtyb
+{
+&:before { content: "\e555"; }
+}
+
+//问题黑
+.zi_question,.zi_wentihei,.zi_wth
+{
+&:before { content: "\e556"; }
+}
+
+//魁地奇球
+.zi_quidditch,.zi_kuidiqiqiu,.zi_kdqq
+{
+&:before { content: "\e557"; }
+}
+
+//上引号黑
+.zi_quoteleft,.zi_shangyinhaohei,.zi_syhh
+{
+&:before { content: "\e558"; }
+}
+
+//下引号黑
+.zi_quoteright,.zi_xiayinhaohei,.zi_xyhh
+{
+&:before { content: "\e559"; }
+}
+
+//随机符号
+.zi_random,.zi_suijifuhao,.zi_sjfh
+{
+&:before { content: "\e55a"; }
+}
+
+//发票
+.zi_receipt,.zi_fapiao,.zi_fp
+{
+&:before { content: "\e55b"; }
+}
+
+//回收符号
+.zi_recycle,.zi_huishoufuhao,.zi_hsfh
+{
+&:before { content: "\e55c"; }
+}
+
+//重做箭头
+//重做标识
+.zi_redoalt,.zi_zhongzuobiaozhi,.zi_zzbz
+{
+&:before { content: "\e55d"; }
+}
+
+//已注册圆标
+.zi_redo,.zi_zhongzuojiantou,.zi_zzjt
+{
+&:before { content: "\e55e"; }
+}
+
+//回复组
+.zi_registered,.zi_yizhuceyuanbiao,.zi_yzcyb
+{
+&:before { content: "\e55f"; }
+}
+
+//回复黑
+.zi_replyall,.zi_huifuzu,.zi_hfz
+{
+&:before { content: "\e560"; }
+}
+
+//转推
+.zi_retweet,.zi_zhuantui,.zi_ztui
+{
+&:before { content: "\e561"; }
+}
+
+//丝带
+.zi_ribbon,.zi_sidai,.zi_sdai
+{
+&:before { content: "\e562"; }
+}
+
+//马路
+.zi_road,.zi_malu,.zi_ml
+{
+&:before { content: "\e563"; }
+}
+
+//机器人黑
+.zi_robot,.zi_jiqirenhei,.zi_jqrh
+{
+&:before { content: "\e564"; }
+}
+
+//火箭黑
+.zi_rocket,.zi_huojianhei,.zi_hjh
+{
+&:before { content: "\e565"; }
+}
+
+//wifi圆标
+.zi_rsssquare,.zi_wifiyuanbiao,.zi_wifiyb
+{
+&:before { content: "\e566"; }
+}
+
+//wifi黑
+.zi_rss,.zi_wifihei,.zi_wifih
+{
+&:before { content: "\e567"; }
+}
+
+//卢布符
+.zi_rublesign,.zi_lubufu,.zi_lbfu
+{
+&:before { content: "\e568"; }
+}
+
+//规则合并
+.zi_rulercombined,.zi_guizehebing,.zi_gzhbing
+{
+&:before { content: "\e569"; }
+}
+
+//规则统治
+.zi_rulerhorizontal,.zi_guizetongzhi,.zi_gztz
+{
+&:before { content: "\e56a"; }
+}
+
+//规则公平
+.zi_rulervertical,.zi_guizegongping,.zi_gzgp
+{
+&:before { content: "\e56b"; }
+}
+
+//规则黑标
+.zi_ruler,.zi_guizeheibiao,.zi_gzhb
+{
+&:before { content: "\e56c"; }
+}
+
+//卢比符
+.zi_rupeesign,.zi_lubifu,.zi_lbf
+{
+&:before { content: "\e56d"; }
+}
+
+//保存黑
+.zi_save,.zi_baocunhei,.zi_bch
+{
+&:before { content: "\e56e"; }
+}
+
+//学校黑
+.zi_school,.zi_xuexiaohei,.zi_xxhei
+{
+&:before { content: "\e56f"; }
+}
+
+//螺丝刀
+.zi_screwdriver,.zi_luosidao,.zi_lsd
+{
+&:before { content: "\e570"; }
+}
+
+//搜索缩小
+.zi_searchminus,.zi_sousuosuoxiao,.zi_sssx
+{
+&:before { content: "\e572"; }
+}
+
+//搜索放大
+.zi_searchplus,.zi_sousuofangda,.zi_ssfd
+{
+&:before { content: "\e573"; }
+}
+
+//搜索粗黑
+.zi_searchBlack,.zi_sousuocuhei,.zi_ssch
+{
+&:before { content: "\e574"; }
+}
+
+//发芽
+.zi_seedling,.zi_faya,.zi_fy
+{
+&:before { content: "\e575"; }
+}
+
+//服务器
+.zi_server,.zi_fuwuqi,.zi_fwq
+{
+&:before { content: "\e576"; }
+}
+
+//分享黑标
+.zi_sharealtsquare,.zi_fenxiangheibiao,.zi_fxhb
+{
+&:before { content: "\e577"; }
+}
+
+//分享粗黑
+.zi_sharealt,.zi_fenxiangcuhei,.zi_fxchei
+{
+&:before { content: "\e578"; }
+}
+
+//转发方标
+.zi_sharesquare,.zi_zhuanfafangbiao,.zi_zffb
+{
+&:before { content: "\e579"; }
+}
+
+//转发粗黑
+.zi_share,.zi_zhuanfacuhei,.zi_zfch
+{
+&:before { content: "\e57a"; }
+}
+
+//谢克尔标志
+.zi_shekelsign,.zi_xiekeerbiaozhi,.zi_xkebz
+{
+&:before { content: "\e57b"; }
+}
+
+//护盾标识
+.zi_shieldalt,.zi_hudunbiaozhi,.zi_hdbz
+{
+&:before { content: "\e57c"; }
+}
+
+//大船
+.zi_ship,.zi_dachuan,.zi_dch
+{
+&:before { content: "\e57d"; }
+}
+
+//急速行驶
+.zi_shippingfast,.zi_jisuxingshi,.zi_jsxs
+{
+&:before { content: "\e57e"; }
+}
+
+//脚印黑
+.zi_shoeprints,.zi_jiaoyinhei,.zi_jyh
+{
+&:before { content: "\e57f"; }
+}
+
+//购物袋
+.zi_shoppingbag,.zi_gouwudai,.zi_gwd
+{
+&:before { content: "\e580"; }
+}
+
+//购物篮
+.zi_shoppingbasket,.zi_gouwulan,.zi_gwl
+{
+&:before { content: "\e581"; }
+}
+
+//购物车黑
+.zi_shoppingcart,.zi_gouwuchehei,.zi_gwch
+{
+&:before { content: "\e582"; }
+}
+
+//淋浴黑
+.zi_shower,.zi_linyuhei,.zi_lyh
+{
+&:before { content: "\e583"; }
+}
+
+//入口标志
+.zi_signinalt,.zi_rukoubiaozhi,.zi_rkbz
+{
+&:before { content: "\e584"; }
+}
+
+//鼓掌标志
+.zi_signlanguage,.zi_guzhangbiaozhi,.zi_gzbz
+{
+&:before { content: "\e585"; }
+}
+
+//出口标志
+.zi_signoutalt,.zi_chukoubiaozhi,.zi_ckbz
+{
+&:before { content: "\e586"; }
+}
+
+//符号函数
+.zi_sign,.zi_fuhaohanshu,.zi_fhhs
+{
+&:before { content: "\e587"; }
+}
+
+//信号标志
+.zi_signal,.zi_xinhaobiaozhi,.zi_xhbzhi
+{
+&:before { content: "\e588"; }
+}
+
+//网站地图
+.zi_sitemap,.zi_wangzhanditu,.zi_wzdt
+{
+&:before { content: "\e589"; }
+}
+
+//骷髅头骨
+.zi_skull,.zi_kuloutougu,.zi_kltg
+{
+&:before { content: "\e58a"; }
+}
+
+//侧栏开关
+.zi_slidersh,.zi_celankaiguan,.zi_clkg
+{
+&:before { content: "\e58b"; }
+}
+
+//微笑脸
+.zi_smileBlack,.zi_weixiaolian,.zi_wxl
+{
+&:before { content: "\e58c"; }
+}
+
+//禁烟标志
+.zi_smokingban,.zi_jinyanbiaozhi,.zi_jybz
+{
+&:before { content: "\e58d"; }
+}
+
+//吸烟标志
+.zi_smoking,.zi_xiyanbiaozhi,.zi_xybz
+{
+&:before { content: "\e58e"; }
+}
+
+//雪花标志
+.zi_snowFlakeblack,.zi_xuehuabiaozhi,.zi_xhbz
+{
+&:before { content: "\e58f"; }
+}
+
+//字母降序
+.zi_sortalphadown,.zi_zimujiangxu,.zi_zmjx
+{
+&:before { content: "\e590"; }
+}
+
+//字母升序
+.zi_sortalphaup,.zi_zimushengxu,.zi_zmsx
+{
+&:before { content: "\e591"; }
+}
+
+//向下排序
+.zi_sortamountdown,.zi_xiangxiapaixu,.zi_xxpx
+{
+&:before { content: "\e592"; }
+}
+
+//向上排序
+.zi_sortamountup,.zi_xiangshangpaixu,.zi_xspx
+{
+&:before { content: "\e593"; }
+}
+
+//向下标志
+.zi_sortdown,.zi_xiangxiabiaozhi,.zi_xxbz
+{
+&:before { content: "\e594"; }
+}
+
+//数字降序
+.zi_sortnumericdown,.zi_shuzijiangxu,.zi_szjx
+{
+&:before { content: "\e595"; }
+}
+
+//数字升序
+.zi_sortnumericup,.zi_shuzishengxu,.zi_szsx
+{
+&:before { content: "\e596"; }
+}
+
+//向上标志
+.zi_sortup,.zi_xiangshangbiaozhi,.zi_xsbz
+{
+&:before { content: "\e597"; }
+}
+
+//排序标志
+.zi_sort,.zi_paixubiaozhi,.zi_pxbz
+{
+&:before { content: "\e598"; }
+}
+
+//航天飞机
+.zi_spaceshuttle,.zi_hangtianfeiji,.zi_htfj
+{
+&:before { content: "\e599"; }
+}
+
+//旋转加载
+.zi_spinner,.zi_xuanzhuanjiazai,.zi_xzjz
+{
+&:before { content: "\e59a"; }
+}
+
+//实心正方形
+.zi_squarefull,.zi_shixinzhengfangxing,.zi_sxzfx
+{
+&:before { content: "\e59b"; }
+}
+
+//圆角正方形
+.zi_square,.zi_yuanjiaozhengfangxing,.zi_yjzfx
+{
+&:before { content: "\e59c"; }
+}
+
+//半颗星
+.zi_starHalfb,.zi_bankexing,.zi_bkx
+{
+&:before { content: "\e59d"; }
+}
+
+//黑星星
+.zi_star,.zi_heixingxing,.zi_hxx
+{
+&:before { content: "\e59e"; }
+}
+
+//后退一步
+.zi_stepbackward,.zi_houtuiyibu,.zi_htyb
+{
+&:before { content: "\e59f"; }
+}
+
+//前进一步
+.zi_stepforward,.zi_qianjinyibu,.zi_qjyb
+{
+&:before { content: "\e5a0"; }
+}
+
+//听诊器
+.zi_stethoscope,.zi_tingzhenqi,.zi_tzq
+{
+&:before { content: "\e5a1"; }
+}
+
+//便利贴
+.zi_stickynote,.zi_bianlitie,.zi_blt
+{
+&:before { content: "\e5a2"; }
+}
+
+//暂停圆标
+.zi_stopcircle,.zi_zantingyuanbiao,.zi_ztyb
+{
+&:before { content: "\e5a3"; }
+}
+
+//秒表黑
+.zi_stopwatch,.zi_miaobiaohei,.zi_mbh
+{
+&:before { content: "\e5a4"; }
+}
+
+//商店开门
+.zi_storealt,.zi_shangdiankaimen,.zi_sdkm
+{
+&:before { content: "\e5a5"; }
+}
+
+//商店标志
+.zi_store,.zi_shangdianbiaozhi,.zi_sdbz
+{
+&:before { content: "\e5a6"; }
+}
+
+//河流标志
+.zi_stream,.zi_heliubiaozhi,.zi_hlbz
+{
+&:before { content: "\e5a7"; }
+}
+
+//街景
+.zi_streetview,.zi_jiejing,.zi_jj
+{
+&:before { content: "\e5a8"; }
+}
+
+//删除线
+.zi_strikethrough,.zi_shanchuxian,.zi_scx
+{
+&:before { content: "\e5a9"; }
+}
+
+//荷式松饼
+.zi_stroopwafel,.zi_heshisongbing,.zi_hssb
+{
+&:before { content: "\e5aa"; }
+}
+
+//下标标注
+.zi_subscript,.zi_xiabiaobiaozhu,.zi_xbbz
+{
+&:before { content: "\e5ab"; }
+}
+
+//地铁标识
+.zi_subway,.zi_ditiebiaozhi,.zi_dtbz
+{
+&:before { content: "\e5ac"; }
+}
+
+//公文包黑
+.zi_suitcase,.zi_gongwenbaohei,.zi_gwbh
+{
+&:before { content: "\e5ad"; }
+}
+
+//太阳黑
+.zi_sun,.zi_taiyanghei,.zi_tyh
+{
+&:before { content: "\e5ae"; }
+}
+
+//上标标识
+.zi_superscript,.zi_shangbiaobiaozhi,.zi_sbbs
+{
+&:before { content: "\e5af"; }
+}
+
+//同步标志
+.zi_syncalt,.zi_tongbubiaozhi,.zi_tbbzhi
+{
+&:before { content: "\e5b0"; }
+}
+
+//同步箭头
+.zi_sync,.zi_tongbujiantou,.zi_tbjt
+{
+&:before { content: "\e5b1"; }
+}
+
+//注射器
+.zi_syringe,.zi_zhusheqi,.zi_zsq
+{
+&:before { content: "\e5b2"; }
+}
+
+//乒乓球
+.zi_tabletennis,.zi_pingpangqiu,.zi_ppq
+{
+&:before { content: "\e5b3"; }
+}
+
+//平板桌面
+.zi_table,.zi_pingbanzhuomian,.zi_pbzm
+{
+&:before { content: "\e5b4"; }
+}
+
+//平板亮屏
+.zi_tabletalt,.zi_pingbanliangping,.zi_pblp
+{
+&:before { content: "\e5b5"; }
+}
+
+//平板黑屏
+.zi_tablet,.zi_pingbanheiping,.zi_pbhp
+{
+&:before { content: "\e5b6"; }
+}
+
+//平板电脑
+.zi_tablets,.zi_pingbandiannao,.zi_pbdn
+{
+&:before { content: "\e5b7"; }
+}
+
+//转速表
+.zi_tachometeralt,.zi_zhuansubiao,.zi_zsb
+{
+&:before { content: "\e5b8"; }
+}
+
+//标签黑
+.zi_tag,.zi_biaoqianhei,.zi_bqh
+{
+&:before { content: "\e5b9"; }
+}
+
+//标签组
+.zi_tags,.zi_biaoqianzu,.zi_bqz
+{
+&:before { content: "\e5ba"; }
+}
+
+//胶带黑
+.zi_tape,.zi_jiaodaihei,.zi_jdh
+{
+&:before { content: "\e5bb"; }
+}
+
+//任务组
+.zi_tasks,.zi_renwuzu,.zi_rwz
+{
+&:before { content: "\e5bc"; }
+}
+
+//的士
+.zi_taxi,.zi_dishi,.zi_dis
+{
+&:before { content: "\e5bd"; }
+}
+
+//终点站
+.zi_terminal,.zi_zhongdianzhan,.zi_zdz
+{
+&:before { content: "\e5be"; }
+}
+
+//行距
+.zi_textheight,.zi_hangju,.zi_hju
+{
+&:before { content: "\e5bf"; }
+}
+
+//字间距
+.zi_textwidth,.zi_zijianju,.zi_zjj
+{
+&:before { content: "\e5c0"; }
+}
+
+//大号表头
+.zi_thlarge,.zi_dahaobiaotou,.zi_dhbt
+{
+&:before { content: "\e5c1"; }
+}
+
+//带表头列表
+.zi_thlist,.zi_daibiaotouliebiao,.zi_dbtlb
+{
+&:before { content: "\e5c2"; }
+}
+
+//表头
+.zi_thead,.zi_biaotou,.zi_bt
+{
+&:before { content: "\e5c3"; }
+}
+
+//温度计空
+.zi_thermometerempty,.zi_wendujikong,.zi_wdjk
+{
+&:before { content: "\e5c4"; }
+}
+
+//温度计满
+.zi_thermometerfull,.zi_wendujiman,.zi_wdjm
+{
+&:before { content: "\e5c5"; }
+}
+
+//温度计一半
+.zi_thermometerhalf,.zi_wendujiyiban,.zi_wdjyb
+{
+&:before { content: "\e5c6"; }
+}
+
+//温度计少半
+.zi_thermometerquarter,.zi_wendujishaoban,.zi_wdjsb
+{
+&:before { content: "\e5c7"; }
+}
+
+//温度计多半
+.zi_thermometerthreequarters,.zi_wendujiduoban,.zi_wdjdb
+{
+&:before { content: "\e5c8"; }
+}
+
+//体温计
+.zi_thermometer,.zi_tiwenji,.zi_twj
+{
+&:before { content: "\e5c9"; }
+}
+
+//拇指向下
+.zi_thumbsdown,.zi_muzhixiangxia,.zi_mzxx
+{
+&:before { content: "\e5ca"; }
+}
+
+//拇指向上
+.zi_thumbsup,.zi_muzhixiangshang,.zi_mzxs
+{
+&:before { content: "\e5cb"; }
+}
+
+//图钉
+.zi_thumbtack,.zi_tuding,.zi_td
+{
+&:before { content: "\e5cc"; }
+}
+
+//票
+.zi_ticketalt,.zi_piao,.zi_p
+{
+&:before { content: "\e5cd"; }
+}
+
+//错号圆标
+.zi_timescircle,.zi_cuohaoyuanbiao,.zi_chyb
+{
+&:before { content: "\e5ce"; }
+}
+
+//错号粗黑
+.zi_times,.zi_cuohaocuhei,.zi_chch
+{
+&:before { content: "\e5cf"; }
+}
+
+//色彩
+.zi_tint,.zi_secai,.zi_sc
+{
+&:before { content: "\e5d0"; }
+}
+
+//切换关闭
+.zi_toggleoff,.zi_qiehuanguanbi,.zi_qhgb
+{
+&:before { content: "\e5d1"; }
+}
+
+//切换开启
+.zi_toggleon,.zi_qiehuankaiqi,.zi_qhkq
+{
+&:before { content: "\e5d2"; }
+}
+
+//工具箱黑
+.zi_toolbox,.zi_gongjuxianghei,.zi_gjxh
+{
+&:before { content: "\e5d3"; }
+}
+
+//商标粗黑
+.zi_trademark,.zi_shangbiaocuhei,.zi_sbch
+{
+&:before { content: "\e5d4"; }
+}
+
+//火车标志
+.zi_train,.zi_huochebiaozhihei,.zi_hcbzhei
+{
+&:before { content: "\e5d5"; }
+}
+
+//变性人标志
+.zi_transgenderalt,.zi_bianxingrenbiaozhi,.zi_bxrbz
+{
+&:before { content: "\e5d6"; }
+}
+
+//变性人
+.zi_transgender,.zi_bianxingren,.zi_bxr
+{
+&:before { content: "\e5d7"; }
+}
+
+//垃圾箱竖条
+.zi_trashalt,.zi_lajixiangshutiao,.zi_ljxst
+{
+&:before { content: "\e5d8"; }
+}
+
+//垃圾箱黑
+.zi_trash,.zi_lajixianghei,.zi_ljxh
+{
+&:before { content: "\e5d9"; }
+}
+
+//树木标志
+.zi_tree,.zi_shumubiaozhi,.zi_smbz
+{
+&:before { content: "\e5da"; }
+}
+
+//奖杯
+.zi_trophy,.zi_jiangbei,.zi_jbei
+{
+&:before { content: "\e5db"; }
+}
+
+//货车装载
+.zi_truckloading,.zi_huochezhuangzai,.zi_hczz
+{
+&:before { content: "\e5dc"; }
+}
+
+//货车运输
+.zi_truckmoving,.zi_huocheyunshu,.zi_hcys
+{
+&:before { content: "\e5dd"; }
+}
+
+//货车标志
+.zi_truck,.zi_huochebiaozhi,.zi_hcbz
+{
+&:before { content: "\e5de"; }
+}
+
+//T恤
+.zi_tshirt,.zi_Txu,.zi_Tshir
+{
+&:before { content: "\e5df"; }
+}
+
+//电传打字机
+.zi_tty,.zi_dianchuandaziji,.zi_dcdzj
+{
+&:before { content: "\e5e0"; }
+}
+
+//电视标志
+.zi_tv,.zi_dianshibiaozhi,.zi_dsbz
+{
+&:before { content: "\e5e1"; }
+}
+
+//雨伞标志
+.zi_umbrella,.zi_yusanbiaozhi,.zi_ysbz
+{
+&:before { content: "\e5e2"; }
+}
+
+//下划线标志
+.zi_underline,.zi_xiahuaxianbiaozhi,.zi_xhxbz
+{
+&:before { content: "\e5e3"; }
+}
+
+//取消标志
+.zi_undoalt,.zi_quxiaobiaozhi,.zi_qxbz
+{
+&:before { content: "\e5e4"; }
+}
+
+//取消箭头
+.zi_undo,.zi_quxiaojiantou,.zi_qxjt
+{
+&:before { content: "\e5e5"; }
+}
+
+//通用访问
+.zi_universalaccess,.zi_tongyongfangwen,.zi_tyfw
+{
+&:before { content: "\e5e6"; }
+}
+
+//政府标志
+.zi_university,.zi_zhengfubiaozhi,.zi_zfbz
+{
+&:before { content: "\e5e7"; }
+}
+
+//无法链接
+.zi_unlink,.zi_wufalianjie,.zi_wflj
+{
+&:before { content: "\e5e8"; }
+}
+
+//未锁定标志
+.zi_unlockalt,.zi_weisuodingbiaozhi,.zi_wsdbz
+{
+&:before { content: "\e5e9"; }
+}
+
+//未锁定
+.zi_unlock,.zi_weisuoding,.zi_wsd
+{
+&:before { content: "\e5ea"; }
+}
+
+//上传黑
+.zi_upload,.zi_shangchuanhei,.zi_sch
+{
+&:before { content: "\e5eb"; }
+}
+
+//用户禁用
+.zi_useraltslash,.zi_yonghujinyong,.zi_yhjy
+{
+&:before { content: "\e5ec"; }
+}
+
+//用户黑
+.zi_useralt,.zi_yonghuhei,.zi_yhh
+{
+&:before { content: "\e5ed"; }
+}
+
+//宇航员
+.zi_userastronaut,.zi_yuhangyuan,.zi_yhy
+{
+&:before { content: "\e5ee"; }
+}
+
+//选中用户
+.zi_usercheck,.zi_xuanzhongyonghu,.zi_xzyh
+{
+&:before { content: "\e5ef"; }
+}
+
+//用户圆标
+.zi_usercircle,.zi_yonghuyuanbiao,.zi_yhyb
+{
+&:before { content: "\e5f0"; }
+}
+
+//用户时间安排
+.zi_userclock,.zi_yonghushijiananpai,.zi_yhsjap
+{
+&:before { content: "\e5f1"; }
+}
+
+//用户设置
+.zi_usercog,.zi_yonghushezhi,.zi_yhsz
+{
+&:before { content: "\e5f2"; }
+}
+
+//用户编辑
+.zi_useredit,.zi_yonghubianji,.zi_yhbj
+{
+&:before { content: "\e5f3"; }
+}
+
+//用户好友
+.zi_userfriends,.zi_yonghuhaoyou,.zi_yhhy
+{
+&:before { content: "\e5f4"; }
+}
+
+//用户学历
+.zi_usergraduate,.zi_yonghuxueli,.zi_yhxl
+{
+&:before { content: "\e5f5"; }
+}
+
+//锁定用户
+.zi_userlock,.zi_suodingyonghu,.zi_sdyh
+{
+&:before { content: "\e5f6"; }
+}
+
+//用户手册
+.zi_usermd,.zi_yonghushouce,.zi_yhsc
+{
+&:before { content: "\e5f7"; }
+}
+
+//用户减少
+.zi_userminus,.zi_yonghujianshao,.zi_yhjs
+{
+&:before { content: "\e5f8"; }
+}
+
+//忍者
+.zi_userninja,.zi_renzhe,.zi_rz
+{
+&:before { content: "\e5f9"; }
+}
+
+//用户增加
+.zi_userplus,.zi_yonghuzengjia,.zi_yhzj
+{
+&:before { content: "\e5fa"; }
+}
+
+//匿名用户
+.zi_usersecret,.zi_nimingyonghu,.zi_nmyh
+{
+&:before { content: "\e5fb"; }
+}
+
+//用户保护
+.zi_usershield,.zi_yonghubaohu,.zi_yhbh
+{
+&:before { content: "\e5fc"; }
+}
+
+//用户组禁用
+.zi_userslash,.zi_yonghuzujinyong,.zi_yhzjy
+{
+&:before { content: "\e5fd"; }
+}
+
+//用户标签
+.zi_usertag,.zi_yonghubiaoqian,.zi_yhbq
+{
+&:before { content: "\e5fe"; }
+}
+
+//用户联系
+.zi_usertie,.zi_yonghulianxi,.zi_yhlx
+{
+&:before { content: "\e5ff"; }
+}
+
+//用户错误
+.zi_usertimes,.zi_yonghucuowu,.zi_yhcw
+{
+&:before { content: "\e600"; }
+}
+
+//用户标志
+.zi_user,.zi_yonghubiaozhi,.zi_yhbz
+{
+&:before { content: "\e601"; }
+}
+
+//用户组设置
+.zi_userscog,.zi_yonghuzushezhi,.zi_yhzsz
+{
+&:before { content: "\e602"; }
+}
+
+//用户组
+.zi_users,.zi_yonghuzu,.zi_yhz
+{
+&:before { content: "\e603"; }
+}
+
+//餐具勺
+.zi_utensilspoon,.zi_canjushao,.zi_cjs
+{
+&:before { content: "\e604"; }
+}
+
+//餐具刀叉
+.zi_utensils,.zi_canjudaocha,.zi_cjdc
+{
+&:before { content: "\e605"; }
+}
+
+//维努斯双标
+.zi_venusdouble,.zi_weinusishuangbiao,.zi_wnssb
+{
+&:before { content: "\e606"; }
+}
+
+//维努斯马斯标志
+.zi_venusmars,.zi_weinusimasibiaozhi,.zi_wnsmsbz
+{
+&:before { content: "\e607"; }
+}
+
+//维努斯标志
+.zi_venus,.zi_weinusibiaozhi,.zi_wnsbz
+{
+&:before { content: "\e608"; }
+}
+
+//试管
+.zi_vial,.zi_shiguan,.zi_sg
+{
+&:before { content: "\e609"; }
+}
+
+//试管组
+.zi_vials,.zi_shiguanzu,.zi_sgz
+{
+&:before { content: "\e60a"; }
+}
+
+//禁止摄像
+.zi_videoslash,.zi_jinzhishexiang,.zi_jzsx
+{
+&:before { content: "\e60b"; }
+}
+
+//摄像
+.zi_video,.zi_shexiang,.zi_sx
+{
+&:before { content: "\e60c"; }
+}
+
+//排球标志
+.zi_volleyballball,.zi_paiqiubiaozhi,.zi_pqbz
+{
+&:before { content: "\e60d"; }
+}
+
+//音量减小
+.zi_volumedown,.zi_yinliangjianxiao,.zi_yljx
+{
+&:before { content: "\e60e"; }
+}
+
+//静音标志
+.zi_volumeoff,.zi_jingyinbiaozhi,.zi_jybzhi
+{
+&:before { content: "\e60f"; }
+}
+
+//音量放大
+.zi_volumeup,.zi_yinliangfangda,.zi_ylfd
+{
+&:before { content: "\e610"; }
+}
+
+//人行标志
+.zi_walking,.zi_renxingbiaozhi,.zi_rxbz
+{
+&:before { content: "\e611"; }
+}
+
+//钱包黑
+.zi_wallet,.zi_qianbaohei,.zi_qbh
+{
+&:before { content: "\e612"; }
+}
+
+//仓库黑
+.zi_warehouse,.zi_cangkuhei,.zi_ckh
+{
+&:before { content: "\e613"; }
+}
+
+//体重黑
+.zi_weight,.zi_tizhonghei,.zi_tzh
+{
+&:before { content: "\e614"; }
+}
+
+//轮椅
+.zi_wheelchair,.zi_lunyi,.zi_lyhei
+{
+&:before { content: "\e615"; }
+}
+
+//wifi网络
+.zi_wifi,.zi_wifiwangluo,.zi_wifiwl
+{
+&:before { content: "\e616"; }
+}
+
+//关闭窗口标志
+.zi_windowclose,.zi_guanbichuangkoubiaozhi,.zi_gbckbz
+{
+&:before { content: "\e617"; }
+}
+
+//窗口最大化
+.zi_windowmaximize,.zi_chuangkouzuidahua,.zi_ckzdh
+{
+&:before { content: "\e618"; }
+}
+
+//窗口最小化
+.zi_windowminimize,.zi_chuangkouzuixiaohua,.zi_ckzxh
+{
+&:before { content: "\e619"; }
+}
+
+//窗口恢复
+.zi_windowrestore,.zi_chuangkouhuifu,.zi_ckhf
+{
+&:before { content: "\e61a"; }
+}
+
+//红酒杯
+.zi_wineglass,.zi_hongjiubei,.zi_hjb
+{
+&:before { content: "\e61b"; }
+}
+
+//胜利标志
+.zi_wonsign,.zi_shenglibiaozhi,.zi_slbz
+{
+&:before { content: "\e61c"; }
+}
+
+//维修标志
+.zi_wrench,.zi_weixiubiaozhi,.zi_wxbz
+{
+&:before { content: "\e61d"; }
+}
+
+//X射线标志
+.zi_xray,.zi_Xshexianbiaozhi,.zi_Xsxbz
+{
+&:before { content: "\e61e"; }
+}
+
+//人民币与日元符
+.zi_yensign,.zi_riyuanfu,.zi_ryf
+{
+&:before { content: "\e61f"; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
