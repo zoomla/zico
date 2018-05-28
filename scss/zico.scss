@@ -6,14 +6,13 @@
 //.a2{background: $中国人民中华人民共和国变量之二;}
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
-/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com*/
+/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com  http://ico.z01.com  */
 
 @charset "utf-8";
 @import "global";
 @import "规格动作";
-@import "zico_tm.css";
-@import "zico_gov.css";
-
+@import "zico_tm.min.css";
+@import "zico_gov.min.css";
 
 @font-face {
     font-family: "zico";
@@ -49,7 +48,6 @@
 line-height:inherit; }
 
 .zi{font-family:"zico","zicoTm","zicoGov";}
-
 
 //酒杯
 .zi_glass,.zi_jiubi,.zi_jb
@@ -4557,8 +4555,683 @@ line-height:inherit; }
 &:before { content: "\e61f"; }
 }
 
+//馒头
+.zi_steamedroll,.zi_mantou,.zi_mt
+{
+&:before { content: "\e620"; }
+}
 
+//窝窝头
+.zi_steamedrolls,.zi_wowotou,.zi_wwt
+{
+&:before { content: "\e621"; }
+}
 
+//包子
+.zi_bun,.zi_baozi,.zi_bzi
+{
+&:before { content: "\e622"; }
+}
+
+//饺子
+.zi_dumplings,.zi_jiaozi,.zi_jzi
+{
+&:before { content: "\e623"; }
+}
+
+//一碗面
+.zi_asurface,.zi_yiwanmian,.zi_ywm
+{
+&:before { content: "\e624"; }
+}
+
+//一碗饭
+.zi_arice,.zi_yiwanfan,.zi_ywf
+{
+&:before { content: "\e625"; }
+}
+
+//骨科关节
+.zi_bone,.zi_gukeguanjie,.zi_gkgj
+{
+&:before { content: "\e626"; }
+}
+
+//脚刹车
+.zi_brake,.zi_jiaoshache,.zi_jsc
+{
+&:before { content: "\e627"; }
+}
+
+//一碗馒头
+.zi_aroll,.zi_yiwanmantou,.zi_ywmt
+{
+&:before { content: "\e628"; }
+}
+
+//东方明珠塔
+.zi_tvtowe,.zi_dongfangmingzhuta,.zi_dfmzt
+{
+&:before { content: "\e629"; }
+}
+
+//毛笔
+.zi_writing,.zi_maobi,.zi_mb
+{
+&:before { content: "\e62a"; }
+}
+
+//和尚僧人
+.zi_monk,.zi_heshangsengren,.zi_hssr
+{
+&:before { content: "\e62b"; }
+}
+
+//观音大佛
+.zi_buddha,.zi_guanyindafo,.zi_gydf
+{
+&:before { content: "\e62c"; }
+}
+
+//弥勒佛笑
+.zi_buddhas,.zi_milefoxiao,.zi_mlfx
+{
+&:before { content: "\e62d"; }
+}
+
+//香炉
+.zi_incenseburner,.zi_xianglu,.zi_xlu
+{
+&:before { content: "\e62e"; }
+}
+
+//空姐
+.zi_flightatten,.zi_kongjie,.zi_kji
+{
+&:before { content: "\e62f"; }
+}
+
+//麻将牌
+.zi_mahjong,.zi_majiangpai,.zi_mjp
+{
+&:before { content: "\e630"; }
+}
+
+//保定古城
+.zi_baodingcity,.zi_baodinggucheng,.zi_bdgc
+{
+&:before { content: "\e631"; }
+}
+
+//圆国旗
+.zi_roundFlag,.zi_yuanguoqi,.zi_ygq
+{
+&:before { content: "\e632"; }
+}
+
+//中国地图
+.zi_chinaMap,.zi_zhongguoditu,.zi_zgdt
+{
+&:before { content: "\e633"; }
+}
+
+//龙头
+.zi_dragon,.zi_longtou,.zi_lto
+{
+&:before { content: "\e634"; }
+}
+
+//老虎头
+.zi_tigerHead,.zi_laohutou,.zi_lht
+{
+&:before { content: "\e635"; }
+}
+
+//红包
+.zi_redevelope,.zi_hongbao,.zi_hba
+{
+&:before { content: "\e636"; }
+}
+
+//寺院古建筑
+.zi_ancientarchite,.zi_siyuangujianzhu,.zi_sygjz
+{
+&:before { content: "\e637"; }
+}
+
+//小偷坏人伤者
+.zi_Thief,.zi_xiaotouhuairenshangzhe,.zi_xthrsz
+{
+&:before { content: "\e638"; }
+}
+
+//羽毛球
+.zi_badminton,.zi_yumaoqiu,.zi_ymq
+{
+&:before { content: "\e639"; }
+}
+
+//福字圆
+.zi_Fucircle,.zi_fuziyuan,.zi_fzy
+{
+&:before { content: "\e63a"; }
+}
+
+//爱心线带
+.zi_Lovecord,.zi_aixinxiandai,.zi_axxd
+{
+&:before { content: "\e63b"; }
+}
+
+//爱心重
+.zi_loves,.zi_aixinzhong,.zi_axz
+{
+&:before { content: "\e63c"; }
+}
+
+//性感红唇
+.zi_Sexylips,.zi_xingganhongchun,.zi_xghc
+{
+&:before { content: "\e63d"; }
+}
+
+//圣诞老人
+.zi_SantaClaus,.zi_shengdanlaoren,.zi_sdlr
+{
+&:before { content: "\e63e"; }
+}
+
+//雪人
+.zi_snowman,.zi_xueren,.zi_xr
+{
+&:before { content: "\e63f"; }
+}
+
+//圣诞袜子
+.zi_Christmasstoc,.zi_shengdanwazi,.zi_sdwz
+{
+&:before { content: "\e640"; }
+}
+
+//中国龙
+.zi_Chinesedragon,.zi_zhongguolong,.zi_zgl
+{
+&:before { content: "\e641"; }
+}
+
+//灯笼
+.zi_lantern,.zi_denglong,.zi_dlo
+{
+&:before { content: "\e642"; }
+}
+
+//中国伞
+.zi_Chineseumbre,.zi_zhongguosan,.zi_zgs
+{
+&:before { content: "\e643"; }
+}
+
+//莲花
+.zi_lotus,.zi_lianhua,.zi_lh
+{
+&:before { content: "\e644"; }
+}
+
+//螃蟹
+.zi_crab,.zi_pangxie,.zi_px
+{
+&:before { content: "\e645"; }
+}
+
+//风铃
+.zi_windbell,.zi_fengling,.zi_fl
+{
+&:before { content: "\e646"; }
+}
+
+//吉祥
+.zi_auspicious,.zi_jixiang,.zi_jx
+{
+&:before { content: "\e647"; }
+}
+
+//兔子
+.zi_rabbit,.zi_tuzi,.zi_tzi
+{
+&:before { content: "\e648"; }
+}
+
+//八卦
+.zi_Gossip,.zi_bagua,.zi_bg
+{
+&:before { content: "\e649"; }
+}
+
+//福袋
+.zi_Fubao,.zi_fudai,.zi_fd
+{
+&:before { content: "\e64a"; }
+}
+
+//剪纸
+.zi_Papercut,.zi_jianzhi,.zi_jzhi
+{
+&:before { content: "\e64b"; }
+}
+
+//美女
+.zi_beauty,.zi_meinv,.zi_mnv
+{
+&:before { content: "\e64c"; }
+}
+
+//鞭炮
+.zi_firecracker,.zi_bianpao,.zi_bp
+{
+&:before { content: "\e64d"; }
+}
+
+//三轮车
+.zi_Tricycle,.zi_sanlunche,.zi_slc
+{
+&:before { content: "\e64e"; }
+}
+
+//长城墙
+.zi_GreatWalls,.zi_changchengqiang,.zi_ccq
+{
+&:before { content: "\e64f"; }
+}
+
+//招财猫
+.zi_LuckyCat,.zi_zhaocaimao,.zi_zcm
+{
+&:before { content: "\e650"; }
+}
+
+//挂灯笼
+.zi_Hanlantern,.zi_guadenglong,.zi_gdl
+{
+&:before { content: "\e651"; }
+}
+
+//坛子
+.zi_jug,.zi_tanzi,.zi_tzhi
+{
+&:before { content: "\e652"; }
+}
+
+//超人
+.zi_Superman,.zi_chaoren,.zi_cr
+{
+&:before { content: "\e653"; }
+}
+
+//猿猴
+.zi_Monkey,.zi_yuanhou,.zi_yh
+{
+&:before { content: "\e654"; }
+}
+
+//天坛
+.zi_TempleHeaven,.zi_tiantan,.zi_tt
+{
+&:before { content: "\e655"; }
+}
+
+//双鱼
+.zi_Pisces,.zi_shuangyu,.zi_syu
+{
+&:before { content: "\e656"; }
+}
+
+//中国结
+.zi_Chineseknot,.zi_zhongguojie,.zi_zgj
+{
+&:before { content: "\e657"; }
+}
+
+//中国大伞
+.zi_Chineseumbres,.zi_zhongguodasan,.zi_zgds
+{
+&:before { content: "\e658"; }
+}
+
+//上课
+.zi_Class,.zi_shangke,.zi_sk
+{
+&:before { content: "\e659"; }
+}
+
+//演讲
+.zi_Speech,.zi_yanjiang,.zi_yji
+{
+&:before { content: "\e65a"; }
+}
+
+//博士
+.zi_PhD,.zi_boshi,.zi_bsi
+{
+&:before { content: "\e65b"; }
+}
+
+//枫叶
+.zi_mapleleaf,.zi_fengye,.zi_fye
+{
+&:before { content: "\e65c"; }
+}
+
+//气球
+.zi_balloon,.zi_qiqiu,.zi_qqi
+{
+&:before { content: "\e65d"; }
+}
+
+//车厘子樱桃
+.zi_cherry,.zi_cheliziyingtao,.zi_clzyt
+{
+&:before { content: "\e65e"; }
+}
+
+//玉米
+.zi_corn,.zi_yumi,.zi_ymi
+{
+&:before { content: "\e65f"; }
+}
+
+//铜钱
+.zi_Coppermoney,.zi_tongqian,.zi_tq
+{
+&:before { content: "\e660"; }
+}
+
+//福来了
+.zi_Blessed,.zi_fulaile,.zi_fll
+{
+&:before { content: "\e661"; }
+}
+
+//浇花
+.zi_Waterflowers,.zi_jiaohua,.zi_jhu
+{
+&:before { content: "\e662"; }
+}
+
+//喜鹊
+.zi_Magpies,.zi_xique,.zi_xq
+{
+&:before { content: "\e663"; }
+}
+
+//小树苗
+.zi_litesapling,.zi_xiaoshumiao,.zi_xsmi
+{
+&:before { content: "\e664"; }
+}
+
+//潜水眼镜
+.zi_Divingglasses,.zi_qianshuiyanjing,.zi_qsyj
+{
+&:before { content: "\e665"; }
+}
+
+//遮阳伞
+.zi_Parasols,.zi_zheyangsan,.zi_zys
+{
+&:before { content: "\e666"; }
+}
+
+//椰树
+.zi_Coco,.zi_yeshu,.zi_ysu
+{
+&:before { content: "\e667"; }
+}
+
+//帆船
+.zi_sailboat,.zi_fanchuan,.zi_fc
+{
+&:before { content: "\e668"; }
+}
+
+//拖鞋
+.zi_flipflop,.zi_tuoxie,.zi_txi
+{
+&:before { content: "\e669"; }
+}
+
+//苹果
+.zi_apple,.zi_pingguo,.zi_pg
+{
+&:before { content: "\e66a"; }
+}
+
+//玉米果实
+.zi_corns,.zi_yumiguoshi,.zi_ymgs
+{
+&:before { content: "\e66b"; }
+}
+
+//雪人小
+.zi_snowmans,.zi_xuerenxiao,.zi_xrx
+{
+&:before { content: "\e66c"; }
+}
+
+//木马
+.zi_Trojan,.zi_muma,.zi_mma
+{
+&:before { content: "\e66d"; }
+}
+
+//网络
+.zi_www,.zi_wangluo,.zi_wl
+{
+&:before { content: "\e66e"; }
+}
+
+//上网
+.zi_internet,.zi_shangwang,.zi_sw
+{
+&:before { content: "\e66f"; }
+}
+
+//ICP备案
+.zi_icp,.zi_ICPbeian,.zi_ICPba
+{
+&:before { content: "\e670"; }
+}
+
+//大脑
+.zi_brain,.zi_danao,.zi_dn
+{
+&:before { content: "\e671"; }
+}
+
+//白菜
+.zi_cabbage,.zi_baicai,.zi_bc
+{
+&:before { content: "\e672"; }
+}
+
+//白菜圆
+.zi_Cabbageround,.zi_baicaiyuan,.zi_bcy
+{
+&:before { content: "\e673"; }
+}
+
+//医疗滴管
+.zi_Medicaldropper,.zi_yiliaodiguan,.zi_yldg
+{
+&:before { content: "\e674"; }
+}
+
+//公文
+.zi_Officialdocument,.zi_gongwen,.zi_gw
+{
+&:before { content: "\e675"; }
+}
+
+//天安门
+.zi_tiananmen,.zi_tam
+{
+&:before { content: "\e676"; }
+}
+
+//火锅
+.zi_HotPot,.zi_huoguo,.zi_hgu
+{
+&:before { content: "\e677"; }
+}
+
+//花束
+.zi_bouquet,.zi_huashu,.zi_hs
+{
+&:before { content: "\e678"; }
+}
+
+//母女
+.zi_Motherdaughter,.zi_munv,.zi_mn
+{
+&:before { content: "\e679"; }
+}
+
+//口红
+.zi_kiipstick,.zi_kouhong,.zi_kh
+{
+&:before { content: "\e67a"; }
+}
+
+//中国日历
+.zi_Chinesecalendar,.zi_zhongguorili,.zi_zgrl
+{
+&:before { content: "\e67b"; }
+}
+
+//口唇
+.zi_lips,.zi_kouchun,.zi_kc
+{
+&:before { content: "\e67c"; }
+}
+
+//口唇线条
+.zi_lipline,.zi_kouchunxiantiao,.zi_kcxt
+{
+&:before { content: "\e67d"; }
+}
+
+//松鼠
+.zi_squirrel,.zi_songshu,.zi_ssv
+{
+&:before { content: "\e67e"; }
+}
+
+//松树
+.zi_pine,.zi_songshus,.zi_ssu
+{
+&:before { content: "\e67f"; }
+}
+
+//医疗剪刀
+.zi_Medicalscissors,.zi_yiliaojiandao,.zi_yljd
+{
+&:before { content: "\e680"; }
+}
+
+//救生直升机
+.zi_lifeHelicopter,.zi_jiushengzhishengji,.zi_jszsj
+{
+&:before { content: "\e681"; }
+}
+
+//男医生
+.zi_Maledoctor,.zi_nanyisheng,.zi_nys
+{
+&:before { content: "\e682"; }
+}
+
+//女医生
+.zi_Femaledoctor,.zi_nvyisheng,.zi_nyss
+{
+&:before { content: "\e683"; }
+}
+
+//护士长
+.zi_headnurse,.zi_hushichang,.zi_hsc
+{
+&:before { content: "\e684"; }
+}
+
+//护士医疗站
+.zi_nursestation,.zi_hushiyiliaozhan,.zi_hsylz
+{
+&:before { content: "\e685"; }
+}
+
+//担架
+.zi_stretcher,.zi_danjia,.zi_dji
+{
+&:before { content: "\e686"; }
+}
+
+//输液病床
+.zi_infusionbed,.zi_shuyebingchuang,.zi_sybc
+{
+&:before { content: "\e687"; }
+}
+
+//急救医生
+.zi_emergencydoctor,.zi_jijiuyisheng,.zi_jjys
+{
+&:before { content: "\e688"; }
+}
+
+//创口帖
+.zi_woundplacard,.zi_chuangkoutie,.zi_ckti
+{
+&:before { content: "\e689"; }
+}
+
+//孕妇胎儿
+.zi_pregnantfetus,.zi_yunfutaier,.zi_yfte
+{
+&:before { content: "\e68a"; }
+}
+
+//放射标志
+.zi_radiationsign,.zi_fangshebiaozhi,.zi_fsbz
+{
+&:before { content: "\e68b"; }
+}
+
+//鼻子
+.zi_nose,.zi_bizi
+{
+&:before { content: "\e68c"; }
+}
+
+//爷爷
+.zi_grandfather,.zi_yeye,.zi_yye
+{
+&:before { content: "\e68d"; }
+}
+
+//爸爸
+.zi_father,.zi_baba,.zi_bb
+{
+&:before { content: "\e68e"; }
+}
+
+//妈妈
+.zi_mom,.zi_mama,.zi_mm
+{
+&:before { content: "\e68f"; }
+}
+
+//母亲母女
+.zi_mother,.zi_muqinmunv,.zi_mqmn
+{
+&:before { content: "\e690"; }
+}
 
 
 

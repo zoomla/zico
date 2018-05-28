@@ -1,7 +1,7 @@
 @charset "UTF-8";
-/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com*/
-@import url(zico_tm.css);
-@import url(zico_gov.css);
+/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com  http://ico.z01.com  */
+@import url(zico_tm.min.css);
+@import url(zico_gov.min.css);
 .zi_lg { font-size: 1.8rem; line-height: 0.8rem; vertical-align: -.08rem; }
 
 .zi_sm { font-size: .8rem; }
@@ -1620,6 +1620,232 @@ font-style: normal; font-weight: normal; }
 .zi_xray:before, .zi_Xshexianbiaozhi:before, .zi_Xsxbz:before { content: "\e61e"; }
 
 .zi_yensign:before, .zi_riyuanfu:before, .zi_ryf:before { content: "\e61f"; }
+
+.zi_steamedroll:before, .zi_mantou:before, .zi_mt:before { content: "\e620"; }
+
+.zi_steamedrolls:before, .zi_wowotou:before, .zi_wwt:before { content: "\e621"; }
+
+.zi_bun:before, .zi_baozi:before, .zi_bzi:before { content: "\e622"; }
+
+.zi_dumplings:before, .zi_jiaozi:before, .zi_jzi:before { content: "\e623"; }
+
+.zi_asurface:before, .zi_yiwanmian:before, .zi_ywm:before { content: "\e624"; }
+
+.zi_arice:before, .zi_yiwanfan:before, .zi_ywf:before { content: "\e625"; }
+
+.zi_bone:before, .zi_gukeguanjie:before, .zi_gkgj:before { content: "\e626"; }
+
+.zi_brake:before, .zi_jiaoshache:before, .zi_jsc:before { content: "\e627"; }
+
+.zi_aroll:before, .zi_yiwanmantou:before, .zi_ywmt:before { content: "\e628"; }
+
+.zi_tvtowe:before, .zi_dongfangmingzhuta:before, .zi_dfmzt:before { content: "\e629"; }
+
+.zi_writing:before, .zi_maobi:before, .zi_mb:before { content: "\e62a"; }
+
+.zi_monk:before, .zi_heshangsengren:before, .zi_hssr:before { content: "\e62b"; }
+
+.zi_buddha:before, .zi_guanyindafo:before, .zi_gydf:before { content: "\e62c"; }
+
+.zi_buddhas:before, .zi_milefoxiao:before, .zi_mlfx:before { content: "\e62d"; }
+
+.zi_incenseburner:before, .zi_xianglu:before, .zi_xlu:before { content: "\e62e"; }
+
+.zi_flightatten:before, .zi_kongjie:before, .zi_kji:before { content: "\e62f"; }
+
+.zi_mahjong:before, .zi_majiangpai:before, .zi_mjp:before { content: "\e630"; }
+
+.zi_baodingcity:before, .zi_baodinggucheng:before, .zi_bdgc:before { content: "\e631"; }
+
+.zi_roundFlag:before, .zi_yuanguoqi:before, .zi_ygq:before { content: "\e632"; }
+
+.zi_chinaMap:before, .zi_zhongguoditu:before, .zi_zgdt:before { content: "\e633"; }
+
+.zi_dragon:before, .zi_longtou:before, .zi_lto:before { content: "\e634"; }
+
+.zi_tigerHead:before, .zi_laohutou:before, .zi_lht:before { content: "\e635"; }
+
+.zi_redevelope:before, .zi_hongbao:before, .zi_hba:before { content: "\e636"; }
+
+.zi_ancientarchite:before, .zi_siyuangujianzhu:before, .zi_sygjz:before { content: "\e637"; }
+
+.zi_Thief:before, .zi_xiaotouhuairenshangzhe:before, .zi_xthrsz:before { content: "\e638"; }
+
+.zi_badminton:before, .zi_yumaoqiu:before, .zi_ymq:before { content: "\e639"; }
+
+.zi_Fucircle:before, .zi_fuziyuan:before, .zi_fzy:before { content: "\e63a"; }
+
+.zi_Lovecord:before, .zi_aixinxiandai:before, .zi_axxd:before { content: "\e63b"; }
+
+.zi_loves:before, .zi_aixinzhong:before, .zi_axz:before { content: "\e63c"; }
+
+.zi_Sexylips:before, .zi_xingganhongchun:before, .zi_xghc:before { content: "\e63d"; }
+
+.zi_SantaClaus:before, .zi_shengdanlaoren:before, .zi_sdlr:before { content: "\e63e"; }
+
+.zi_snowman:before, .zi_xueren:before, .zi_xr:before { content: "\e63f"; }
+
+.zi_Christmasstoc:before, .zi_shengdanwazi:before, .zi_sdwz:before { content: "\e640"; }
+
+.zi_Chinesedragon:before, .zi_zhongguolong:before, .zi_zgl:before { content: "\e641"; }
+
+.zi_lantern:before, .zi_denglong:before, .zi_dlo:before { content: "\e642"; }
+
+.zi_Chineseumbre:before, .zi_zhongguosan:before, .zi_zgs:before { content: "\e643"; }
+
+.zi_lotus:before, .zi_lianhua:before, .zi_lh:before { content: "\e644"; }
+
+.zi_crab:before, .zi_pangxie:before, .zi_px:before { content: "\e645"; }
+
+.zi_windbell:before, .zi_fengling:before, .zi_fl:before { content: "\e646"; }
+
+.zi_auspicious:before, .zi_jixiang:before, .zi_jx:before { content: "\e647"; }
+
+.zi_rabbit:before, .zi_tuzi:before, .zi_tzi:before { content: "\e648"; }
+
+.zi_Gossip:before, .zi_bagua:before, .zi_bg:before { content: "\e649"; }
+
+.zi_Fubao:before, .zi_fudai:before, .zi_fd:before { content: "\e64a"; }
+
+.zi_Papercut:before, .zi_jianzhi:before, .zi_jzhi:before { content: "\e64b"; }
+
+.zi_beauty:before, .zi_meinv:before, .zi_mnv:before { content: "\e64c"; }
+
+.zi_firecracker:before, .zi_bianpao:before, .zi_bp:before { content: "\e64d"; }
+
+.zi_Tricycle:before, .zi_sanlunche:before, .zi_slc:before { content: "\e64e"; }
+
+.zi_GreatWalls:before, .zi_changchengqiang:before, .zi_ccq:before { content: "\e64f"; }
+
+.zi_LuckyCat:before, .zi_zhaocaimao:before, .zi_zcm:before { content: "\e650"; }
+
+.zi_Hanlantern:before, .zi_guadenglong:before, .zi_gdl:before { content: "\e651"; }
+
+.zi_jug:before, .zi_tanzi:before, .zi_tzhi:before { content: "\e652"; }
+
+.zi_Superman:before, .zi_chaoren:before, .zi_cr:before { content: "\e653"; }
+
+.zi_Monkey:before, .zi_yuanhou:before, .zi_yh:before { content: "\e654"; }
+
+.zi_TempleHeaven:before, .zi_tiantan:before, .zi_tt:before { content: "\e655"; }
+
+.zi_Pisces:before, .zi_shuangyu:before, .zi_syu:before { content: "\e656"; }
+
+.zi_Chineseknot:before, .zi_zhongguojie:before, .zi_zgj:before { content: "\e657"; }
+
+.zi_Chineseumbres:before, .zi_zhongguodasan:before, .zi_zgds:before { content: "\e658"; }
+
+.zi_Class:before, .zi_shangke:before, .zi_sk:before { content: "\e659"; }
+
+.zi_Speech:before, .zi_yanjiang:before, .zi_yji:before { content: "\e65a"; }
+
+.zi_PhD:before, .zi_boshi:before, .zi_bsi:before { content: "\e65b"; }
+
+.zi_mapleleaf:before, .zi_fengye:before, .zi_fye:before { content: "\e65c"; }
+
+.zi_balloon:before, .zi_qiqiu:before, .zi_qqi:before { content: "\e65d"; }
+
+.zi_cherry:before, .zi_cheliziyingtao:before, .zi_clzyt:before { content: "\e65e"; }
+
+.zi_corn:before, .zi_yumi:before, .zi_ymi:before { content: "\e65f"; }
+
+.zi_Coppermoney:before, .zi_tongqian:before, .zi_tq:before { content: "\e660"; }
+
+.zi_Blessed:before, .zi_fulaile:before, .zi_fll:before { content: "\e661"; }
+
+.zi_Waterflowers:before, .zi_jiaohua:before, .zi_jhu:before { content: "\e662"; }
+
+.zi_Magpies:before, .zi_xique:before, .zi_xq:before { content: "\e663"; }
+
+.zi_litesapling:before, .zi_xiaoshumiao:before, .zi_xsmi:before { content: "\e664"; }
+
+.zi_Divingglasses:before, .zi_qianshuiyanjing:before, .zi_qsyj:before { content: "\e665"; }
+
+.zi_Parasols:before, .zi_zheyangsan:before, .zi_zys:before { content: "\e666"; }
+
+.zi_Coco:before, .zi_yeshu:before, .zi_ysu:before { content: "\e667"; }
+
+.zi_sailboat:before, .zi_fanchuan:before, .zi_fc:before { content: "\e668"; }
+
+.zi_flipflop:before, .zi_tuoxie:before, .zi_txi:before { content: "\e669"; }
+
+.zi_apple:before, .zi_pingguo:before, .zi_pg:before { content: "\e66a"; }
+
+.zi_corns:before, .zi_yumiguoshi:before, .zi_ymgs:before { content: "\e66b"; }
+
+.zi_snowmans:before, .zi_xuerenxiao:before, .zi_xrx:before { content: "\e66c"; }
+
+.zi_Trojan:before, .zi_muma:before, .zi_mma:before { content: "\e66d"; }
+
+.zi_www:before, .zi_wangluo:before, .zi_wl:before { content: "\e66e"; }
+
+.zi_internet:before, .zi_shangwang:before, .zi_sw:before { content: "\e66f"; }
+
+.zi_icp:before, .zi_ICPbeian:before, .zi_ICPba:before { content: "\e670"; }
+
+.zi_brain:before, .zi_danao:before, .zi_dn:before { content: "\e671"; }
+
+.zi_cabbage:before, .zi_baicai:before, .zi_bc:before { content: "\e672"; }
+
+.zi_Cabbageround:before, .zi_baicaiyuan:before, .zi_bcy:before { content: "\e673"; }
+
+.zi_Medicaldropper:before, .zi_yiliaodiguan:before, .zi_yldg:before { content: "\e674"; }
+
+.zi_Officialdocument:before, .zi_gongwen:before, .zi_gw:before { content: "\e675"; }
+
+.zi_tiananmen:before, .zi_tam:before { content: "\e676"; }
+
+.zi_HotPot:before, .zi_huoguo:before, .zi_hgu:before { content: "\e677"; }
+
+.zi_bouquet:before, .zi_huashu:before, .zi_hs:before { content: "\e678"; }
+
+.zi_Motherdaughter:before, .zi_munv:before, .zi_mn:before { content: "\e679"; }
+
+.zi_kiipstick:before, .zi_kouhong:before, .zi_kh:before { content: "\e67a"; }
+
+.zi_Chinesecalendar:before, .zi_zhongguorili:before, .zi_zgrl:before { content: "\e67b"; }
+
+.zi_lips:before, .zi_kouchun:before, .zi_kc:before { content: "\e67c"; }
+
+.zi_lipline:before, .zi_kouchunxiantiao:before, .zi_kcxt:before { content: "\e67d"; }
+
+.zi_squirrel:before, .zi_songshu:before, .zi_ssv:before { content: "\e67e"; }
+
+.zi_pine:before, .zi_songshus:before, .zi_ssu:before { content: "\e67f"; }
+
+.zi_Medicalscissors:before, .zi_yiliaojiandao:before, .zi_yljd:before { content: "\e680"; }
+
+.zi_lifeHelicopter:before, .zi_jiushengzhishengji:before, .zi_jszsj:before { content: "\e681"; }
+
+.zi_Maledoctor:before, .zi_nanyisheng:before, .zi_nys:before { content: "\e682"; }
+
+.zi_Femaledoctor:before, .zi_nvyisheng:before, .zi_nyss:before { content: "\e683"; }
+
+.zi_headnurse:before, .zi_hushichang:before, .zi_hsc:before { content: "\e684"; }
+
+.zi_nursestation:before, .zi_hushiyiliaozhan:before, .zi_hsylz:before { content: "\e685"; }
+
+.zi_stretcher:before, .zi_danjia:before, .zi_dji:before { content: "\e686"; }
+
+.zi_infusionbed:before, .zi_shuyebingchuang:before, .zi_sybc:before { content: "\e687"; }
+
+.zi_emergencydoctor:before, .zi_jijiuyisheng:before, .zi_jjys:before { content: "\e688"; }
+
+.zi_woundplacard:before, .zi_chuangkoutie:before, .zi_ckti:before { content: "\e689"; }
+
+.zi_pregnantfetus:before, .zi_yunfutaier:before, .zi_yfte:before { content: "\e68a"; }
+
+.zi_radiationsign:before, .zi_fangshebiaozhi:before, .zi_fsbz:before { content: "\e68b"; }
+
+.zi_nose:before, .zi_bizi:before { content: "\e68c"; }
+
+.zi_grandfather:before, .zi_yeye:before, .zi_yye:before { content: "\e68d"; }
+
+.zi_father:before, .zi_baba:before, .zi_bb:before { content: "\e68e"; }
+
+.zi_mom:before, .zi_mama:before, .zi_mm:before { content: "\e68f"; }
+
+.zi_mother:before, .zi_muqinmunv:before, .zi_mqmn:before { content: "\e690"; }
 
 /*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
 

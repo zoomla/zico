@@ -6,207 +6,389 @@
 //.a2{background: $中国人民中华人民共和国变量之二;}
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
-
-
 //党徽
-.zi_govDh
+.zi_govDh,.zi_govDanghui
 {
 &:before { content: "\eee0"; }
 }
 
 //党徽线框
-.zi_govDhxk
+.zi_govDhxk,.zi_govDanghuix
 {
 &:before { content: "\eee1"; }
 }
 
 //入党
-.zi_govRd
+.zi_govRd,.zi_govRudang
 {
 &:before { content: "\eee2"; }
 }
 
 //政府印章
-.zi_govZfyz
+.zi_govZfyz,.zi_govZhengfuyinzhang
 {
 &:before { content: "\eee3"; }
 }
 
 //公安线框
-.zi_govGaxk
+.zi_govGaxk,.zi_govGonganxiankuang
 {
 &:before { content: "\eee4"; }
 }
 
 //法院
-.zi_govFy
+.zi_govFy,.zi_govFayuan
 {
 &:before { content: "\eee5"; }
 }
 
 //省政府外侨办
-.zi_govSzfwqb
+.zi_govSzfwqb,.zi_govUwaiqiaoban
 {
 &:before { content: "\eee6"; }
 }
 
 //政府报表
-.zi_govZfbb
+.zi_govZfbb,.zi_govZhengfubaobiao
 {
 &:before { content: "\eee7"; }
 }
 
 //工程建设
-.zi_govGcjs
+.zi_govGcjs,.zi_govGongchengjianshe
 {
 &:before { content: "\eee8"; }
 }
 
 //领取补贴
-.zi_govLqbt
+.zi_govLqbt,.zi_govLingqubutie
 {
 &:before { content: "\eee9"; }
 }
 
 //公安警察
-.zi_govGajc
+.zi_govGajc,.zi_govGonganjingcha
 {
 &:before { content: "\eeea"; }
 }
 
 //门卫站岗
-.zi_govMwzg
+.zi_govMwzg,.zi_govMenweizhangang
 {
 &:before { content: "\eeeb"; }
 }
 
 //公安管辖
-.zi_govGagx
+.zi_govGagx,.zi_govGonganguanxia
 {
 &:before { content: "\eeec"; }
 }
 
 //公安简明
-.zi_govGajm
+.zi_govGajm,.zi_govGonganjianming
 {
 &:before { content: "\eeed"; }
 }
 
 //安全引导
-.zi_govAqyd
+.zi_govAqyd,.zi_govAnquanyindao
 {
 &:before { content: "\eeee"; }
 }
 
 //警灯
-.zi_govJd
+.zi_govJd,.zi_govJingdeng
 {
 &:before { content: "\eeef"; }
 }
 
 //公安印章
-.zi_govGayz
+.zi_govGayz,.zi_govGonganyinzhang
 {
 &:before { content: "\eef0"; }
 }
 
 //公安记录
-.zi_govGajl
+.zi_govGajl,.zi_govGonganjilu
 {
 &:before { content: "\eef1"; }
 }
 
 //后勤人员
-.zi_govHqry
+.zi_govHqry,.zi_govHouqinrenyuan
 {
 &:before { content: "\eef2"; }
 }
 
-//公安监控
+//公安监控,.zi_govGonganjiankong
 .zi_govGajk
 {
 &:before { content: "\eef3"; }
 }
 
 //公共安全
-.zi_govGgaq
+.zi_govGgaq,.zi_govGonggonganquan
 {
 &:before { content: "\eef4"; }
 }
 
 //安全井盖
-.zi_govAqjg
+.zi_govAqjg,.zi_govAnquanjinggai
 {
 &:before { content: "\eef5"; }
 }
 
 //消防栓
-.zi_govXfs
+.zi_govXfs,.zi_govXiaofangshuan
 {
 &:before { content: "\eef6"; }
 }
 
 //公安局
-.zi_govGaj
+.zi_govGaj,.zi_govGonganju
 {
 &:before { content: "\eef7"; }
 }
 
 //警察
-.zi_govJc
+.zi_govJc,.zi_govJingcha
 {
 &:before { content: "\eef8"; }
 }
 
 //安全守卫
-.zi_govAqsw
+.zi_govAqsw,.zi_govAnquanshouwei
 {
 &:before { content: "\eef9"; }
 }
 
 //派出所
-.zi_govPcs
+.zi_govPcs,.zi_govPaichusuo
 {
 &:before { content: "\eefa"; }
 }
 
 //110
-.zi_gov110
+.zi_gov110,.zi_gov110
 {
 &:before { content: "\eefb"; }
 }
 
 //上传证件
-.zi_govSczj
+.zi_govSczj,.zi_govShangchuanzjian
 {
 &:before { content: "\eefc"; }
 }
 
 //公安坐左
-.zi_govGazz
+.zi_govGazz,.zi_govGonganzuozuo
 {
 &:before { content: "\eefd"; }
 }
 
 //公安坐中
-.zi_govGazzo
+.zi_govGazzo,.zi_govGonganzuozhong
 {
 &:before { content: "\eefe"; }
 }
 
 //公安坐右
-.zi_govGazy{
+.zi_govGazy,.zi_govGonganzuoyou
+{
 &:before { content: "\eeff"; }
 }
 
+//五星发光
+.zi_govWuxin,.zi_govWxfg
+{
+&:before { content: "\eba0"; }
+}
 
+//国徽
+.zi_govGuohui,.zi_govGh
+{
+&:before { content: "\eba1"; }
+}
 
+//警徽
+.zi_govJinhui,.zi_govJh
+{
+&:before { content: "\eba2"; }
+}
 
+//国徽2
+.zi_govGuohui2,.zi_govGh2
+{
+&:before { content: "\eba3"; }
+}
 
+//和平橄榄
+.zi_govHepingganlan,.zi_govHpgl
+{
+&:before { content: "\eba4"; }
+}
 
+//国徽绿叶
+.zi_govGuohuilvye,.zi_govGhly
+{
+&:before { content: "\eba5"; }
+}
 
+//国徽叶
+.zi_govGuohuiye,.zi_govGhy
+{
+&:before { content: "\eba6"; }
+}
 
+//领导
+.zi_govLingdao,.zi_govLd
+{
+&:before { content: "\eba7"; }
+}
 
+//奖杯
+.zi_govJiangbei,.zi_govJb
+{
+&:before { content: "\eba8"; }
+}
+
+//集体决策
+.zi_govJitijuece,.zi_govJtjc
+{
+&:before { content: "\eba9"; }
+}
+
+//礼堂
+.zi_govLitang,.zi_govLt
+{
+&:before { content: "\ebaa"; }
+}
+
+//会议
+.zi_govHuiyi,.zi_govHy
+{
+&:before { content: "\ebab"; }
+}
+
+//军人
+.zi_govJunren,.zi_govJr
+{
+&:before { content: "\ebac"; }
+}
+
+//军徽
+.zi_govJunhui,.zi_govJhu
+{
+&:before { content: "\ebad"; }
+}
+
+//射击
+.zi_govSheji,.zi_govSj
+{
+&:before { content: "\ebae"; }
+}
+
+//坦克
+.zi_govTanke,.zi_govTk
+{
+&:before { content: "\ebaf"; }
+}
+
+//领导信箱
+.zi_govLingdaoxin,.zi_govLdxx
+{
+&:before { content: "\ebb0"; }
+}
+
+//文献典籍
+.zi_govWenxiandianji,.zi_govWxdj
+{
+&:before { content: "\ebb1"; }
+}
+
+//毛泽东毛主席
+.zi_govMaozhuxi,.zi_govMzdmzx
+{
+&:before { content: "\ebb2"; }
+}
+
+//公务员
+.zi_govGongwuyuan,.zi_govGwy
+{
+&:before { content: "\ebb3"; }
+}
+
+//政府考试
+.zi_govZhengfukaoshi,.zi_govZfks
+{
+&:before { content: "\ebb4"; }
+}
+
+//法律法锤
+.zi_govFalvfachui,.zi_govFlfc
+{
+&:before { content: "\ebb5"; }
+}
+
+//法律法锤2
+.zi_govFalvfachui2,.zi_govFlfc2
+{
+&:before { content: "\ebb6"; }
+}
+
+//法官
+.zi_govFaguan,.zi_govFg
+{
+&:before { content: "\ebb7"; }
+}
+
+//律师
+.zi_govLvshi,.zi_govLs
+{
+&:before { content: "\ebb8"; }
+}
+
+//法律制裁手拷
+.zi_govFalvzhicaishoukao,.zi_govFlzcsk
+{
+&:before { content: "\ebb9"; }
+}
+
+//紫荆花
+.zi_govZijinghua,.zi_govZjh
+{
+&:before { content: "\ebba"; }
+}
+
+//紫荆花圆
+.zi_govZijinghuayuan,.zi_govZjhy
+{
+&:before { content: "\ebbb"; }
+}
+
+//荷花澳门
+.zi_govHehuaaomen,.zi_govHham
+{
+&:before { content: "\ebbc"; }
+}
+
+//村庄居委会
+.zi_govCunzhuangjuweihui,.zi_govCzjwh
+{
+&:before { content: "\ebbd"; }
+}
+
+//台湾
+.zi_govTaiwan,.zi_govTw
+{
+&:before { content: "\ebbe"; }
+}
+
+//西藏高原
+.zi_govXizanggaoyuan,.zi_govXzgy
+{
+&:before { content: "\ebbf"; }
+}
 
 
 

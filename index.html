@@ -5,7 +5,7 @@
 <title>zico-专为中国开发者而生的跨平台图标解决方案|power by Zoomla!逐浪CMS团队</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >  
 <link rel="stylesheet" href="lib/bootstrap4.min.css" >
-<link href="css/zico.css" rel="stylesheet" type="text/css">
+<link href="css/zico.min.css" rel="stylesheet" type="text/css">
 <link href="lib/style.css" rel="stylesheet" type="text/css">
 <script src="lib/jquery-3.2.1.min.js" ></script>
 <script src="lib/popper.min.js"></script>
@@ -76,7 +76,7 @@
 <p>毫无疑问，我们有社交媒体图标，例如微信，微博，QQ，和各种类型的箭头。当然也有基本的图标如 电话， 主页， 和 设置。然而如果你想要一些更加非正统的东西 ，只需发出请求。保证不收费。</p>
 <div id="search" class="home_search">
 <label for="search-input"><i class="zi zi_search" aria-hidden="true"></i><span class="sr-only">搜索图标</span></label>
-<input id="search-input" class="form-control input-lg" placeholder="搜索图标" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1" />
+<input id="search-input" class="form-control input-lg" placeholder="支持拼音首字母简写、汉字、全拼、英文检索，如：音乐或yy" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1" />
 </div>
 </section>
 <!--m_iconlist end-->
@@ -1675,19 +1675,22 @@
 </section>
 <!--section end-->	
 
-<section class="container index_case">
-<ul>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
-<li><div href="#"><span><i class="zi zi_music"></i></span><small>zi_music</small><a href="#">查看详情</a></div></li>
+
+<section class="zico_list_case">
+<div class="container">
+<ul class="row">
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
+<li class="col-md-3"><div class="case_k" href="#"><span><i class="zi zi_glass"></i></span><small>zi_glass</small><a href="#"></a> </div></li>
 </ul>
+</div>
 </section>
-	
+
 	
 	
 	
@@ -1711,7 +1714,8 @@ $("#search-input").keyup(function(){
              //   str += '<div class="fa-hover col-md-3 col-sm-4">'+$(this).parent().parent().parent().html()+'</div>';
 			 var rest=$(this).parent().parent().attr("name").split(",");
 			 var titleb=$(this).parent().attr("class");
-              str+="<div class='search_case col-md-3 col-sm-4'><div class='search_con'><span class='ico'><i class='zi "+rest[0]+"'></i></span> <div class='icon_con'><span>中文名：<small>"+rest[1]+"</small></span><span>英文名：<small>"+rest[2]+"</small></span><span>别  名：<small>"+rest[3]+"</small></span><div class='a_btn'><div class='btn-group' role='group' aria-label='Basic example'><a href='javasrcipt:;' class='btn btn-outline-secondary btn-sm'  data-clipboard-text='请直接通过Class引用"+titleb+"即可，获取更多图标请进入：{$SiteURL/}' id='copyLink'>引用</a><a href='/Item/"+rest[4]+".aspx' class='btn btn-outline-secondary btn-sm' >详情</a></div></div></div></div></div>"  
+			 var zlihtml='<i class="'+titleb+'" zico="'+rest[1]+'"></i>'
+              str+="<div class='search_case col-md-3 col-sm-4'><div class='search_con'><span class='ico'><i class='zi "+rest[0]+"'></i></span> <div class='icon_con'><span>中文名：<small>"+rest[1]+"</small></span><span>英文名：<small>"+rest[2]+"</small></span><span>别  名：<small>"+rest[3]+"</small></span><div class='a_btn'><div class='btn-group' role='group' aria-label='Basic example'><a href='javasrcipt:;' class='btn btn-outline-secondary btn-sm'  data-clipboard-text='"+zlihtml+"' id='copyLink'>引用</a><a href='/Item/"+rest[4]+".aspx' class='btn btn-outline-secondary btn-sm' >详情</a></div></div></div></div></div>"  
             }
         });
         $("#search_show .zfont-icon-list").prepend(str);

@@ -1,7 +1,7 @@
 {
   "name": "zico",
-  "version": "0.0.1",
-  "description": "a web ico framework by Zoomla!CMS team",
+  "version": "0.0.4",
+  "description": "a web icon framework by Zoomla!CMS team",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,9 +16,22 @@
     "字体图标",
     "矢量图标",
     "保真图标",
+    "中国图标",
+    "政务图标",
     "免费图标",
-    "CMS"
+    "CMS图标"
   ],
   "author": "web@z01.com",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoomla/zico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoomla/zico/issues"
+  },
+  "homepage": "https://ico.z01.com"
 }

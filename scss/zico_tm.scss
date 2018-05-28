@@ -7,14 +7,13 @@
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
 
-//去上73ic
-.zi_tm73ic
+.zi_tm73ic,.zi_tm73
 {
 &:before { content: "\e870"; }
 }
 
 //字体ziti163
-.zi_tmZiti163
+.zi_tmZiti163,.zi_tmZt
 {
 &:before { content: "\e871"; }
 }
@@ -26,25 +25,25 @@
 }
 
 //逐浪软件
-.zi_tmZoomlacms,.zi_tmZlrj
+.zi_tmZoomlacms,.zi_tmZlc
 {
 &:before { content: "\e873"; }
 }
 
 //逐浪软件公司 
-.zi_tmZoomlasoft,.zi_tmZlrjgs
+.zi_tmZoomlasoft,.zi_tmZls
 {
 &:before { content: "\e874"; }
 }
 
 //百事
-.zi_tmPepsi,.zi_tmBs
+.zi_tmPepsi,.zi_tmPp
 {
 &:before { content: "\e875"; }
 }
 
 //雷克萨斯
-.zi_tmLexus,.zi_tmLkss
+.zi_tmLexus,.zi_tmLxu
 {
 &:before { content: "\e876"; }
 }
@@ -62,7 +61,7 @@
 }
 
 //IBM
-.zi_tmIbm
+.zi_tmIbm,.zi_tmI
 {
 &:before { content: "\e879"; }
 }
@@ -98,7 +97,8 @@
 }
 
 //Z
-.zi_tmZ
+.zi_tmz,.zi_tmZ
+
 {
 &:before { content: "\e87f"; }
 }
@@ -122,13 +122,13 @@
 }
 
 //qq
-.zi_tmQq
+.zi_tmQq,.zi_tmQ
 {
 &:before { content: "\e883"; }
 }
 
 //windows
-.zi_tmWindows
+.zi_tmWindows,.zi_tmWd
 {
 &:before { content: "\e884"; }
 }
@@ -164,31 +164,31 @@
 }
 
 //btc
-.zi_tmBtc
+.zi_tmBtc,.zi_tmBt
 {
 &:before { content: "\e88a"; }
 }
 
 //css3标准
-.zi_tmCss3Alt
+.zi_tmCss3Alt,.zi_tmC3
 {
 &:before { content: "\e88b"; }
 }
 
 //edge
-.zi_tmEdge
+.zi_tmEdge,.zi_tmEd
 {
 &:before { content: "\e88c"; }
 }
 
 //html5
-.zi_tmHtml5
+.zi_tmHtml5,.zi_tmH5
 {
 &:before { content: "\e88d"; }
 }
 
 //google
-.zi_tmGoogle
+.zi_tmGoogle,.zi_tmG
 {
 &:before { content: "\e88e"; }
 }
@@ -200,7 +200,7 @@
 }
 
 //css3
-.zi_tmCss3
+.zi_tmCss3,.tmCs3
 {
 &:before { content: "\e890"; }
 }
@@ -218,19 +218,19 @@
 }
 
 //forumbee
-.zi_tmForumbee
+.zi_tmForumbee,.zi_tmFb
 {
 &:before { content: "\e893"; }
 }
 
 //foursquare
-.zi_tmFoursquare
+.zi_tmFoursquare,.zi_tmFq
 {
 &:before { content: "\e894"; }
 }
 
 //freecamp
-.zi_tmFreecamp
+.zi_tmFreecamp,.zi_tmFd
 {
 &:before { content: "\e895"; }
 }
@@ -242,73 +242,72 @@
 }
 
 //cvcsby
-.zi_tmCvcsby
+.zi_tmCvcsby,.zi_tmCb
 {
 &:before { content: "\e897"; }
 }
 
 //cvcceu
-.zi_tmCvcceu
-{
+.zi_tmCvcceu,.zi_tmCeu{
 &:before { content: "\e898"; }
 }
 
 //cvcjp
-.zi_tmCvcjp
+.zi_tmCvcjp,.zi_tmCvc
 {
 &:before { content: "\e899"; }
 }
 
 //cvcosnc
-.zi_tmCvcosnc
+.zi_tmCvcosnc,.zi_tmCvco
 {
 &:before { content: "\e89a"; }
 }
 
 //cvcsnd
-.zi_tmCvcsnd
+.zi_tmCvcsnd,.zi_tmCvs
 {
 &:before { content: "\e89b"; }
 }
 
 //cvcdalt
-.zi_tmCvcdalt
+.zi_tmCvcdalt,.zi_tmCcd
 {
 &:before { content: "\e89c"; }
 }
 
 //cvspd
-.zi_tmCvspd
+.zi_tmCvspd,.zi_tmCd
 {
 &:before { content: "\e89d"; }
 }
 
 //cvmix
-.zi_tmCvmix
+.zi_tmCvmix,.zi_tmCm
 {
 &:before { content: "\e89e"; }
 }
 
 //cvcsa
-.zi_tmCvcsa
+.zi_tmCvcsa,.zi_tmCs
 {
 &:before { content: "\e89f"; }
 }
 
 //cvgplus
-.zi_tmCvgplus
+.zi_tmCvgplus,.zi_tmCp
 {
 &:before { content: "\e8a0"; }
 }
 
 //cvmpling
-.zi_tmCvmpling
+.zi_tmCvmpling,.zi_tmCpl
 {
 &:before { content: "\e8a1"; }
 }
 
 //cvnsshare
-.zi_tmCvnsshare
+.zi_tmCvnsshare,.zi_tmCsa
 {
 &:before { content: "\e8a2"; }
 }
@@ -320,37 +319,37 @@
 }
 
 //dropbox
-.zi_tmDropbox
+.zi_tmDropbox,.zi_tmDb
 {
 &:before { content: "\e8a4"; }
 }
 
 //envira
-.zi_tmEnvira
+.zi_tmEnvira,.zi_tmDv
 {
 &:before { content: "\e8a5"; }
 }
 
 //ethereum
-.zi_tmEthereum
+.zi_tmEthereum,.zi_tmEt
 {
 &:before { content: "\e8a6"; }
 }
 
 //expeditedssl
-.zi_tmExpeditedssl
+.zi_tmExpeditedssl,.zi_tmEdd
 {
 &:before { content: "\e8a7"; }
 }
 
 //谷歌浏览器
-.zi_tmChrome
+.zi_tmChrome,.zi_tmCr
 {
 &:before { content: "\e8a8"; }
 }
 
 //less
-.zi_tmLess
+.zi_tmLess,.zi_tmLe
 {
 &:before { content: "\e8a9"; }
 }
@@ -362,25 +361,25 @@
 }
 
 //mixcloud
-.zi_tmMixcloud
+.zi_tmMixcloud,.zi_tmMc
 {
 &:before { content: "\e8ab"; }
 }
 
 //sass
-.zi_tmSass
+.zi_tmSass,.zi_tmSa
 {
 &:before { content: "\e8ac"; }
 }
 
 //skype
-.zi_tmSkype
+.zi_tmSkype,.zi_tmSk
 {
 &:before { content: "\e8ad"; }
 }
 
 //java
-.zi_tmJava
+.zi_tmJava,.zi_tmJa
 {
 &:before { content: "\e8ae"; }
 }
@@ -391,38 +390,2312 @@
 &:before { content: "\e8af"; }
 }
 
+//国家电网
+.zi_tmSgcc,.zi_tmGjdw
+{
+&:before { content: "\e8b0"; }
+}
 
+//中石化
+.zi_tmSinopecsales,.zi_tmZsh
+{
+&:before { content: "\e8b1"; }
+}
+
+//中石油
+.zi_tmCnpc,.zi_tmZsy
+{
+&:before { content: "\e8b2"; }
+}
+
+//工商银行
+.zi_tmIcbc,.zi_tmGsyh
+{
+&:before { content: "\e8b3"; }
+}
+
+//中国建筑股份
+.zi_tmCscec,.zi_tmZgjzgf
+{
+&:before { content: "\e8b4"; }
+}
+
+//建设银行
+.zi_tmCcb,.zi_tmJsyh
+{
+&:before { content: "\e8b5"; }
+}
+
+//农业银行
+.zi_tmAbchina,.zi_tmNyyh
+{
+&:before { content: "\e8b6"; }
+}
+
+//平安保险
+.zi_tmPingan,.zi_tmPabx
+{
+&:before { content: "\e8b7"; }
+}
+
+//上海汽车集团
+.zi_tmSaicgroup,.zi_tmShqcjt
+{
+&:before { content: "\e8b8"; }
+}
+
+//中国银行
+.zi_tmBoc,.zi_tmZgyh
+{
+&:before { content: "\e8b9"; }
+}
+
+//中国移动
+.zi_tmChinamobile,.zi_tmZgyd
+{
+&:before { content: "\e8ba"; }
+}
+
+//中国人寿
+.zi_tmChinalife,.zi_tmZgrs
+{
+&:before { content: "\e8bb"; }
+}
+
+//中国铁路工程 
+.zi_tmCrecg,.zi_tmZgtlgc 
+{
+&:before { content: "\e8bc"; }
+}
+
+//中国铁建
+.zi_tmCrcc,.zi_tmZgtj
+{
+&:before { content: "\e8bd"; }
+}
+
+//东风
+.zi_tmDfl,.zi_tmDf
+{
+&:before { content: "\e8be"; }
+}
+
+//华为
+.zi_tmHuawei,.zi_tmHw
+{
+&:before { content: "\e8bf"; }
+}
+
+//华润
+.zi_tmCrc,.zi_tmHr
+{
+&:before { content: "\e8c0"; }
+}
+
+//南方电网
+.zi_tmCsg,.zi_tmNfdw
+{
+&:before { content: "\e8c1"; }
+}
+
+//中国邮政
+.zi_tmChinapost,.zi_tmZgyz
+{
+&:before { content: "\e8c2"; }
+}
+
+//人民保险
+.zi_tmEpicc,.zi_tmRmbx
+{
+&:before { content: "\e8c3"; }
+}
+
+//中国交通建设集团
+.zi_tmCccc,.zi_tmZgjtjsjt
+{
+&:before { content: "\e8c4"; }
+}
+
+//太平洋建设集团
+.zi_tmCgcg,.zi_tmTpyjsjt
+{
+&:before { content: "\e8c5"; }
+}
+
+//中国五矿集团
+.zi_tmMinmetals,.zi_tmZgwkjt
+{
+&:before { content: "\e8c6"; }
+}
+
+//一汽集团
+.zi_tmFaw,.zi_tmYqjt
+{
+&:before { content: "\e8c7"; }
+}
+
+//红旗车标
+.zi_tmHongqi,.zi_tmHqcb
+{
+&:before { content: "\e8c8"; }
+}
+
+//红旗车字
+.zi_tmHongqis,.zi_tmHqcz
+{
+&:before { content: "\e8c9"; }
+}
+
+//天津物产集团
+.zi_tmTweoo,.zi_tmTjwcjt
+{
+&:before { content: "\e8ca"; }
+}
+
+//中国电信
+.zi_tmChinatelecom,.zi_tmZgdx
+{
+&:before { content: "\e8cb"; }
+}
+
+//安邦保险
+.zi_tmAnbanggroup,.zi_tmAbbx
+{
+&:before { content: "\e8cc"; }
+}
+
+//苏宁易购
+.zi_tmSuning,.zi_tmSnyg
+{
+&:before { content: "\e8cd"; }
+}
+
+//中粮集团
+.zi_tmCofco,.zi_tmZljt
+{
+&:before { content: "\e8ce"; }
+}
+
+//北京汽车
+.zi_tmBaicmotor,.zi_tmBjqc
+{
+&:before { content: "\e8cf"; }
+}
+
+//中化集团
+.zi_tmSinochem,.zi_tmZhjt
+{
+&:before { content: "\e8d0"; }
+}
+
+//魏桥集团
+.zi_tmWeiqiaocy,.zi_tmWqjt
+{
+&:before { content: "\e8d1"; }
+}
+
+//中国航空工业集团
+.zi_tmAvic,.zi_tmZghkgyjt
+{
+&:before { content: "\e8d2"; }
+}
+
+//海航集团
+.zi_tmHnagroup,.zi_tmHhjt
+{
+&:before { content: "\e8d3"; }
+}
+
+//交通银行
+.zi_tmBankcomm,.zi_tmJtyh
+{
+&:before { content: "\e8d4"; }
+}
+
+//中信集团
+.zi_tmCitic,.zi_tmZxjt
+{
+&:before { content: "\e8d5"; }
+}
+
+//正威集团
+.zi_tmAmer,.zi_tmZwjt
+{
+&:before { content: "\e8d6"; }
+}
+
+//中国医药集团
+.zi_tmSinopharm,.zi_tmZgyyjt
+{
+&:before { content: "\e8d7"; }
+}
+
+//宝武钢铁
+.zi_tmBaowugroup,.zi_tmBwgt
+{
+&:before { content: "\e8d8"; }
+}
+
+//联想
+.zi_tmLenovo,.zi_tmLx
+{
+&:before { content: "\e8d9"; }
+}
+
+//招商银行
+.zi_tmCmbchina,.zi_tmZsyh
+{
+&:before { content: "\e8da"; }
+}
+
+//中国华信能源
+.zi_tmCefc,.zi_tmZghxny
+{
+&:before { content: "\e8db"; }
+}
+
+//河钢集团
+.zi_tmHbis,.zi_tmHgjt
+{
+&:before { content: "\e8dc"; }
+}
+
+//兴业银行
+.zi_tmCib,.zi_tmXyyh
+{
+&:before { content: "\e8dd"; }
+}
+
+//中船重工
+.zi_tmCsic,.zi_tmZczg
+{
+&:before { content: "\e8de"; }
+}
+
+//广汽集团
+.zi_tmGagc,.zi_tmGqjt
+{
+&:before { content: "\e8df"; }
+}
+
+//中国联通
+.zi_tmChinaunicom,.zi_tmZglt
+{
+&:before { content: "\e8e0"; }
+}
+
+//浦发银行
+.zi_tmSpdb,.zi_tmPfyh
+{
+&:before { content: "\e8e1"; }
+}
+
+//民生银行
+.zi_tmCmbc,.zi_tmMsyh
+{
+&:before { content: "\e8e2"; }
+}
+
+//中国兵器装备集团
+.zi_tmChinasouth,.zi_tmZgbqzbjt
+{
+&:before { content: "\e8e3"; }
+}
+
+//中国海洋石油
+.zi_tmCnooc,.zi_tmZghysy
+{
+&:before { content: "\e8e4"; }
+}
+
+//中国兵器集团
+.zi_tmNorincogroup,.zi_tmZgbqjt
+{
+&:before { content: "\e8e5"; }
+}
+
+//中国铝业
+.zi_tmChalco,.zi_tmZgly
+{
+&:before { content: "\e8e6"; }
+}
+
+//太平洋保险
+.zi_tmCpic,.zi_tmTpybx
+{
+&:before { content: "\e8e7"; }
+}
+
+//中国建材
+.zi_tmCnbm,.zi_tmZgjc
+{
+&:before { content: "\e8e8"; }
+}
+
+//北京京东贸易
+.zi_tmJd,.zi_tmBjjdmy
+{
+&:before { content: "\e8e9"; }
+}
+
+//恒力集团
+.zi_tmHengli,.zi_tmHljt
+{
+&:before { content: "\e8ea"; }
+}
+
+//神华集团
+.zi_tmShenhuagroup,.zi_tmShjt
+{
+&:before { content: "\e8eb"; }
+}
+
+//绿地集团
+.zi_tmGreenlandhk,.zi_tmLdjt
+{
+&:before { content: "\e8ec"; }
+}
+
+//华能集团
+.zi_tmChng,.zi_tmHnjt
+{
+&:before { content: "\e8ed"; }
+}
+
+//延长石油
+.zi_tmSxycpc,.zi_tmYcsy
+{
+&:before { content: "\e8ee"; }
+}
+
+//大商集团
+.zi_tmDsjt,.zi_tmDj
+{
+&:before { content: "\e8ef"; }
+}
+
+//中国中车
+.zi_tmCrrcgc,.zi_tmZgzc
+{
+&:before { content: "\e8f0"; }
+}
+
+//万科企业
+.zi_tmVanke,.zi_tmWkqy
+{
+&:before { content: "\e8f1"; }
+}
+
+//中国能建
+.zi_tmCeec,.zi_tmZgnj
+{
+&:before { content: "\e8f2"; }
+}
+
+//冀中能源
+.zi_tmJznyjt,.zi_tmJzny
+{
+&:before { content: "\e8f3"; }
+}
+
+//新兴际华集团
+.zi_tmXxcig,.zi_tmXxjhjt
+{
+&:before { content: "\e8f4"; }
+}
+
+//中国光大集团
+.zi_tmEbchina,.zi_tmZggdjt
+{
+&:before { content: "\e8f5"; }
+}
+
+//国机集团
+.zi_tmSinomach,.zi_tmGjjt
+{
+&:before { content: "\e8f6"; }
+}
+
+//中国航天科技
+.zi_tmSpacechina,.zi_tmZghtkj
+{
+&:before { content: "\e8f7"; }
+}
+
+//陕西煤业化工
+.zi_tmShccig,.zi_tmSxmyhg
+{
+&:before { content: "\e8f8"; }
+}
+
+//恒大集团
+.zi_tmEvergrande,.zi_tmHdjt
+{
+&:before { content: "\e8f9"; }
+}
+
+//江铜集团
+.zi_tmJxcc,.zi_tmJtjt
+{
+&:before { content: "\e8fa"; }
+}
+
+//保利集团
+.zi_tmPoly,.zi_tmBl
+{
+&:before { content: "\e8fb"; }
+}
+
+//吉利集团
+.zi_tmGeely,.zi_tmJljt
+{
+&:before { content: "\e8fc"; }
+}
+
+//物产中大集团
+.zi_tmZjmi,.zi_tmWczdjt
+{
+&:before { content: "\e8fd"; }
+}
+
+//中国航天科工
+.zi_tmCasic,.zi_tmZghtkg
+{
+&:before { content: "\e8fe"; }
+}
+
+//海尔集团
+.zi_tmHaier,.zi_tmHejt
+{
+&:before { content: "\e8ff"; }
+}
+
+//中国电子
+.zi_tmCec,.zi_tmZgdz
+{
+&:before { content: "\e900"; }
+}
+
+//沙钢集团
+.zi_tmShasteel,.zi_tmSgjt
+{
+&:before { content: "\e901"; }
+}
+
+//中国远洋海运
+.zi_tmCosco,.zi_tmZgyyhy
+{
+&:before { content: "\e902"; }
+}
+
+//国电力投资集团
+.zi_tmSpic,.zi_tmGdltzjt
+{
+&:before { content: "\e903"; }
+}
+
+//山东能源集团
+.zi_tmSnjt,.zi_tmSdnyjt
+{
+&:before { content: "\e904"; }
+}
+
+//金川集团
+.zi_tmJnmc,.zi_tmJcjt
+{
+&:before { content: "\e905"; }
+}
+
+//万达集团
+.zi_tmWanda,.zi_tmWdjt
+{
+&:before { content: "\e906"; }
+}
+
+//华电集团
+.zi_tmChd,.zi_tmHd
+{
+&:before { content: "\e907"; }
+}
+
+//国美电器
+.zi_tmGome,.zi_tmGmdq
+{
+&:before { content: "\e908"; }
+}
+
+//中国电子科技
+.zi_tmCetc,.zi_tmZgdzkj
+{
+&:before { content: "\e909"; }
+}
+
+//国电集团
+.zi_tmCgdc,.zi_tmGdjt
+{
+&:before { content: "\e90a"; }
+}
+
+//华晨汽车
+.zi_tmBrillianceauto,.zi_tmHcqc
+{
+&:before { content: "\e90b"; }
+}
+
+//大同煤矿集团
+.zi_tmDtcoalmine,.zi_tmDtmkjt
+{
+&:before { content: "\e90c"; }
+}
+
+//山西焦煤集团
+.zi_tmSxcc,.zi_tmSxjmjt
+{
+&:before { content: "\e90d"; }
+}
+
+//中国航油
+.zi_tmCnaf,.zi_tmZghy
+{
+&:before { content: "\e90e"; }
+}
+
+//开滦集团
+.zi_tmKailuan,.zi_tmKljt
+{
+&:before { content: "\e90f"; }
+}
+
+//阳泉煤业
+.zi_tmYmjt,.zi_tmYqmy
+{
+&:before { content: "\e910"; }
+}
+
+//潞安集团
+.zi_tmChinaluan,.zi_tmLajt
+{
+&:before { content: "\e911"; }
+}
+
+////美的集团
+.zi_tmMidea,.zi_tmMdjt
+{
+&:before { content: "\e912"; }
+}
+
+////大唐集团
+.zi_tmChinacdt,.zi_tmDtjt
+{
+&:before { content: "\e913"; }
+}
+
+////阿里巴巴
+.zi_tmAlibabagroup,.zi_tmAlbb
+{
+&:before { content: "\e914"; }
+}
+
+////阳光金融投资集团
+.zi_tmChinasunglow,.zi_tmYgjrtzjt
+{
+&:before { content: "\e915"; }
+}
+
+////雪松控股
+.zi_tmCedarhd,.zi_tmXskg
+{
+&:before { content: "\e916"; }
+}
+
+////光明食品
+.zi_tmBrightfood,.zi_tmGmsp
+{
+&:before { content: "\e917"; }
+}
+
+////碧桂园
+.zi_tmBgy,.zi_tmGp
+{
+&:before { content: "\e918"; }
+}
+
+////晋城无烟煤矿集团
+.zi_tmJamg,.zi_tmJcwymkjt
+{
+&:before { content: "\e919"; }
+}
+
+//海亮集团
+.zi_tmHailiang,.zi_tmHl
+{
+&:before { content: "\e91a"; }
+}
+
+//京东Joy狗
+.zi_tmDog,.zi_tmJdjoyg
+{
+&:before { content: "\e91b"; }
+}
+
+//小米
+.zi_tmMi,.zi_tmXm
+{
+&:before { content: "\e91c"; }
+}
+
+//百度
+.zi_tmBaidu,.zi_tmBd
+{
+&:before { content: "\e91d"; }
+}
+
+//美团
+.zi_tmMeituan,.zi_tmMt
+
+{
+&:before { content: "\e91e"; }
+}
+
+//格力
+.zi_tmGree,.zi_tmGl
+{
+&:before { content: "\e91f"; }
+}
+
+//中央电视台
+.zi_tmCctv,.zi_tmZydst
+{
+&:before { content: "\e920"; }
+}
+
+//新华人寿
+.zi_tmNewchinalife,.zi_tmXhrs
+{
+&:before { content: "\e921"; }
+}
+
+//首钢集团
+.zi_tmShougang,.zi_tmSg
+{
+&:before { content: "\e922"; }
+}
+
+//上海建工
+.zi_tmScg,.zi_tmShjg
+{
+&:before { content: "\e923"; }
+}
+
+//富德生命人寿
+.zi_tmSinolife,.zi_tmFdsmrs
+{
+&:before { content: "\e924"; }
+}
+
+//太平保险
+.zi_tmCntaiping,.zi_tmTpbx
+{
+&:before { content: "\e925"; }
+}
+
+//泰康人兽
+.zi_tmTaikang,.zi_tmTkrs
+{
+&:before { content: "\e926"; }
+}
+
+//中国航空集团
+.zi_tmAirchinagroup,.zi_tmZghkjt
+{
+&:before { content: "\e927"; }
+}
+
+//中国南方航空
+.zi_tmCsair,.zi_tmZgnfhk
+{
+&:before { content: "\e928"; }
+}
+
+//万向集团
+.zi_tmWanxiang,.zi_tmWxjt
+{
+&:before { content: "\e929"; }
+}
+
+//中国黄金集团
+.zi_tmChinagoldgroup,.zi_tmZghjjt
+{
+&:before { content: "\e92a"; }
+}
+
+//华夏银行
+.zi_tmHxb,.zi_tmHxyh
+{
+&:before { content: "\e92b"; }
+}
+
+//比亚迪
+.zi_tmByd,.zi_tmB
+{
+&:before { content: "\e92c"; }
+}
+
+//东方航空
+.zi_tmCeair,.zi_tmDfhk
+{
+&:before { content: "\e92d"; }
+}
+
+//中兴通讯
+.zi_tmZte,.zi_tmZxtx
+{
+&:before { content: "\e92e"; }
+}
+
+//中国华融
+.zi_tmChamc,.zi_tmZghr
+{
+&:before { content: "\e92f"; }
+}
+
+//北京银行
+.zi_tmBankofbeijing,.zi_tmBjyh
+{
+&:before { content: "\e930"; }
+}
+
+//百联集团
+.zi_tmBailiangroup,.zi_tmBljt
+{
+&:before { content: "\e931"; }
+}
+
+//阳光保险
+.zi_tmSinosig,.zi_tmYgbx
+{
+&:before { content: "\e932"; }
+}
+
+//北大方正
+.zi_tmFounder,.zi_tmBdfz
+{
+&:before { content: "\e933"; }
+}
+
+//中煤能源
+.zi_tmChinacoal,.zi_tmZmny
+{
+&:before { content: "\e934"; }
+}
+
+//徐工机械
+.zi_tmXcmg,.zi_tmXgjx
+{
+&:before { content: "\e935"; }
+}
+
+//远大物产
+.zi_tmGrandtrade,.zi_tmYdwc
+{
+&:before { content: "\e936"; }
+}
+
+//新华联集团
+.zi_tmMacrolink,.zi_tmXhljt
+{
+&:before { content: "\e937"; }
+}
+
+//浪潮集团
+.zi_tmInspur,.zi_tmLcjt
+{
+&:before { content: "\e938"; }
+}
+
+//宜宾五粮液集团
+.zi_tmWuliangye,.zi_tmYbwlyjt
+{
+&:before { content: "\e939"; }
+}
+
+//京东方科技
+.zi_tmBoe,.zi_tmJdfkj
+{
+&:before { content: "\e93a"; }
+}
+
+//新希望集团
+.zi_tmNewhopegroup,.zi_tmXxwjt
+{
+&:before { content: "\e93b"; }
+}
+
+//中广核
+.zi_tmCgnpc,.zi_tmZgh
+{
+&:before { content: "\e93c"; }
+}
+
+//江铃汽车
+.zi_tmJmc,.zi_tmJlqc
+{
+&:before { content: "\e93d"; }
+}
+
+//三一集团
+.zi_tmSanygroup,.zi_tmSyjt
+{
+&:before { content: "\e93e"; }
+}
+
+//科创集团
+.zi_tmKechuanggroup,.zi_tmKcjt
+{
+&:before { content: "\e93f"; }
+}
+
+//奥克斯
+.zi_tmAuxgroup,.zi_tmAks
+{
+&:before { content: "\e940"; }
+}
+
+//伊利实业
+.zi_tmYili,.zi_tmYlsy
+{
+&:before { content: "\e941"; }
+}
+
+//雅戈尔集团
+.zi_tmYoungor,.zi_tmYgejt
+{
+&:before { content: "\e942"; }
+}
+
+//华侨城集团
+.zi_tmChinaoct,.zi_tmHqcjt
+{
+&:before { content: "\e943"; }
+}
+
+//德力西
+.zi_tmDelixi,.zi_tmDlx
+{
+&:before { content: "\e944"; }
+}
+
+//哇哈哈
+.zi_tmWahaha,.zi_tmWhh
+{
+&:before { content: "\e945"; }
+}
+
+//贵州茅台
+.zi_tmChinamoutai,.zi_tmGzmt
+{
+&:before { content: "\e946"; }
+}
+
+//前海人寿
+.zi_tmForesealife,.zi_tmQhrs
+{
+&:before { content: "\e947"; }
+}
+
+//百丽国际
+.zi_tmBelleintl,.zi_tmBlgj
+{
+&:before { content: "\e948"; }
+}
+
+//神州数码
+.zi_tmDigitalchina,.zi_tmSzsm
+{
+&:before { content: "\e949"; }
+}
+
+//人民电器
+.zi_tmChinapeople,.zi_tmRmdq
+{
+&:before { content: "\e94a"; }
+}
+
+//重庆力帆
+.zi_tmLifan,.zi_tmCqlf
+{
+&:before { content: "\e94b"; }
+}
+
+//太极集团
+.zi_tmTaiji,.zi_tmTjjt
+{
+&:before { content: "\e94c"; }
+}
+
+//天狮集团
+.zi_tmTiens,.zi_tmTsjt
+{
+&:before { content: "\e94d"; }
+}
+
+//Visual Studio
+.zi_tmVisualstudio,.zi_tmVs
+{
+&:before { content: "\e94e"; }
+}
+
+//.net
+.zi_tmDotnet,.zi_tmNet
+{
+&:before { content: "\e94f"; }
+}
+
+//.net内核
+.zi_tmDotnekernel,.zi_tmNetk
+{
+&:before { content: "\e950"; }
+}
+
+//无障碍图标
+.zi_tmAccessibleicon,.zi_tmAsi
+{
+&:before { content: "\e951"; }
+}
+
+//accusoft
+.zi_tmAccusoft,.zi_tmAs
+{
+&:before { content: "\e952"; }
+}
+
+//adn
+.zi_tmAdn,.zi_tmA
+{
+&:before { content: "\e953"; }
+}
+
+//adversal
+.zi_tmAdversal,.zi_tmAdv
+{
+&:before { content: "\e954"; }
+}
+
+
+//affiliatetheme
+.zi_tmAffiliatetheme,.zi_tmAf
+{
+&:before { content: "\e955"; }
+}
+
+//algolia
+.zi_tmAlgolia,.zi_tmAl
+{
+&:before { content: "\e956"; }
+}
+
+//亚马逊支付
+.zi_tmAmazonpay,.zi_tmAmp
+{
+&:before { content: "\e957"; }
+}
+
+//亚马逊
+.zi_tmAmazon,.zi_tmAmz
+{
+&:before { content: "\e958"; }
+}
+
+//angellist
+.zi_tmAngellist,.zi_tmAll
+{
+&:before { content: "\e959"; }
+}
+
+//angular
+.zi_tmAngular,.zi_tmAg
+{
+&:before { content: "\e95a"; }
+}
+
+//asymmetrik
+.zi_tmAsymmetrik,.zi_tmAy
+{
+&:before { content: "\e95b"; }
+}
+
+//audible
+.zi_tmAudible,.zi_tmAdb
+{
+&:before { content: "\e95c"; }
+}
+
+//aws
+.zi_tmAws,.zi_tmAw
+{
+&:before { content: "\e95d"; }
+}
+
+//bandcamp
+.zi_tmBandcamp,.zi_tmBdc
+{
+&:before { content: "\e95e"; }
+}
+
+//behance
+.zi_tmBehance,.zi_tmBhc
+{
+&:before { content: "\e95f"; }
+}
+
+//比特币
+.zi_tmBitcoin,.zi_tmBti
+{
+&:before { content: "\e960"; }
+}
+
+//bity
+.zi_tmBity,.zi_tmBi
+{
+&:before { content: "\e961"; }
+}
+
+//blacktie
+.zi_tmBlacktie,.zi_tmBc
+{
+&:before { content: "\e962"; }
+}
+
+//博客
+.zi_tmBlogger,.zi_tmBg
+{
+&:before { content: "\e963"; }
+}
+
+//buysellads
+.zi_tmBuysellads,.zi_tmBs
+{
+&:before { content: "\e964"; }
+}
+
+//ccamazonpay
+.zi_tmCcamazonpay,.zi_tmCa
+{
+&:before { content: "\e965"; }
+}
+
+//ccamex
+.zi_tmCcamex,.zi_tmCca
+{
+&:before { content: "\e966"; }
+}
+
+//ccapplepay
+.zi_tmCcapplepay,.zi_tmCcap
+{
+&:before { content: "\e967"; }
+}
+
+//ccdinersclub
+.zi_tmCcdinersclub,.zi_tmCcdi
+{
+&:before { content: "\e968"; }
+}
+
+//JCB
+.zi_tmJcb,.zi_tmJ
+{
+&:before { content: "\e969"; }
+}
+
+//万事达
+.zi_tmCcmastercard,.zi_tmCsc
+{
+&:before { content: "\e96a"; }
+}
+
+//贝宝
+.zi_tmCcpaypal,.zi_tmCcp
+{
+&:before { content: "\e96b"; }
+}
+
+//ccstripe
+.zi_tmCcstripe,.zi_tmCst
+{
+&:before { content: "\e96c"; }
+}
+
+//维萨卡
+.zi_tmVisa,.zi_tmVi
+{
+&:before { content: "\e96d"; }
+}
+
+//centercode
+.zi_tmCentercode,.zi_tmCen
+{
+&:before { content: "\e96e"; }
+}
+
+//cloudscale
+.zi_tmCloudscale,.zi_tmClo
+{
+&:before { content: "\e96f"; }
+}
+
+//cloudsmith
+.zi_tmCloudsmith,.zi_tmClos
+{
+&:before { content: "\e970"; }
+}
+
+//cloudversify
+.zi_tmCloudversify,.zi_tmCpe
+{
+&:before { content: "\e971"; }
+}
+
+//codepen
+.zi_tmCodepen,.zi_tmCod
+{
+&:before { content: "\e972"; }
+}
+
+//connectdevelop
+.zi_tmConnectdevelop,.zi_tmCcd
+{
+&:before { content: "\e973"; }
+}
+
+//delicious
+.zi_tmDelicious,.zi_tmDc
+{
+&:before { content: "\e974"; }
+}
+
+//deskpro
+.zi_tmDeskpro,.zi_tmDp
+{
+&:before { content: "\e975"; }
+}
+
+//digitalocean
+.zi_tmDigitalocean,.zi_tmDt
+{
+&:before { content: "\e976"; }
+}
+
+//discord
+.zi_tmDiscord,.zi_tmDs
+{
+&:before { content: "\e977"; }
+}
+
+//discourse
+.zi_tmDiscourse,.zi_tmDsc
+{
+&:before { content: "\e978"; }
+}
+
+//dochub
+.zi_tmDochub,.zi_tmDcu
+{
+&:before { content: "\e979"; }
+}
+
+//dribbblesquare
+.zi_tmDribbblesquare,.zi_tmDbs
+{
+&:before { content: "\e97a"; }
+}
+
+//dribbble
+.zi_tmDribbble,.zi_tmDbb
+{
+&:before { content: "\e97b"; }
+}
+
+//drupal
+.zi_tmDrupal,.zi_tmDup
+{
+&:before { content: "\e97c"; }
+}
+
+//earlybirds
+.zi_tmEarlybirds,.zi_tmEbs
+{
+&:before { content: "\e97d"; }
+}
+
+//易趣
+.zi_tmEbay,.zi_tmEb
+{
+&:before { content: "\e97e"; }
+}
+
+//elementor
+.zi_tmElementor,.zi_tmEle
+{
+&:before { content: "\e97f"; }
+}
+
+//ember
+.zi_tmEmber,.zi_tmEm
+{
+&:before { content: "\e980"; }
+}
+
+//empire
+.zi_tmEmpire,.zi_tmEmp
+{
+&:before { content: "\e981"; }
+}
+
+//etsy
+.zi_tmEtsy,.zi_tmEs
+{
+&:before { content: "\e982"; }
+}
+
+//facebookf
+.zi_tmFacebookf,.zi_tmFb1
+{
+&:before { content: "\e983"; }
+}
+
+//facebookmessenger
+.zi_tmFacebookmessenger,.zi_tmFbm
+{
+&:before { content: "\e984"; }
+}
+
+//facebooksquare
+.zi_tmFacebooksquare,.zi_tmFb2
+{
+&:before { content: "\e985"; }
+}
+
+//facebook
+.zi_tmFacebook,.zi_tmFb3
+{
+&:before { content: "\e986"; }
+}
+
+//firefox
+.zi_tmFirefox,.zi_tmFf
+{
+&:before { content: "\e987"; }
+}
+
+//firstorderalt
+.zi_tmFirstorderalt,.zi_tmFo
+{
+&:before { content: "\e988"; }
+}
+
+//firstorder
+.zi_tmFirstorder,.zi_tmFt
+{
+&:before { content: "\e989"; }
+}
+
+//firstdraft
+.zi_tmFirstdraft,.zi_tmFs
+{
+&:before { content: "\e98a"; }
+}
+
+//flickr
+.zi_tmFlickr,.zi_tmFk
+{
+&:before { content: "\e98b"; }
+}
+
+//flipboard
+.zi_tmFlipboard,.zi_tmFbo
+{
+&:before { content: "\e98c"; }
+}
+
+//fly
+.zi_tmFly,.zi_tmFl
+{
+&:before { content: "\e98d"; }
+}
+
+//freebsd
+.zi_tmFreebsd,.zi_tmFbs
+{
+&:before { content: "\e98e"; }
+}
+
+//galacticrepublic
+.zi_tmGalacticrepublic,.zi_tmGcb
+{
+&:before { content: "\e98f"; }
+}
+
+//银河参议院
+.zi_tmGalacticsenate,.zi_tmGcn
+{
+&:before { content: "\e990"; }
+}
+
+//getpocket
+.zi_tmGetpocket,.zi_tmGpk
+{
+&:before { content: "\e991"; }
+}
+
+//ggcircle
+.zi_tmGgcircle,.zi_tmGcc
+{
+&:before { content: "\e992"; }
+}
+
+//gg
+.zi_tmGg
+{
+&:before { content: "\e993"; }
+}
+
+//gitsquare
+.zi_tmGitsquare,.zi_tmGis
+{
+&:before { content: "\e994"; }
+}
+
+//git
+.zi_tmGit
+{
+&:before { content: "\e995"; }
+}
+
+//githubalt
+.zi_tmGithubalt,.zi_tmGb
+{
+&:before { content: "\e996"; }
+}
+
+//githubsquare
+.zi_tmGithubsquare,.zi_tmGbs
+{
+&:before { content: "\e997"; }
+}
 
 //github
-.zi_tmGithub
+.zi_tmGithub,.zi_tmGith
 {
 &:before { content: "\e998"; }
 }
 
+//gitlab
+.zi_tmGitlab,.zi_tmGitl
+{
+&:before { content: "\e999"; }
+}
 
+//gofore
+.zi_tmGofore,.zi_tmGf
+{
+&:before { content: "\e99a"; }
+}
 
+//谷歌驱动器
+.zi_tmGoogledrive,.zi_tmGd
+{
+&:before { content: "\e99b"; }
+}
 
+//谷歌播放
+.zi_tmGoogleplay,.zi_tmGpl
+{
+&:before { content: "\e99c"; }
+}
 
+//谷歌加
+.zi_tmGoogleplusg,.zi_tmGplu
+{
+&:before { content: "\e99d"; }
+}
 
+//谷歌钱包
+.zi_tmGooglewallet,.zi_tmGw
+{
+&:before { content: "\e99e"; }
+}
 
+//gratipay
+.zi_tmGratipay,.zi_tmGt
+{
+&:before { content: "\e99f"; }
+}
 
+//grav
+.zi_tmGrav,.zi_tmGra
+{
+&:before { content: "\e9a0"; }
+}
 
+//gripfire
+.zi_tmGripfire,.zi_tmGpf
+{
+&:before { content: "\e9a1"; }
+}
+
+//grunt
+.zi_tmGrunt,.zi_tmGru
+{
+&:before { content: "\e9a2"; }
+}
+
+//gulp
+.zi_tmGulp,.zi_tmGul
+{
+&:before { content: "\e9a3"; }
+}
+
+//hireahelper
+.zi_tmHireahelper,.zi_tmHir
+{
+&:before { content: "\e9a4"; }
+}
+
+//hotjar
+.zi_tmHotjar,.zi_tmHot
+{
+&:before { content: "\e9a5"; }
+}
+
+//houzz
+.zi_tmHouzz,.zi_tmHou
+{
+&:before { content: "\e9a6"; }
+}
+
+//hubspot
+.zi_tmHubspot,.zi_tmHub
+{
+&:before { content: "\e9a7"; }
+}
+
+//imdb
+.zi_tmImdb,.zi_tmImd
+{
+&:before { content: "\e9a8"; }
+}
+
+//instagram
+.zi_tmInstagram,.zi_tmIns
+{
+&:before { content: "\e9a9"; }
+}
+
+//ioxhost
+.zi_tmIoxhost,.zi_tmIox
+{
+&:before { content: "\e9aa"; }
+}
+
+//itunes
+.zi_tmItunes,.zi_tmItu
+{
+&:before { content: "\e9ab"; }
+}
+
+//jediorder
+.zi_tmJediorder,.zi_tmJed
+{
+&:before { content: "\e9ac"; }
+}
+
+//joget
+.zi_tmJoget,.zi_tmJog
+{
+&:before { content: "\e9ad"; }
+}
+
+//joomla
+.zi_tmJoomla,.zi_tmJoo
+{
+&:before { content: "\e9ae"; }
+}
+
+//jsfiddle
+.zi_tmJsfiddle,.zi_tmJsf
+{
+&:before { content: "\e9af"; }
+}
+
+//leanpub
+.zi_tmLeanpub,.zi_tmLea
+{
+&:before { content: "\e9b0"; }
+}
+
+//line
+.zi_tmLine,.zi_tmL
+{
+&:before { content: "\e9b1"; }
+}
+
+//linkedinin
+.zi_tmLinkedinin,.zi_tmLd
+{
+&:before { content: "\e9b2"; }
+}
+
+//linode
+.zi_tmLinode,.zi_tmLino
+{
+&:before { content: "\e9b3"; }
+}
+
+//linux
+.zi_tmLinux,.zi_tmLin
+{
+&:before { content: "\e9b4"; }
+}
+
+//lyft
+.zi_tmLyft,.zi_tmLyf
+{
+&:before { content: "\e9b5"; }
+}
+
+//magento
+.zi_tmMagento,.zi_tmMag
+{
+&:before { content: "\e9b6"; }
+}
+
+//mandalorian
+.zi_tmMandalorian,.zi_tmMan
+{
+&:before { content: "\e9b7"; }
+}
+
+//mastodon
+.zi_tmMastodon,.zi_tmMas
+{
+&:before { content: "\e9b8"; }
+}
+
+//maxcdn
+.zi_tmMaxcdn,.zi_tmMax
+{
+&:before { content: "\e9b9"; }
+}
+
+//medapps
+.zi_tmMedapps,.zi_tmMeda
+{
+&:before { content: "\e9ba"; }
+}
+
+//medrt
+.zi_tmMedrt,.zi_tmMed
+{
+&:before { content: "\e9bb"; }
+}
+
+//meetup
+.zi_tmMeetup,.zi_tmMee
+{
+&:before { content: "\e9bc"; }
+}
+
+//mizuni
+.zi_tmMizuni,.zi_tmMiz
+{
+&:before { content: "\e9bd"; }
+}
+
+//modx
+.zi_tmModx,.zi_tmMod
+{
+&:before { content: "\e9be"; }
+}
+
+//monero
+.zi_tmMonero,.zi_tmMon
+
+{
+&:before { content: "\e9bf"; }
+}
+
+//napster
+.zi_tmNapster,.zi_tmNap
+{
+&:before { content: "\e9c0"; }
+}
+
+//nintendoswitch
+.zi_tmNintendoswitch,.zi_tmNin
+{
+&:before { content: "\e9c1"; }
+}
+
+//nodejs
+.zi_tmNodejs,.zi_tmNj
+{
+&:before { content: "\e9c2"; }
+}
+
+//node
+.zi_tmNode,.zi_tmNod
+{
+&:before { content: "\e9c3"; }
+}
 
 //npm
-.zi_tmNpm
+.zi_tmNpm,.zi_tmN
 {
 &:before { content: "\e9c4"; }
 }
 
+//ns8
+.zi_tmNs8,.zi_tmNs
+{
+&:before { content: "\e9c5"; }
+}
 
+//nutritionix
+.zi_tmNutritionix,.zi_tmNut
+{
+&:before { content: "\e9c6"; }
+}
 
+//odnoklassniki
+.zi_tmOdnoklassniki,.zi_tmOdn
+{
+&:before { content: "\e9c7"; }
+}
 
+//oldrepublic
+.zi_tmOldrepublic,.zi_tmOld
+{
+&:before { content: "\e9c8"; }
+}
 
+//opencart
+.zi_tmOpencart,.zi_tmOpe1
+{
+&:before { content: "\e9c9"; }
+}
 
+//openid
+.zi_tmOpenid,.zi_tmOpe2
+{
+&:before { content: "\e9ca"; }
+}
 
+//opera
+.zi_tmOpera,.zi_tmOpe3
+{
+&:before { content: "\e9cb"; }
+}
 
+//optinmonster
+.zi_tmOptinmonster,.zi_tmOpt
+{
+&:before { content: "\e9cc"; }
+}
 
+//page4
+.zi_tmPage4,.zi_tmP4
+{
+&:before { content: "\e9cd"; }
+}
 
+//pagelines
+.zi_tmPagelines,.zi_tmPag
+{
+&:before { content: "\e9ce"; }
+}
+
+//palfed
+.zi_tmPalfed,.zi_tmPal
+{
+&:before { content: "\e9cf"; }
+}
+
+//paypal
+.zi_tmPaypal,.zi_tmPay
+{
+&:before { content: "\e9d0"; }
+}
+
+//periscope
+.zi_tmPeriscope,.zi_tmPer
+{
+&:before { content: "\e9d1"; }
+}
+
+//phabricator
+.zi_tmPhabricator,.zi_tmPha
+{
+&:before { content: "\e9d2"; }
+}
+
+//phoenixframework
+.zi_tmPhoenixframework,.zi_tmPhof
+{
+&:before { content: "\e9d3"; }
+}
+
+//phoenixsquadron
+.zi_tmPhoenixsquadron,.zi_tmPho
+{
+&:before { content: "\e9d4"; }
+}
+
+//php
+.zi_tmPhp,.zi_tmP
+{
+&:before { content: "\e9d5"; }
+}
+
+//piedpiperalt
+.zi_tmPiedpiperalt,.zi_tmPiep
+{
+&:before { content: "\e9d6"; }
+}
+
+//piedpiperhat
+.zi_tmPiedpiperhat,.zi_tmPieh
+{
+&:before { content: "\e9d7"; }
+}
+
+//piedpiperpp
+.zi_tmPiedpiperpp,.zi_tmPier
+{
+&:before { content: "\e9d8"; }
+}
+
+//piedpiper
+.zi_tmPiedpiper,.zi_tmPie
+{
+&:before { content: "\e9d9"; }
+}
+
+//pinterestp
+.zi_tmPinterestp,.zi_tmPinr
+{
+&:before { content: "\e9da"; }
+}
+
+//pinterestsquare
+.zi_tmPinterestsquare,.zi_tmPins
+{
+&:before { content: "\e9db"; }
+}
+
+//pinterest
+.zi_tmPinterest,.zi_tmPin
+{
+&:before { content: "\e9dc"; }
+}
+
+//playstation
+.zi_tmPlaystation,.zi_tmPla
+{
+&:before { content: "\e9dd"; }
+}
+
+//producthunt
+.zi_tmProducthunt,.zi_tmPro
+{
+&:before { content: "\e9de"; }
+}
+
+//pushed
+.zi_tmPushed,.zi_tmPus
+{
+&:before { content: "\e9df"; }
+}
+
+//python
+.zi_tmPython,.zi_tmPyt
+{
+&:before { content: "\e9e0"; }
+}
+
+//quinscape
+.zi_tmQuinscape,.zi_tmQui
+{
+&:before { content: "\e9e1"; }
+}
+
+//quora
+.zi_tmQuora,.zi_tmQuo
+{
+&:before { content: "\e9e2"; }
+}
+
+//rproject
+.zi_tmRproject,.zi_tmRpr
+{
+&:before { content: "\e9e3"; }
+}
+
+//ravelry
+.zi_tmRavelry,.zi_tmRav
+{
+&:before { content: "\e9e4"; }
+}
+
+//react
+.zi_tmReact,.zi_tmRct
+{
+&:before { content: "\e9e5"; }
+}
+
+//readme
+.zi_tmReadme,.zi_tmRea
+{
+&:before { content: "\e9e6"; }
+}
+
+//rebel
+.zi_tmRebel,.zi_tmReb
+{
+&:before { content: "\e9e7"; }
+}
+
+//redriver
+.zi_tmRedriver,.zi_tmRedr
+{
+&:before { content: "\e9e8"; }
+}
+
+//redditalien
+.zi_tmRedditalien,.zi_tmRedta
+{
+&:before { content: "\e9e9"; }
+}
+
+//redditsquare
+.zi_tmRedditsquare,.zi_tmRedsq
+{
+&:before { content: "\e9ea"; }
+}
+
+//reddit
+.zi_tmReddit,.zi_tmRed
+{
+&:before { content: "\e9eb"; }
+}
+
+//rendact
+.zi_tmRendact,.zi_tmRend
+{
+&:before { content: "\e9ec"; }
+}
+
+//renren
+.zi_tmRenren,.zi_tmRen
+{
+&:before { content: "\e9ed"; }
+}
+
+//rockrms
+.zi_tmRockrms,.zi_tmRoc
+{
+&:before { content: "\e9ee"; }
+}
+
+//safari
+.zi_tmSafari,.zi_tmSaf
+{
+&:before { content: "\e9ef"; }
+}
+
+//schlix
+.zi_tmSchlix,.zi_tmSch
+{
+&:before { content: "\e9f0"; }
+}
+
+//sellcast
+.zi_tmSellcast,.zi_tmSelc
+{
+&:before { content: "\e9f1"; }
+}
+
+//sellsy
+.zi_tmSellsy,.zi_tmSel
+{
+&:before { content: "\e9f2"; }
+}
+
+//shirtsinbulk
+.zi_tmShirtsinbulk,.zi_tmShi
+{
+&:before { content: "\e9f3"; }
+}
+
+//simplybuilt
+.zi_tmSimplybuilt,.zi_tmSim
+{
+&:before { content: "\e9f4"; }
+}
+
+//sith
+.zi_tmSith,.zi_tmSit
+{
+&:before { content: "\e9f5"; }
+}
+
+//skyatlas
+.zi_tmSkyatlas,.zi_tmSky
+{
+&:before { content: "\e9f6"; }
+}
+
+//slackhash
+.zi_tmSlackhash,.zi_tmSlak
+{
+&:before { content: "\e9f7"; }
+}
+
+//slack
+.zi_tmSlack,.zi_tmSla
+{
+&:before { content: "\e9f8"; }
+}
+
+//slide分享
+.zi_tmSlideshare,.zi_tmSli
+{
+&:before { content: "\e9f9"; }
+}
+
+//snapchatghost
+.zi_tmSnapchatghost,.zi_tmSnat
+{
+&:before { content: "\e9fa"; }
+}
+
+//snapchatsquare
+.zi_tmSnapchatsquare,.zi_tmSnaq
+{
+&:before { content: "\e9fb"; }
+}
+
+//snapchat
+.zi_tmSnapchat,.zi_tmSna
+{
+&:before { content: "\e9fc"; }
+}
+
+//soundcloud
+.zi_tmSoundcloud,.zi_tmSou
+{
+&:before { content: "\e9fd"; }
+}
+
+//speakap
+.zi_tmSpeakap,.zi_tmSpe
+{
+&:before { content: "\e9fe"; }
+}
+
+//spotify
+.zi_tmSpotify,.zi_tmSpo
+{
+&:before { content: "\e9ff"; }
+}
+
+//stackexchange
+.zi_tmStackexchange,.zi_tmStac
+{
+&:before { content: "\ea00"; }
+}
+
+//stackoverflow
+.zi_tmStackoverflow,.zi_tmStak
+{
+&:before { content: "\ea01"; }
+}
+
+//staylinked
+.zi_tmStaylinked,.zi_tmSta
+{
+&:before { content: "\ea02"; }
+}
+
+//steamsquare
+.zi_tmSteamsquare,.zi_tmStes
+{
+&:before { content: "\ea03"; }
+}
+
+//steamsymbol
+.zi_tmSteamsymbol,.zi_tmStey
+{
+&:before { content: "\ea04"; }
+}
+
+//steam
+.zi_tmSteam,.zi_tmSte
+{
+&:before { content: "\ea05"; }
+}
+
+//stickermule
+.zi_tmStickermule,.zi_tmSti
+{
+&:before { content: "\ea06"; }
+}
+
+//strava
+.zi_tmStrava,.zi_tmStv
+{
+&:before { content: "\ea07"; }
+}
+
+//stripes
+.zi_tmStripes,.zi_tmStr
+{
+&:before { content: "\ea08"; }
+}
+
+//studiovinari
+.zi_tmStudiovinari,.zi_tmStu
+{
+&:before { content: "\ea09"; }
+}
+
+//superpowers
+.zi_tmSuperpowers,.zi_tmSuw
+{
+&:before { content: "\ea0a"; }
+}
+
+//supple
+.zi_tmSupple,.zi_tmSup
+{
+&:before { content: "\ea0b"; }
+}
+
+//teamspeak
+.zi_tmTeamspeak,.zi_tmTea
+{
+&:before { content: "\ea0c"; }
+}
+
+//themeisle
+.zi_tmThemeisle,.zi_tmThe
+{
+&:before { content: "\ea0d"; }
+}
+
+//tradefederation
+.zi_tmTradefederation,.zi_tmTra
+{
+&:before { content: "\ea0e"; }
+}
+
+//trello
+.zi_tmTrello,.zi_tmTre
+{
+&:before { content: "\ea0f"; }
+}
+
+//猫途鹰
+.zi_tmTripadvisor,.zi_tmTri
+{
+&:before { content: "\ea10"; }
+}
+
+//tumblrsquare
+.zi_tmTumblrsquare,.zi_tmTums
+{
+&:before { content: "\ea11"; }
+}
+
+//tumblr
+.zi_tmTumblr,.zi_tmTum
+{
+&:before { content: "\ea12"; }
+}
+
+//twitch
+.zi_tmTwitch,.zi_tmTwit
+{
+&:before { content: "\ea13"; }
+}
+
+//twittersquare
+.zi_tmTwittersquare,.zi_tmTwiq
+{
+&:before { content: "\ea14"; }
+}
+
+//推特
+.zi_tmTwitter,.zi_tmTwi
+{
+&:before { content: "\ea15"; }
+}
+
+//typo3
+.zi_tmTypo3,.zi_tmTyp
+{
+&:before { content: "\ea16"; }
+}
+
+//uber
+.zi_tmUber,.zi_tmUbe
+{
+&:before { content: "\ea17"; }
+}
+
+//uniregistry
+.zi_tmUniregistry,.zi_tmUni
+{
+&:before { content: "\ea18"; }
+}
+
+//untappd
+.zi_tmUntappd,.zi_tmUnt
+{
+&:before { content: "\ea19"; }
+}
+
+//usb
+.zi_tmUsb
+{
+&:before { content: "\ea1a"; }
+}
+
+//ussunnah
+.zi_tmUssunnah,.zi_tmUss
+{
+&:before { content: "\ea1b"; }
+}
+
+//viadeosquare
+.zi_tmViadeosquare,.zi_tmViaq
+{
+&:before { content: "\ea1c"; }
+}
+
+//viadeo
+.zi_tmViadeo,.zi_tmVia
+{
+&:before { content: "\ea1d"; }
+}
+
+//vimeosquare
+.zi_tmVimeosquare,.zi_tmVimq
+{
+&:before { content: "\ea1e"; }
+}
+
+//vimeov
+.zi_tmVimeov,.zi_tmVim
+{
+&:before { content: "\ea1f"; }
+}
+
+//vimeo
+.zi_tmVimeo,.zi_tmVimo
+{
+&:before { content: "\ea20"; }
+}
+
+//whatsappsquare
+.zi_tmWhatsappsquare,.zi_tmWhaq
+{
+&:before { content: "\ea21"; }
+}
+
+//whatsapp
+.zi_tmWhatsapp,.zi_tmWha
+{
+&:before { content: "\ea22"; }
+}
+
+//whmcs
+.zi_tmWhmcs,.zi_tmWhm
+{
+&:before { content: "\ea23"; }
+}
+
+//wikipediaw
+.zi_tmWikipediaw,.zi_tmWik
+{
+&:before { content: "\ea24"; }
+}
+
+//wolfpackbattalion
+.zi_tmWolfpackbattalion,.zi_tmWol
+{
+&:before { content: "\ea25"; }
+}
+
+//wordpresssimple
+.zi_tmWordpresssimple,.zi_tmWor
+{
+&:before { content: "\ea26"; }
+}
+
+//wordpress
+.zi_tmWordpress,.zi_tmWpr
+{
+&:before { content: "\ea27"; }
+}
+
+//wpbeginner
+.zi_tmWpbeginner,.zi_tmWpb
+{
+&:before { content: "\ea28"; }
+}
+
+//wpexplorer
+.zi_tmWpexplorer,.zi_tmWp
+{
+&:before { content: "\ea29"; }
+}
+
+//wpforms
+.zi_tmWpforms,.zi_tmWf
+{
+&:before { content: "\ea2a"; }
+}
+
+//xbox
+.zi_tmXbox,.zi_tmXb
+{
+&:before { content: "\ea2b"; }
+}
+
+//xing
+.zi_tmXing,.zi_tmX
+{
+&:before { content: "\ea2c"; }
+}
+
+//yelp
+.zi_tmYelp,.zi_tmYe
+{
+&:before { content: "\ea2d"; }
+}
+
+//youtubesquare
+.zi_tmYoutubesquare,.zi_tmYtq
+{
+&:before { content: "\ea2e"; }
+}
+
+//youtube
+.zi_tmYoutube,.zi_tmYt
+{
+&:before { content: "\ea2f"; }
+}
 
 
 

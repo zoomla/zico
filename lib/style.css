@@ -87,6 +87,13 @@
 
 #search_show { display: none; }
 
+.zico_list_case { background: #f3be43; padding-top: 3rem; padding-bottom: 3rem; }
+.zico_list_case ul { list-style: none; padding-left: 0; }
+.zico_list_case li { padding-left: 1rem; padding-right: 1rem; margin-top: 1rem; }
+.zico_list_case .case_k { display: block; text-align: center; background: white; }
+.zico_list_case .case_k span { display: block; font-size: 3rem; line-height: 8rem; }
+.zico_list_case .case_k small { font-size: 1.1rem; font-weight: 100; color: #666; }
+
 /*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
 
 /*# sourceMappingURL=style.css.map */

@@ -143,8 +143,13 @@ a:hover small.title{color:  rgba(255,255,255,1.00);border-color:rgba(0,182,162,1
 .search_show_con .zfont-icon-list{padding-left: 2rem;padding-right: 2rem;}
 #search_show{display: none;}
 
-
-
+.zico_list_case{background:#f3be43;padding-top: 3rem;padding-bottom: 3rem;
+ul{list-style: none;padding-left: 0;}
+li{padding-left: 1rem;padding-right: 1rem;margin-top: 1rem;}
+.case_k{display: block;text-align: center;background: rgba(255,255,255,1.00);}
+.case_k span{display: block;font-size: 3rem;line-height: 8rem;}
+.case_k small{font-size: 1.1rem;font-weight: 100;color: #666;}
+}
 
 
 
