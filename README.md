@@ -1,12 +1,5 @@
+[![zico](lib/logo512x512.png "一个专为中国开发者而生的跨平台图标解决方案-Powered by zoomla!逐浪CMS团队")](http://ico.z01.com "一个专为中国开发者而生的跨平台图标解决方案")
 
-
-<link href="https://code.z01.com/zico.min.css" rel="stylesheet"></link> 
-
- <i class="zi zi_tmZiti163 zi_load zi_12x"></i>
- 
- 
- 
-[![zico](https://www.ziti163.com/Template/Font/style/images/logo.svg "zico")](http://ico.z01.com "一个专为中国开发者而生的跨平台图标解决方案")
 
 #一个专为中国开发者而生的跨平台图标解决方案
 
