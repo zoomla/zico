@@ -1,4 +1,4 @@
-<link href="css/zico.css" rel="stylesheet"/>
+<link href="https://code.z01.com/zico.min.css" rel="stylesheet"/>
 
 <i class="zi zi_tmZiti163 zi_load"></i>
 
