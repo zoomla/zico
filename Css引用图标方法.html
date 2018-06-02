@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="ZoomlaCMS-www.z01.com">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title>zico-基于CSS方式引用</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<!--只要引入一行CSS就可以输出zico的图标-->
+<link href="css/zico.min.css" rel="stylesheet" type="text/css">
+<!--以下是网页框架-与zico图标系统无关-->
+<link rel="stylesheet" href="lib/bootstrap4.min.css" >
+<script src="lib/jquery-3.2.1.min.js" ></script>
+<script src="lib/popper.min.js"></script>
+<script src="lib/bootstrap4.min.js" ></script>
+<link href="lib/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron text-center bg-warning">
+<h1><a href="index.html"><i class="zi zi_home"></i></a> zico  逐浪优秀图标集<small class="text-muted">CSS经典方法引用</small></h1>
+</div>
+
+
+
+
+<div class="startContxt"><h1 id="h1-u7B80u4ECB"><a name="简介" class="reference-link"></a><span class="header-link octicon octicon-link"></span>简介</h1><p>zio是一个非常优秀的webfont与svg图标展示系统，它的目标是让全栈开发者与用户可以自由的任何页面引用矢量级的图标。</p>
+<p>随着计算机软件技术的进步，人们无论是在开发传统客户端软件、移动APP软件、微信公众号、微信小程序、Facebokk内页，或从事web网站系统的开发，都需要用到图标。</p>
+<p>可以说，一个UI交互界面，除了颜色、字体之外，最重要的就是图标系统了，一个好的图标可以让人们对界面（应用）一目了然，并提升业务能力。</p>
+<h1 id="h1--zico-"><a name="获得zico程序包" class="reference-link"></a><span class="header-link octicon octicon-link"></span>获得zico程序包</h1><p>zico是免费开源的，我们提供了多种便利的安装使用方法</p>
+<ol>
+<li>载离线程序包<br>你可以点击这里下载最新官方发布程序包<br><a href="/zio.zip" title="zio官方程序包">zico官方程序包</a><br>我们会不断更新此程序包，以保证其是最新更新，而且它是一个袖珍文件，很快就能下载完成。<br>下载后，解压开即可使用。</li><li>通过Npm安装<br>全球流行的Npm安装方式自然是非常简单了，其命令是：<br><code>npm i zico</code><br>这需要你的系统安装了nodeJS，这有一个快速教程：<video src="http://ico.z01.com/UploadFiles/gtizio.mp4" poster="http://ico.z01.com/Template/zicon/style/Images/logo512x512.png" controls="controls" width="920"> </video></li><li>通过Github安装<br>我们还在全球最大的源码开放平台Github上发布,zio源码仓库的访问地址是<br><a href="https://github.com/zoomla/zico" title="https://github.com/zoomla/zico">https://github.com/zoomla/zico</a></li><li>CDN引用<br>如果你不想下载和安装，也可以直接CDN引用，只要在网页和应用中中置入zico的CDN源地址即可，其URL请求源为：<br><code>http://code.z01.com/zico.min.css</code><br>这个网址同时支持SSL，你也可以采用<br><code>https://code.z01.com/zico.min.css</code><br>以及自便应模式<br><code>//code.z01.com/zico.min.css</code><br>都是合法的。</li></ol>
+<h1 id="h1-u5F15u7528u6587u4EF6"><a name="引用文件" class="reference-link"></a><span class="header-link octicon octicon-link"></span>引用文件</h1><p>由于zio可以在多种场合（如网页开发、app、小程序、客户端、传统设计）中引用，所以不同的软件引用方法各不相同，这里仅以在网页上引用为例，其引用规范为：<br><code>&lt;link rel="stylesheet" href="css/zico.min.css" &gt;</code><br>注意上面文件的路径真实可在，其完整源码结构应该如下图所示：
+</p><ul>
+<li>—css/<br>—fonts/</li></ul>
+<h1 id="h1--web-"><a name="在任何你要引用图标的web(移动页面)应用图标" class="reference-link"></a><span class="header-link octicon octicon-link"></span>在任何你要引用图标的web(移动页面)应用图标</h1><p>推荐的引用方法是：<br><code>&lt;i class="zi zi_music"&gt;&lt;/i&gt;</code></p>
+<p>当然，你也可以使用其它任意你想要的用的标签，如：<br><code>&lt;span class="zi zi_music"&gt;&lt;/span&gt;</code><br><code>&lt;div class="zi zi_music"&gt;&lt;/div&gt;</code><br><code>&lt;p class="zi zi_music"&gt;&lt;/p&gt;</code><br><code>&lt;a href="#" class="zi zi_music"&gt;&lt;/a&gt;</code><br>上面的方法都是完全适用，而且同样可以输出结果的，是不是很方便^_^
+</p><p>如果你是一个高级web开发者，熟悉Emmet语法，还可以直接用简写的方式，即<br><code>.zi.zi_music</code><br>形式展开，就能完成快速的应用zico图标。<br>如下图所示：<br><img src="/uploadfiles/180531.gif" alt="">
+</p><p>接下来，我们将引导讲解一系列深度的应用技巧，其中包括：</p>
+<ol>
+<li>在微信开发中引用zico</li><li>美化zico</li><li>赋予zio动作</li><li>一些优秀的应用技巧</li></ol>
+<p>欢迎您继续浏览。</p>
+</div>
+
+
+
+
+
+
+<div class=" text-cente">
+<h1>CSS引用展示：</h1>
+</div>
+
+<div class="container">
+分步加载.zi_load：
+<i class="zi zi_adjust zi_load zi_2x"></i><br/>
+
+无缝旋转.zi_spin：
+<i class="zi zi_adjust zi_spin"></i><br/>
+卡壳式8步旋转.zi_pulse：<i class="zi zi_adjust zi_pulse"></i><br><br>
+
+固定宽度列表：<br>
+<i class="zi zi_glass zi_w8"></i>zi_glass<br>
+<i class="zi zi_jiubi zi_w8"></i>zi_jiubi<br>
+<i class="zi zi_jb zi_w8"></i>zi_jb<br><br>
+
+带边框定义：<br>
+<i class="zi zi_pathUp zi_border"></i><br><br>
+
+旋转90度、180度、270度：<br>
+<i class="zi zi_anchor zi_rotate90"></i>
+<i class="zi zi_anchor zi_rotate180"></i>
+<i class="zi zi_anchor zi_rotate270"></i><br><br>
+
+标准图标：<i class="zi zi_bomb "></i><br>
+水平投影：<i class="zi zi_bomb zi_flipLevel"></i><br>
+垂直投影：<i class="zi zi_bomb zi_flipVertical"></i><br><br>
+
+
+默认组合使用：
+<span class="zi_group zi_2x">
+  <i class="zi zi_squareLine zi_group2x"></i>
+  <i class="zi zi_digg zi_group1x"></i>
+</span>
+<br><br>
+
+反转颜色组合使用：
+<span class="zi_group zi_2x">
+  <i class="zi zi_circle zi_group2x"></i>
+  <i class="zi zi_digg zi_group1x zi_inverse"></i>
+</span>
+<br><br>
+
+自定颜色组合使用：
+<span class="zi_group zi_2x">
+  <i class="zi zi_squareLine zi_group2x"></i>
+  <i class="zi zi_digg zi_group1x"  style="color:Tomato"></i>
+</span>
+<br><br>
+
+
+
+
+</div>
+
+<hr>
+<div class="container">
+<div class="row">
+<div class="col">
+<span>酒杯:</span>
+<i class="zi zi_glass"></i>zi_glass<br>
+<i class="zi zi_jiubi"></i>zi_jiubi<br>
+<i class="zi zi_jb"></i>zi_jb<br>
+</div>
+<div class="col">
+<span>音乐：</span>
+<i class="zi zi_music"></i> zi_music<br>
+<i class="zi zi_yinyue"></i> zi_yinyue<br>
+<i class="zi zi_yy"></i> zi_yy<br>
+</div>
+<div class="col">
+<span>搜索：</span>
+<i class="zi zi_search"></i> zi_search<br>
+<i class="zi zi_sousuo"></i> zi_sousuo<br>
+<i class="zi zi_ss"></i> zi_ss<br>
+</div>
+</div>
+</div>
+
+
+<hr>
+<div class="container" style="font-size: 3rem;">
+<i class="zi zi_glass"></i>
+<i class="zi zi_music"></i>
+<i class="zi zi_search"></i>
+<i class="zi zi_menu"></i>
+<i class="zi zi_service"></i>
+<i class="zi zi_textbook"></i>
+<i class="zi zi_IDcard"></i>
+<i class="zi zi_Idcards"></i>
+<i class="zi zi_circleDonw"></i>
+<i class="zi zi_circleLeft"></i>
+<i class="zi zi_circleRight"></i>
+<i class="zi zi_circleUp"></i>
+<i class="zi zi_quiet"></i>
+<i class="zi zi_bell"></i>
+<i class="zi zi_verFlag"></i>
+<i class="zi zi_house"></i>
+<i class="zi zi_squareBook"></i>
+<i class="zi zi_squareHandCorrect"></i>
+<i class="zi zi_squareLess"></i>
+<i class="zi zi_squarePlus"></i>
+<i class="zi zi_squareMultiply"></i>
+<i class="zi zi_squareHandle"></i>
+<i class="zi zi_squareDown"></i>
+<i class="zi zi_squareLeft"></i>
+<i class="zi zi_squareRight"></i>
+<i class="zi zi_squareUp"></i>
+<i class="zi zi_curve"></i>
+<i class="zi zi_circleCorrect"></i>
+<i class="zi zi_squareCorrect"></i>
+<i class="zi zi_circleLine"></i>
+<i class="zi zi_clock"></i>
+<i class="zi zi_copyright"></i>
+<i class="zi zi_circlesNesting"></i>
+<i class="zi zi_compass"></i>
+<i class="zi zi_Cryingface"></i>
+<i class="zi zi_smile"></i>
+<i class="zi zi_steeringWheel"></i>
+<i class="zi zi_Rudder"></i>
+<i class="zi zi_circleStop"></i>
+<i class="zi zi_smileyFace"></i>
+<i class="zi zi_circlePause"></i>
+<i class="zi zi_circlePlay"></i>
+<i class="zi zi_circleQuestion"></i>
+<i class="zi zi_circleVatar"></i>
+<i class="zi zi_reg"></i>
+<i class="zi zi_circleCancel"></i>
+<i class="zi zi_footballLine"></i>
+<i class="zi zi_halfMonth"></i>
+<i class="zi zi_snowflake"></i>
+<i class="zi zi_circleComponents"></i>
+<i class="zi zi_starLine"></i>
+<i class="zi zi_starHalf"></i>
+<i class="zi zi_starHalfBlack"></i>
+<i class="zi zi_squareLine"></i>
+<i class="zi zi_fileLine"></i>
+<i class="zi zi_plusSquare"></i>
+<i class="zi zi_bubbleSquare"></i>
+<i class="zi zi_doubleSquare"></i>
+<i class="zi zi_lessSquare"></i>
+<i class="zi zi_listSquare"></i>
+<i class="zi zi_jumpSquare"></i>
+<i class="zi zi_floppyDisk"></i>
+<i class="zi zi_selectFile"></i>
+<i class="zi zi_cut"></i>
+<i class="zi zi_floderLine"></i>
+<i class="zi zi_floderOpen"></i>
+<i class="zi zi_flag"></i>
+<i class="zi zi_fileNew"></i>
+<i class="zi zi_word"></i>
+<i class="zi zi_fileEdit"></i>
+<i class="zi zi_fileZip"></i>
+<i class="zi zi_fileAudio"></i>
+<i class="zi zi_fileCode"></i>
+<i class="zi zi_fileSilent"></i>
+<i class="zi zi_filePic"></i>
+<i class="zi zi_pdf"></i>
+<i class="zi zi_filePrt"></i>
+<i class="zi zi_fileVideo"></i>
+<i class="zi zi_oppose"></i>
+<i class="zi zi_digg"></i>
+<i class="zi zi_fileBook"></i>
+<i class="zi zi_cc"></i>
+<i class="zi zi_creditCard"></i>
+<i class="zi zi_envelope"></i>
+<i class="zi zi_oneDollar"></i>
+<i class="zi zi_fileGraph"></i>
+<i class="zi zi_idCheck"></i>
+<i class="zi zi_maps"></i>
+<i class="zi zi_keyboard"></i>
+<i class="zi zi_chat"></i>
+<i class="zi zi_copyfile"></i>
+<i class="zi zi_noSee"></i>
+<i class="zi zi_newMsg"></i>
+<i class="zi zi_msgchat"></i>
+<i class="zi zi_openMsg"></i>
+<i class="zi zi_write"></i>
+<i class="zi zi_fly"></i>
+<i class="zi zi_paper"></i>
+<i class="zi zi_diamond"></i>
+<i class="zi zi_bulb"></i>
+<i class="zi zi_idRec"></i>
+<i class="zi zi_hourglass"></i>
+<i class="zi zi_hospital"></i>
+<i class="zi zi_love"></i>
+<i class="zi zi_disk"></i>
+<i class="zi zi_shakeHands"></i>
+<i class="zi zi_hand"></i>
+<i class="zi zi_dumb"></i>
+<i class="zi zi_scissors"></i>
+<i class="zi zi_fistLine"></i>
+<i class="zi zi_click"></i>
+<i class="zi zi_handup"></i>
+<i class="zi zi_handdown"></i>
+<i class="zi zi_handTwo"></i>
+<i class="zi zi_handLine"></i>
+<i class="zi zi_handLeft"></i>
+<i class="zi zi_handRight"></i>
+<i class="zi zi_bulbTorch"></i>
+<i class="zi zi_bulbGlow"></i>
+<i class="zi zi_bulbLine"></i>
+<i class="zi zi_torch"></i>
+<i class="zi zi_schoolDesk"></i>
+</div>
+
+
+	
+<footer>
+<div class="container">
+<div class="col-md-8 offset-md-2 footLi">
+<ul>
+<li><strong>关于</strong></li>
+<li><a href="http://ico.z01.com/Item/1397.aspx">项目理念</a></li>
+<li><a href="http://ico.z01.com/Item/1356.aspx">有何不同</a></li>
+<li><a href="http://ico.z01.com/Item/508.aspx">检索方法</a></li>
+<li><a href="http://ico.z01.com/Item/1350.aspx">区位标准</a></li>
+</ul>
+<ul>
+<li><strong>使用</strong></li>
+<li><a href="http://ico.z01.com/Item/499.aspx">CDN使用</a></li>
+<li><a href="http://ico.z01.com/Item/499.aspx">网站目录引用</a></li>
+<li><a href="http://ico.z01.com/Item/499.aspx">下载本地使用</a></li>
+<li><a href="http://ico.z01.com/Item/1349.aspx">微信小程序引用</a></li>
+<li><a href="http://ico.z01.com/Item/1348.aspx" style="font-size: 0.8rem;">结合angular\VUE</a></li>
+</ul>
+<ul>
+<li><strong>支持</strong></li>
+<li><a href="http://ico.z01.com/Item/1352.aspx">捐赠我们</a></li>
+<li><a href="http://ico.z01.com/Item/1351.aspx">商业订制</a></li>
+<li><a href="http://www.ziti163.com/webfont" target="_blank">webfont</a></li>
+<li><a href="http://www.ziti163.com/uni" target="_blank">Uni全球区码</a></li>
+<li><a href="http://ico.z01.com/Item/1357.aspx">申请新图标</a></li>
+</ul>
+<ul>
+<li><strong>链接</strong></li>
+<li><a href="http://www.z01.com" target="_blank">Zoomla!逐浪CMS</a></li>
+<li><a href="http://f.ziti163.com" target="_blank">逐浪字库</a></li>
+<li><a href="http://code.z01.com/v4" target="_blank">Bootstrap中国站</a></li>
+<li><a href="http://code.z01.com/sass" target="_blank">scss/sass文档</a></li>
+</ul>
+</div>
+<div class="Copyright">
+<script src="/js/mobile.js"></script><a href="http://app.z01.com/Class_2/NodePage.aspx?url=http://localhost:115/&amp;t=m" style="font-size:30px;" data-toggle="tooltip" data-placement="top" title="" target="_blank" data-original-title="本网站支持手机访问，点此模拟手机并获得访问"><img style="width:15px;" src="data:image/gif;base64,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" alt=""></a>
+Copyright &copy; 2018 Zoomla!CMS. All Rights Reserved  逐浪CMS®软件旗下<a href="http://www.73ic.com" target="_blank">73ic去上</a> 提供云计算服务 <a href="http://ico.z01.com/Item/1353.aspx">[版权申明]</a><br>
+<a href="https://opensource.org/licenses/MIT" target="_blank">遵循 MIT 开源协议</a>
+</div>
+</div>
+</footer>
+<!--footer end-->
+</body>
+</html>

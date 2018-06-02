@@ -6,7 +6,6 @@
 //.a2{background: $中国人民中华人民共和国变量之二;}
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
-
 .zi_tm73ic,.zi_tm73
 {
 &:before { content: "\e870"; }
@@ -2697,7 +2696,11 @@
 &:before { content: "\ea2f"; }
 }
 
-
+//威海福汇百居
+.zi_tmWeihaifb,.zi_tmWhfb
+{
+&:before { content: "\ea30"; }
+}
 
 
 

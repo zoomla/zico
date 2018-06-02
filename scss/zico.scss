@@ -6,16 +6,21 @@
 //.a2{background: $中国人民中华人民共和国变量之二;}
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
-/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com  http://ico.z01.com  */
-
+/*!
+* zico-zico-专为CJK汉语用户设计的ICO图标系统
+* 官网 http://code.z01.com
+* NPM  https://www.npmjs.com/package/zico
+* Git  http://github.z01.com/zico/
+* Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
+* 当版本：0.0.6
+*/
 @charset "utf-8";
 @import "global";
 @import "规格动作";
 @import "zico_tm.min.css";
 @import "zico_gov.min.css";
 
-@font-face {
-    font-family: "zico";
+@font-face {font-family: "zico";
     src: url("../fonts/zi-regular.eot"); /* IE9 */
     src: url("../fonts/zi-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("../fonts/zi-regular.woff") format("woff"), /* chrome、firefox */
@@ -35,13 +40,13 @@
 }
 
 @font-face {
-    font-family: "zicoGov";
-    src: url("../fonts/zi-gov.eot"); /* IE9 */
-    src: url("../fonts/zi-gov.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/zi-gov.woff") format("woff"), /* chrome、firefox */
-    url("../fonts/zi-gov.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url("../fonts/zi-gov.svg#zi-gov") format("svg"); /* iOS 4.1- */
-    font-style: normal; font-weight: normal;
+font-family: "zicoGov";
+src: url("../fonts/zi-gov.eot"); /* IE9 */
+src: url("../fonts/zi-gov.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+url("../fonts/zi-gov.woff") format("woff"), /* chrome、firefox */
+url("../fonts/zi-gov.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+url("../fonts/zi-gov.svg#zi-gov") format("svg"); /* iOS 4.1- */
+font-style: normal; font-weight: normal;
 }
 
 .zi { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto;
@@ -2601,13 +2606,13 @@ line-height:inherit; }
 //身份认证
 .zi_idcardalt,.zi_shenfenrenzheng,.zi_sfrz
 {
-&:before { content: "\e4d89; }
+&:before { content: "\e4d89"; }
 }
 
 //证卡黑
 .zi_idcardBold,.zi_shenfenzhenghei,.zi_sfza
 {
-&:before { content: "\e4da; }
+&:before { content: "\e4da"; }
 }
 
 //图像
@@ -3390,125 +3395,131 @@ line-height:inherit; }
 &:before { content: "\e55c"; }
 }
 
-//重做箭头
 //重做标识
 .zi_redoalt,.zi_zhongzuobiaozhi,.zi_zzbz
 {
 &:before { content: "\e55d"; }
 }
 
-//已注册圆标
+//重做箭头
 .zi_redo,.zi_zhongzuojiantou,.zi_zzjt
 {
 &:before { content: "\e55e"; }
 }
 
-//回复组
+//已注册圆标
 .zi_registered,.zi_yizhuceyuanbiao,.zi_yzcyb
 {
 &:before { content: "\e55f"; }
 }
 
-//回复黑
+//回复组
 .zi_replyall,.zi_huifuzu,.zi_hfz
 {
 &:before { content: "\e560"; }
 }
 
+//回复黑
+.zi_reply,.zi_huifuhei,.zi_hfh
+{
+&:before { content: "\e561"; }
+}
+
+
 //转推
 .zi_retweet,.zi_zhuantui,.zi_ztui
 {
-&:before { content: "\e561"; }
+&:before { content: "\e562"; }
 }
 
 //丝带
 .zi_ribbon,.zi_sidai,.zi_sdai
 {
-&:before { content: "\e562"; }
+&:before { content: "\e563"; }
 }
 
 //马路
 .zi_road,.zi_malu,.zi_ml
 {
-&:before { content: "\e563"; }
+&:before { content: "\e564"; }
 }
 
 //机器人黑
 .zi_robot,.zi_jiqirenhei,.zi_jqrh
 {
-&:before { content: "\e564"; }
+&:before { content: "\e565"; }
 }
 
 //火箭黑
 .zi_rocket,.zi_huojianhei,.zi_hjh
 {
-&:before { content: "\e565"; }
+&:before { content: "\e566"; }
 }
 
 //wifi圆标
 .zi_rsssquare,.zi_wifiyuanbiao,.zi_wifiyb
 {
-&:before { content: "\e566"; }
+&:before { content: "\e567"; }
 }
 
 //wifi黑
 .zi_rss,.zi_wifihei,.zi_wifih
 {
-&:before { content: "\e567"; }
+&:before { content: "\e568"; }
 }
 
 //卢布符
 .zi_rublesign,.zi_lubufu,.zi_lbfu
 {
-&:before { content: "\e568"; }
+&:before { content: "\e569"; }
 }
 
 //规则合并
 .zi_rulercombined,.zi_guizehebing,.zi_gzhbing
 {
-&:before { content: "\e569"; }
+&:before { content: "\e56a"; }
 }
 
 //规则统治
 .zi_rulerhorizontal,.zi_guizetongzhi,.zi_gztz
 {
-&:before { content: "\e56a"; }
+&:before { content: "\e56b"; }
 }
 
 //规则公平
 .zi_rulervertical,.zi_guizegongping,.zi_gzgp
 {
-&:before { content: "\e56b"; }
+&:before { content: "\e56c"; }
 }
 
 //规则黑标
 .zi_ruler,.zi_guizeheibiao,.zi_gzhb
 {
-&:before { content: "\e56c"; }
+&:before { content: "\e56d"; }
 }
 
 //卢比符
 .zi_rupeesign,.zi_lubifu,.zi_lbf
 {
-&:before { content: "\e56d"; }
+&:before { content: "\e56e"; }
 }
 
 //保存黑
 .zi_save,.zi_baocunhei,.zi_bch
 {
-&:before { content: "\e56e"; }
+&:before { content: "\e56f"; }
 }
 
 //学校黑
 .zi_school,.zi_xuexiaohei,.zi_xxhei
 {
-&:before { content: "\e56f"; }
+&:before { content: "\e570"; }
 }
 
 //螺丝刀
 .zi_screwdriver,.zi_luosidao,.zi_lsd
 {
-&:before { content: "\e570"; }
+&:before { content: "\e571"; }
 }
 
 //搜索缩小

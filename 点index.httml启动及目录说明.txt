@@ -1,0 +1,19 @@
+欢迎使用zico专业的icons图标系统。
+
+
+Base64紧致压缩版:用于在非web引用源（如小程序开发中引用）。
+Css:	zico的核心CSS文件夹[必须]
+fonts:	zico的核心字体文件夹[必须]
+JS：	最后生产出来给用户的JS文件。
+lib：	非核心资源包，即此文件夹下文件非zio功能文件，只是为了使整个项目更加美观而引用，如bootstrap框加、复制脚本等。
+Scss:	源码编译包，非必须。
+小程序引用插件：用于小程序开发的现成插件。
+桌面PC版：桌面软件使用zico矢量图标系统的程序和说明。
+
+
+
+Powered by Zoomla!逐浪CMS团队
+
+zico官网：ico.z01.com
+E-mail:web@z01.com
+QQ:1799661890

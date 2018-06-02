@@ -1,5 +1,11 @@
 @charset "UTF-8";
-/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com  http://ico.z01.com  */
+/*!
+* zico-专为CJK汉语用户设计的ICO图标系统
+* 官网 http://ico.z01.com
+* NPM  https://www.npmjs.com/package/zico
+* Git  http://github.z01.com/zico/
+* Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
+*/
 @import url(zico_tm.min.css);
 @import url(zico_gov.min.css);
 .zi_lg { font-size: 1.8rem; line-height: 0.8rem; vertical-align: -.08rem; }
@@ -971,7 +977,9 @@ font-style: normal; font-weight: normal; }
 
 .zi_idbadge:before, .zi_shenfenxunzhang:before, .zi_sfxz:before { content: "\e4d8"; }
 
-.zi_idcardalt:before, .zi_shenfenrenzheng:before, .zi_sfrz:before { content: "󤶉; }\a}\a \a//证卡黑\a.zi_idcardBold,.zi_shenfenzhenghei,.zi_sfza\a{\a&:before { content: " \e4da; }
+.zi_idcardalt:before, .zi_shenfenrenzheng:before, .zi_sfrz:before { content: "\e4d89"; }
+
+.zi_idcardBold:before, .zi_shenfenzhenghei:before, .zi_sfza:before { content: "\e4da"; }
 
 .zi_image:before, .zi_tuxiang:before, .zi_tx:before { content: "\e4db"; }
 
@@ -1241,37 +1249,39 @@ font-style: normal; font-weight: normal; }
 
 .zi_replyall:before, .zi_huifuzu:before, .zi_hfz:before { content: "\e560"; }
 
-.zi_retweet:before, .zi_zhuantui:before, .zi_ztui:before { content: "\e561"; }
+.zi_reply:before, .zi_huifuhei:before, .zi_hfh:before { content: "\e561"; }
 
-.zi_ribbon:before, .zi_sidai:before, .zi_sdai:before { content: "\e562"; }
+.zi_retweet:before, .zi_zhuantui:before, .zi_ztui:before { content: "\e562"; }
 
-.zi_road:before, .zi_malu:before, .zi_ml:before { content: "\e563"; }
+.zi_ribbon:before, .zi_sidai:before, .zi_sdai:before { content: "\e563"; }
 
-.zi_robot:before, .zi_jiqirenhei:before, .zi_jqrh:before { content: "\e564"; }
+.zi_road:before, .zi_malu:before, .zi_ml:before { content: "\e564"; }
 
-.zi_rocket:before, .zi_huojianhei:before, .zi_hjh:before { content: "\e565"; }
+.zi_robot:before, .zi_jiqirenhei:before, .zi_jqrh:before { content: "\e565"; }
 
-.zi_rsssquare:before, .zi_wifiyuanbiao:before, .zi_wifiyb:before { content: "\e566"; }
+.zi_rocket:before, .zi_huojianhei:before, .zi_hjh:before { content: "\e566"; }
 
-.zi_rss:before, .zi_wifihei:before, .zi_wifih:before { content: "\e567"; }
+.zi_rsssquare:before, .zi_wifiyuanbiao:before, .zi_wifiyb:before { content: "\e567"; }
 
-.zi_rublesign:before, .zi_lubufu:before, .zi_lbfu:before { content: "\e568"; }
+.zi_rss:before, .zi_wifihei:before, .zi_wifih:before { content: "\e568"; }
 
-.zi_rulercombined:before, .zi_guizehebing:before, .zi_gzhbing:before { content: "\e569"; }
+.zi_rublesign:before, .zi_lubufu:before, .zi_lbfu:before { content: "\e569"; }
 
-.zi_rulerhorizontal:before, .zi_guizetongzhi:before, .zi_gztz:before { content: "\e56a"; }
+.zi_rulercombined:before, .zi_guizehebing:before, .zi_gzhbing:before { content: "\e56a"; }
 
-.zi_rulervertical:before, .zi_guizegongping:before, .zi_gzgp:before { content: "\e56b"; }
+.zi_rulerhorizontal:before, .zi_guizetongzhi:before, .zi_gztz:before { content: "\e56b"; }
 
-.zi_ruler:before, .zi_guizeheibiao:before, .zi_gzhb:before { content: "\e56c"; }
+.zi_rulervertical:before, .zi_guizegongping:before, .zi_gzgp:before { content: "\e56c"; }
 
-.zi_rupeesign:before, .zi_lubifu:before, .zi_lbf:before { content: "\e56d"; }
+.zi_ruler:before, .zi_guizeheibiao:before, .zi_gzhb:before { content: "\e56d"; }
 
-.zi_save:before, .zi_baocunhei:before, .zi_bch:before { content: "\e56e"; }
+.zi_rupeesign:before, .zi_lubifu:before, .zi_lbf:before { content: "\e56e"; }
 
-.zi_school:before, .zi_xuexiaohei:before, .zi_xxhei:before { content: "\e56f"; }
+.zi_save:before, .zi_baocunhei:before, .zi_bch:before { content: "\e56f"; }
 
-.zi_screwdriver:before, .zi_luosidao:before, .zi_lsd:before { content: "\e570"; }
+.zi_school:before, .zi_xuexiaohei:before, .zi_xxhei:before { content: "\e570"; }
+
+.zi_screwdriver:before, .zi_luosidao:before, .zi_lsd:before { content: "\e571"; }
 
 .zi_searchminus:before, .zi_sousuosuoxiao:before, .zi_sssx:before { content: "\e572"; }
 
