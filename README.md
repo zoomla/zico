@@ -1,6 +1,6 @@
 [![zico](https://raw.githubusercontent.com/zoomla/zico/master/lib/logo512x512.png "一个专为中国开发者而生的跨平台图标解决方案-Powered by zoomla!逐浪CMS团队")](http://ico.z01.com "一个专为中国开发者而生的跨平台图标解决方案")
 
-#一个专为中国开发者而生的跨平台图标解决方案
+# 一个专为中国开发者而生的跨平台图标解决方案
 
 zio是一个非常优秀的webfont与svg图标展示系统，它的目标是让全栈开发者与用户可以自由的任何页面引用矢量级的图标。
 
