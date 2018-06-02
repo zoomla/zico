@@ -17,14 +17,17 @@ zico是免费开源的，我们提供了多种便利的安装使用方法
 [zico官方程序包](http://ico.z01.com/zio.zip "zio官方程序包")
 我们会不断更新此程序包，以保证其是最新更新，而且它是一个袖珍文件，很快就能下载完成。
 下载后，解压开即可使用。
+
 2. 通过Npm安装
 全球流行的Npm安装方式自然是非常简单了，其命令是：
 `npm i zico`
 这需要你的系统安装了nodeJS，这有一个快速教程：
 <video src="http://ico.z01.com/UploadFiles/gtizio.mp4" poster="http://ico.z01.com/Template/zicon/style/Images/logo512x512.png" controls="controls" width="920"> 
+  
 3. 通过Github安装
 我们还在全球最大的源码开放平台Github上发布,zio源码仓库的访问地址是
 [https://github.com/zoomla/zico](https://github.com/zoomla/zico "https://github.com/zoomla/zico")
+
 4. CDN引用
 如果你不想下载和安装，也可以直接CDN引用，只要在网页和应用中中置入zico的CDN源地址即可，其URL请求源为：
 `http://ico.z01.com/zico.min.css`
@@ -70,7 +73,7 @@ zico是免费开源的，我们提供了多种便利的安装使用方法
 #轮子
 前辈们说，不要重复制造轮子。
 问题是：如果从来没有轮子呢？
-`
+
 那个在半夜三分抠着脚用着外文工具的抠脚大汉，很能成就一个复兴强国的开发重任-当然我们身边更多的是勤奋的中国开发者。
 
 #弥补缺位的文化
@@ -85,7 +88,8 @@ zico是免费开源的，我们提供了多种便利的安装使用方法
 > 既拥抱国际、又体现东方之美我们的定位就是开发一个既拥抱国际、又体现东方之美的ICON图标集。
 用程序员的思路、服务于程序和全栈，甚至是普通的公文写作、AI设计、图形描绘也能用上这一套工具，所以我们有了CSS引用、JS输出、桌面引用三套方法。
 
-`
+
+
 习近平主席说：一个国家和民族，不能总用别人的昨天来装扮自己的明天。
 一个强盛的民族，应该有自己的图标集和开发工具。
 
@@ -147,13 +151,15 @@ Zoomla!逐浪CMS是一款基于dotNET技术构建的高端CMS，也是目前华�
 
 其引用如下图：
 ![](http://ico.z01.com/uploadfiles/image/05.jpg)
-`
+
+
 在模板中，只要放入标签，如下图：
 ![](http://ico.z01.com/uploadfiles/image/06.jpg)
-`
+
+
 即能在浏览器引用逐浪CMS内置的zico图标，如下：
 ![](http://ico.z01.com/uploadfiles/image/07.jpg)
-`
+
 
 其头代码结构：
 ```html
@@ -178,11 +184,10 @@ Zoomla!逐浪CMS是一款基于dotNET技术构建的高端CMS，也是目前华�
 
 ```
 
-`
+
 每一个Zoomla!逐浪CMS都会集成当时最新的zico源码，值得体验。
 
-`
-`
+
 真正开放，Github、Npm同步开发，展现中国人的的创造力和产生能力！
 
 
@@ -193,7 +198,7 @@ Zoomla!逐浪CMS是一款基于dotNET技术构建的高端CMS，也是目前华�
 
 请用微信扫上方赞助码给予我们支持！
 如果你需要进一步的联络以及商业赞助，欢迎点此[联系我们](http://ico.z01.com/Item/1402.aspx "联系我们")
-`
+
 #捐赠回报
 由于zico是开源项目，我们本身没有收益，但我们真诚渴望您的支持，对于赞助者：
 1、提供我们站群资源的链接SEO支持。
@@ -202,7 +207,7 @@ Zoomla!逐浪CMS是一款基于dotNET技术构建的高端CMS，也是目前华�
 4、可于社区公开捐赠名单，以兹表扬。
 5、对于企业级大额捐赠，开具发票，并提供超额的商业回报。
 
-`
+
 #鸣谢名单（排名不分先后）
 我要买房网&福居百汇（中国威海）孙总 [www.5yaomaifang.com](http://www.5yaomaifang.com "www.5yaomaifang.com")
 
