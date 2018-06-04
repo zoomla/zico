@@ -119,7 +119,7 @@ zico基于逐浪图标的元素，力求改变这一目标！
 
 
 # 效率对比
-我们以微软公司Visual Studio软件为例，来对比两种输入状态的效率，zico在这方面遥遥祝领先：
+我们以微软公司Visual Studio软件为例，来对比两种输入状态的效率，zico在这方面遥遥领先：
 ![](http://ico.z01.com/uploadfiles/image/10.gif)
 
 
