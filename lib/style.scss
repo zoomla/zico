@@ -118,7 +118,7 @@ li{display: inline-block;}
 
 //icon 列表
 .m_iconlist{margin-top: 3rem;text-align: center;
-h2{margin-bottom: 1rem;color: #000;font-size:2.8rem; font-weight: 100;}
+h2{margin-bottom: 1rem;color: #000;font-size:1.8rem; font-weight: 100;}
 p{font-size: 20px;font-weight: 300;line-height: 1.5;color: #9b9b9b;}
 .icon_tabs{margin-top: 1.4rem;border-bottom: none!important;}
 }
@@ -130,7 +130,7 @@ label{position: absolute;left: 1rem;top: .4rem;margin-bottom: 0;font-size: 1.2re
 input{padding-left: 2.5rem;height: 2.6rem;border-radius: 2rem;}
 }
 
-
+//首页ico排序
 .home_section{margin-top: 3.5rem;
 h2{padding-bottom: 1rem;font-weight: 100;font-size: 1.8rem;border-bottom: 1px solid rgba(216,216,216,1.00);}
 .home_section_ul{border-bottom: 1px solid rgba(216,216,216,1.00);margin-top: 2rem;}
@@ -139,8 +139,15 @@ h2{padding-bottom: 1rem;font-weight: 100;font-size: 1.8rem;border-bottom: 1px so
 .home_section_ul li a{color:rgba(102,102,102,1.00);}
 .home_section_ul li a:hover{background: rgba(255,255,255,0.00);color:rgba(0,0,0,1.00);text-decoration: none;}
 .home_section_ul li.active {background:rgba(0,198,162,1.00);}
-.home_section_ul li.active a{color:rgba(255,255,255,1.00);;}
+.home_section_ul li.active a{color:rgba(255,255,255,1.00);}
 }
+
+//首页特色链接
+.home_section_r{ display: flex;float: right; color: rgba(0,0,0,0.87); font-size: 0.8rem;
+a{margin-top: -0.3rem;padding-left: 0.5rem;}
+a:hover{ color: #f00 !important; background: none !important;}
+}
+
 
 .home_section{
 a{display: block;overflow: hidden;height: 2rem;line-height: 2rem;/*padding-left: 1rem; font-size: .93rem;*/color:rgba(0,0,0,1.00);}
@@ -223,7 +230,7 @@ a{color: rgba(255, 255, 255, 0.6);border-bottom: 1px dotted #ccc;}
 .footer .about_footer_bg{background: rgba(3,32,50,1.00);}
 
 /*右侧固定在线客服*/
-.kefu { position: fixed; top: 50%; right: 20px; margin-top: -87px; width: 2.3rem; text-align: center; /*z-index: 1200;*/ }
+.kefu { position: fixed; top: 50%; right: 20px; margin-top: -87px; width: 2.3rem; text-align: center; z-index:3; }
 .kefu ul { padding-left: 0; list-style: none; }
 .kefu a { position: relative; float: right; margin-top: 0.1rem; padding-right: 1.8rem; width: 34px; height: 34px; line-height: 34px; background: #7a6e6e; color: #fff; border-radius: 4px; overflow: hidden; transition: width 0.5s; -moz-transition: width 0.5s; -webkit-transition: width 0.5s; -o-transition: width 0.5s; }
 .kefu li i { display: block; position: absolute; float: right; top: 0; right: 0px; height: 34px; width: 34px; line-height: 34px; font-size: 20px; background: #7a6e6e; border-radius: 4px; z-index: 10; }
