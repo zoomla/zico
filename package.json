@@ -1,6 +1,6 @@
 {
   "name": "zico",
-  "version": "1.1.00",
+  "version": "1.1.01",
   "description": "A web icon framework by Zoomla!CMS team,一个专为中国开发者而生的跨平台图标解决方案|基于zico技术可快速渲染webfont或svg矢量图标,并提供免费的网页字体,由知名的Zoomla!逐浪CMS团队维护",
   "main": "index.html",
   "scripts": {
@@ -29,7 +29,7 @@
     "中国百强企业图标"
   ],
   "author": "Shanghai  Zoomla!CMS Software co.,ltd",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {
     "lib": "lib"
   },
