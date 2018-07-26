@@ -7,12 +7,12 @@
 //建议CSS注释写在代码段的起始处以使阅读更加流畅
 
 /*!
-* zico-zico-专为CJK汉语用户设计的ICO图标系统
-* 官网 http://code.z01.com
+* zico-专为CJK汉语用户设计的ICO图标系统
+* 官网 http://ico.z01.com
 * NPM  https://www.npmjs.com/package/zico
-* Git  http://github.z01.com/zico/
+* Git  http://github.z01.com/zico
 * Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
-* 当版本：0.0.6
+* 版本号：v1.5
 */
 @charset "utf-8";
 @import "global";
@@ -49,9 +49,7 @@ url("../fonts/zi-gov.svg#zi-gov") format("svg"); /* iOS 4.1- */
 font-style: normal; font-weight: normal;
 }
 
-.zi { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto;
-line-height:inherit; }
-
+.zi {-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto;line-height:inherit; }
 .zi{font-family:"zico","zicoTm","zicoGov";}
 
 //酒杯
@@ -5244,8 +5242,29 @@ line-height:inherit; }
 &:before { content: "\e690"; }
 }
 
+//康复运动上半身
+.zi_kangfau
+{
+&:before { content: "\e691"; }
+}
 
+//手术刀柳叶刀
+.zi_liuyedao
+{
+&:before { content: "\e692"; }
+}
 
+//骨科实线
+.zi_gugj
+{
+&:before { content: "\e693"; }
+}
+
+//风湿关节
+.zi_fesi
+{
+&:before { content: "\e694"; }
+}
 
 
 

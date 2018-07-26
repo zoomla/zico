@@ -5,6 +5,7 @@
 * NPM  https://www.npmjs.com/package/zico
 * Git  http://github.z01.com/zico
 * Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
+* 版本号：v1.5
 */
 @import url(zico_tm.min.css);
 @import url(zico_gov.min.css);
@@ -110,6 +111,12 @@
   80% { opacity: 0.8; }
   90% { opacity: 0.9; }
   100% { opacity: 1; } }
+.zi_pull { display: table-caption !important; overflow: hidden; -webkit-animation: zi_pull 1s ease 0.6s; animation: zi_pull 1s ease 0.6s; }
+
+@keyframes zi_pull { 0% { width: 0; }
+  100% { width: 100%; } }
+@-webkit-keyframes zi_pull { 0% { width: 0; }
+  100% { width: 100%; } }
 .zi_rotate90 { -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)"; -webkit-transform: rotate(90deg); transform: rotate(90deg); }
 
 .zi_rotate180 { -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
@@ -1882,6 +1889,14 @@ font-style: normal; font-weight: normal; }
 .zi_mom:before, .zi_mama:before, .zi_mm:before { content: "\e68f"; }
 
 .zi_mother:before, .zi_muqinmunv:before, .zi_mqmn:before { content: "\e690"; }
+
+.zi_kangfau:before { content: "\e691"; }
+
+.zi_liuyedao:before { content: "\e692"; }
+
+.zi_gugj:before { content: "\e693"; }
+
+.zi_fesi:before { content: "\e694"; }
 
 /*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
 

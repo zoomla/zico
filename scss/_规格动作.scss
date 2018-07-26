@@ -41,6 +41,79 @@
 //卡壳式8步旋转
 .zi_pulse { -webkit-animation: zi_rotate 1s infinite steps(8); animation: zi_rotate 1s infinite steps(8); }
 
+//上下弹跳
+.zi_bounce{ -webkit-animation:bounce 1.4s linear infinite;animation:bounce 1.4s linear infinite;}
+
+@-webkit-keyframes bounce {
+ 25% {-webkit-transform: translateY(10px);}
+ 50%, 100% {-webkit-transform: translateY(0);}
+ 75% {-webkit-transform: translateY(-10px);}
+}
+@keyframes bounce {
+ 25% {transform: translateY(10px);}
+ 50%, 100% {transform: translateY(0);}
+ 75% {transform: translateY(-10px);}
+}
+
+//气泡放大效果
+.zi_zoom { opacity: 0; -webkit-animation: zoom 3s ease-out;  animation: zoom 3s ease-out; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+@keyframes zoom {
+ 0% {
+ transform: scale(0);
+ opacity: 0.0;
+}
+ 25% {
+ transform: scale(0);
+ opacity: 0.1;
+}
+ 50% {
+ transform: scale(0.1);
+ opacity: 0.3;
+}
+ 75% {
+ transform: scale(0.5);
+ opacity: 0.5;
+}
+ 100% {
+ transform: scale(1);
+ opacity: 1.0;
+}
+}
+@-webkit-keyframes zoom {
+ 0% {
+ -webkit-transform: scale(0);
+ opacity: 0.0;
+}
+ 25% {
+ -webkit-transform: scale(0);
+ opacity: 0.1;
+}
+ 50% {
+ -webkit-transform: scale(0.1);
+ opacity: 0.3;
+}
+ 75% {
+ -webkit-transform: scale(0.5);
+ opacity: 0.5;
+}
+ 100% {
+ -webkit-transform: scale(1);
+ opacity: 1.0;
+}
+}
+
+//警灯闪烁
+.zi_danger{animation: danger 8ms  infinite  alternate;-webkit-animation: danger 8ms infinite  alternate;}
+@keyframes danger{
+    0% {opacity: .2; }
+    100% {opacity: 1;}
+}
+@-webkit-keyframes danger{
+    0% {opacity: .2; }
+    100% {opacity: 1;}
+}
+
+
 @-webkit-keyframes zi_rotate {
   0% {
     -webkit-transform: rotate(0deg);
@@ -124,6 +197,26 @@
   opacity: 1;
 }
 }
+
+//从左向右展开
+.zi_pull{display: table-caption !important; overflow: hidden; -webkit-animation: zi_pull 1s ease 0.6s; animation: zi_pull 1s ease 0.6s;}
+@keyframes zi_pull {
+0% {
+width:0
+}
+100% {
+width:100%
+}
+}
+@-webkit-keyframes zi_pull {
+0% {
+width:0
+}
+100% {
+width:100%
+}
+}
+
 
 //旋转镜像
 .zi_rotate90 {
