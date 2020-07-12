@@ -2702,12 +2702,26 @@
 &:before { content: "\ea30"; }
 }
 
+//支付宝
+.zi_tmAlipay
+{
+&:before { content: "\ea31"; }
+}
 
+//码云gitee
+.zi_tmGitee
+{
+&:before { content: "\ea32"; }
+}
 
+//Vue
+.zi_tmVue
+{
+&:before { content: "\ea33"; }
+}
 
-
-
-
-
-
-
+//PowerShell
+.zi_tmPowerShell
+{
+&:before { content: "\ea34"; }
+}

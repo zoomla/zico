@@ -11,14 +11,14 @@
 * 官网 http://ico.z01.com
 * NPM  https://www.npmjs.com/package/zico
 * Git  http://github.z01.com/zico
-* Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
-* 版本号：v1.5
+* Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com & 逐浪字库 f.ziti163.com
+* 版本号：v1.9
 */
 @charset "utf-8";
 @import "global";
 @import "规格动作";
-@import "zico_tm.min.css";
-@import "zico_gov.min.css";
+@import "zico_tm";
+@import "zico_gov";
 
 @font-face {font-family: "zico";
     src: url("../fonts/zi-regular.eot"); /* IE9 */
@@ -2604,7 +2604,7 @@ font-style: normal; font-weight: normal;
 //身份认证
 .zi_idcardalt,.zi_shenfenrenzheng,.zi_sfrz
 {
-&:before { content: "\e4d89"; }
+&:before { content: "\e4d9"; }
 }
 
 //证卡黑
@@ -5266,6 +5266,167 @@ font-style: normal; font-weight: normal;
 &:before { content: "\e694"; }
 }
 
+//对联
+.zi_duilian
+{
+&:before { content: "\e695"; }
+}
+
+//公路大桥
+.zi_qiao
+{
+&:before { content: "\e696"; }
+}
+
+//拱桥
+.zi_gongqiao
+{
+&:before { content: "\e697"; }
+}
+
+//飞行
+.zi_feixing
+{
+&:before { content: "\e698"; }
+}
+
+//电风扇
+.zi_xuanfengsan
+{
+&:before { content: "\e699"; }
+}
+
+//水龙头
+.zi_shuilongtou
+{
+&:before { content: "\e69a"; }
+}
+
+//出水水龙头
+.zi_shuilongtou2
+{
+&:before { content: "\e69b"; }
+}
+
+//风车
+.zi_fengche
+{
+&:before { content: "\e69c"; }
+}
+
+//居家
+.zi_jujia
+{
+&:before { content: "\e69d"; }
+}
+
+//白天居家
+.zi_baitianjujia
+{
+&:before { content: "\e69e"; }
+}
+
+//离家
+.zi_lijia
+{
+&:before { content: "\e69f"; }
+}
+
+//夜晚居家
+.zi_wanshanjujia
+{
+&:before { content: "\e6a0"; }
+}
+
+//家用wifi
+.zi_jujiawifi
+{
+&:before { content: "\e6a1"; }
+}
+
+//咳嗽
+.zi_kou
+{
+&:before { content: "\e6a2"; }
+}
+
+//禁止咳嗽
+.zi_dotKe
+{
+&:before { content: "\e6a3"; }
+}
+
+//戴口罩
+.zi_kouzao
+{
+&:before { content: "\e6a4"; }
+}
+
+//呼吸感染
+.zi_touxiju
+{
+&:before { content: "\e6a5"; }
+}
+
+//居家隔离
+.zi_gelijia
+{
+&:before { content: "\e6a6"; }
+}
+
+//在家工作
+.zi_workjia
+{
+&:before { content: "\e6a7"; }
+}
+
+//肺部感染
+.zi_feiganrang
+{
+&:before { content: "\e6a8"; }
+}
+
+//人群保持距离
+.zi_jujliren
+{
+&:before { content: "\e6a9"; }
+}
+
+//消毒液
+.zi_xiaoduye
+{
+&:before { content: "\e6aa"; }
+}
+
+//清理洗手液
+.zi_qingjiye
+{
+&:before { content: "\e6ab"; }
+}
+
+//禁止聚众
+.zi_dotteam
+{
+&:before { content: "\e6ac"; }
+}
+
+//病毒
+.zi_bingdu
+{
+&:before { content: "\e6ad"; }
+}
+
+//杀毒
+.zi_shadu
+{
+&:before { content: "\e6ae"; }
+}
+
+//细菌感染
+.zi_xijuGanrang
+{
+&:before { content: "\e6af"; }
+}
 
 
 

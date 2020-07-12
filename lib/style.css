@@ -133,6 +133,10 @@
 .zico_list_case .zico_list_case_d { font-size: 6rem; }
 .zico_list_case .zico_list_case_d i { font-size: 6rem; margin-left: 1rem; margin-right: 1rem; }
 
+.zico_list_case2 { padding-top: 4rem; padding-bottom: 5rem; border-bottom: 1px solid #f3be43; font-size: 6rem; text-align: center; }
+.zico_list_case2 .baoguo { width: 6rem; display: inline-block; }
+.zico_list_case2 em { font-size: 1rem; }
+
 /*规格*/
 .icoSize { padding-top: 4rem; text-align: center; }
 .icoSize h3 { font-size: 2.8rem; }

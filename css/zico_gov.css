@@ -1,10 +1,4 @@
-/*!
-* zico-专为CJK汉语用户设计的ICO图标系统
-* 官网 http://icoe.z01.com
-* NPM  https://www.npmjs.com/package/zico
-* Git  http://github.z01.com/zico/
-* Powerd by 上海Zoomla!逐浪CMS团队 www.z01.com
-*/.zi_govDh:before, .zi_govDanghui:before { content: "\eee0"; }
+.zi_govDh:before, .zi_govDanghui:before { content: "\eee0"; }
 
 .zi_govDhxk:before, .zi_govDanghuix:before { content: "\eee1"; }
 

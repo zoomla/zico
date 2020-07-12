@@ -1,3 +1,25 @@
+<!-- TOC -->
+
+- [一个专为中国开发者而生的跨平台图标解决方案](#一个专为中国开发者而生的跨平台图标解决方案)
+- [获得zico程序包](#获得zico程序包)
+- [引用文件](#引用文件)
+- [在任何你要引用图标的web(移动页面)应用图标](#在任何你要引用图标的web移动页面应用图标)
+- [轮子](#轮子)
+- [弥补缺位的文化](#弥补缺位的文化)
+- [中国的元素](#中国的元素)
+- [特色图标](#特色图标)
+- [五大特色](#五大特色)
+- [对比表格](#对比表格)
+- [效率对比](#效率对比)
+- [与华文领域排名第一的Zoomla!逐浪CMS结合使用](#与华文领域排名第一的zoomla逐浪cms结合使用)
+- [引用逐浪CMS标签](#引用逐浪cms标签)
+- [捐赠支持](#捐赠支持)
+    - [捐赠回报](#捐赠回报)
+    - [鸣谢名单（排名不分先后|且不保证为最新披露）](#鸣谢名单排名不分先后且不保证为最新披露)
+- [关于我们](#关于我们)
+
+<!-- /TOC -->
+
 [![zico](https://raw.githubusercontent.com/zoomla/zico/master/lib/logo512x512.png "一个专为中国开发者而生的跨平台图标解决方案-Powered by zoomla!逐浪CMS团队")](http://ico.z01.com "一个专为中国开发者而生的跨平台图标解决方案")
 
 # 一个专为中国开发者而生的跨平台图标解决方案
@@ -7,7 +29,10 @@ zio是一个非常优秀的webfont与svg图标展示系统，它的目标是让�
 随着计算机软件技术的进步，人们无论是在开发传统客户端软件、移动APP软件、微信公众号、微信小程序、Facebokk内页，或从事web网站系统的开发，都需要用到图标。
 
 可以说，一个UI交互界面，除了颜色、字体之外，最重要的就是图标系统了，一个好的图标可以让人们对界面（应用）一目了然，并提升业务能力。
-当前版本：1.0
+
+当前版本：v1.9
+
+最新更新：2020-07-12
 
 
 # 获得zico程序包
@@ -188,14 +213,38 @@ Zoomla!逐浪CMS是一款基于dotNET技术构建的高端CMS，也是目前华�
 请用微信扫上方赞助码给予我们支持！
 如果你需要进一步的联络以及商业赞助，欢迎点此[联系我们](http://ico.z01.com/Item/1402.aspx "联系我们")
 
-# 捐赠回报
+## 捐赠回报
 由于zico是开源项目，我们本身没有收益，但我们真诚渴望您的支持，对于赞助者：
-1、提供我们站群资源的链接SEO支持。
-2、提供专业的项目管理咨询
-3、提供一定的技术指导
-4、可于社区公开捐赠名单，以兹表扬。
-5、对于企业级大额捐赠，开具发票，并提供超额的商业回报。
+- 1.提供我们站群资源的链接SEO支持。
+- 2.提供专业的项目管理咨询
+- 3.提供一定的技术指导
+- 4.可于社区公开捐赠名单，以兹表扬。
+- 5.对于企业级大额捐赠，开具发票，并提供超额的商业回报。
 
 
-# 鸣谢名单（排名不分先后|且不保证为最新披露）
+## 鸣谢名单（排名不分先后|且不保证为最新披露）
 我要买房网&福居百汇（中国威海）孙总 [www.5yaomaifang.com](http://www.5yaomaifang.com "www.5yaomaifang.com")
+
+# 关于我们
+
+Zoomla!逐浪CMS：中文业界alexa排名第一的CMS系统|专注.net与windows平台企业级研发，集成内容管理、webfont、商城、店铺、黄页、教育、考试、3D、三维全景、混合现实、CRM、ERP、OA、论坛、贴吧等为一体，打造国内高端的CMS产品典范。
+
+官网：www.z01.com
+
+免费下载：www.z01.com/mb
+
+视频教程：www.z01.com/mtv
+
+模板资源：www.z01.com/mb
+
+逐浪字库： http://f.ziti163.com
+
+zico中文图标库：http://ico.z01.com
+
+
+QQ交流群号：
+[![加入QQ群](https://img.shields.io/badge/一群-541450128-blue.svg?style=for-the-badge&logo=appveyor)](https://jq.qq.com/?_wv=1027&k=5qIayyX)  [![加入QQ群](https://img.shields.io/badge/二群-541450128-blue.svg?style=for-the-badge&logo=appveyor)](https://jq.qq.com/?_wv=1027&k=5Ephzpq)   [![加入QQ群](https://img.shields.io/badge/三群-601781959-blue.svg?style=for-the-badge&logo=appveyor)](https://jq.qq.com/?_wv=1027&k=50a28BK) 
+
+
+官方QQ客服：
+[![官方QQ客服1](https://img.shields.io/badge/官方QQ客服1-524979923-red.svg?style=for-the-badge&logo=appveyor)](http://wpa.qq.com/msgrd?v=3&uin=745151353&site=qq&menu=yes)  [![官方QQ客服2](https://img.shields.io/badge/官方QQ客服2-1799661890-red.svg?style=for-the-badge&logo=appveyor)](http://wpa.qq.com/msgrd?v=3&uin=1799661890&site=qq&menu=yes) 
