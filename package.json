@@ -42,5 +42,5 @@
     "url": "https://github.com/zoomla/zico/issues"
   },
   "homepage": "https://ico.z01.com",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@zico" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
